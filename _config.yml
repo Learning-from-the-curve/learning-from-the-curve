@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-repository: "Learning-from-the-curve.github.io"
+repository: "learning-from-the-curve.github.io"
 
 # Build settings
 plugins:
