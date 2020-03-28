@@ -22,7 +22,7 @@ layout: default
         <div class="col-sm-6">
           <div class="card mb-4">
             <div class="card-body">
-                <h5 class="card-title text-center">{{ post.title | escape }}</h5>
+                <h3 class="card-title text-center">{{ post.title | escape }}</h5>
                 <h6 class="card-subtitle text-center mb-2 text-muted">
                   {%- assign date_format = "%b %-d, %Y" -%}
                   {{ post.date | date: date_format }}

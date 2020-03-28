@@ -11,6 +11,8 @@ This notebook imports data for COVID related analysis from a number of online so
 
 First of all, we need to import a few useful libraries.
 
+<!--more-->
+
 ```python
 import pandas as pd
 import os
@@ -37,7 +39,7 @@ def data(url, container):
 
 Here is an extract of the data
 
-## Data From [World Population Prospects](https://population.un.org/wpp/Download/Standard/CSV/) and [Johns Hopkins](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
+#### Data From [World Population Prospects](https://population.un.org/wpp/Download/Standard/CSV/) and [Johns Hopkins](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 
 John Hopkins provides daily data on **confirmed cases**, **deaths** and **recovered** for many countries in the world. Data can be freely accessed through GitHub. We can also get data from the UN.
 
@@ -52,7 +54,7 @@ url_JH = [['JH_confirmed', 'https://raw.githubusercontent.com/CSSEGISandData/COV
 
 ```
 
-## Data From [Eurostat](https://ec.europa.eu/eurostat/web/population-demography-migration-projections/data/database)
+#### Data From [Eurostat](https://ec.europa.eu/eurostat/web/population-demography-migration-projections/data/database)
 
 The library Eurostat allows to get demographics data in one line of code. We download data about population as well as national accounts. Data need to be cleaned for later usage.
 
@@ -85,7 +87,7 @@ with ThreadPoolExecutor(max_workers = 3) as e:
     e.submit(EU_stat(data_eurostat, EU))
 ```
 
-## Save all data
+#### Save all data
 
 Run the lines below **only** if you need to save data locally. The default path of the function is your current working directory. If another path is specified, the function will create the folders in that path if they do not already exist.
 
