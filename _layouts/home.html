@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div>
+
+  {%- if page.title -%}
+  <header class="text-center">
+    <h1>{{ page.title }}</h1>
+  </header>
+  {%- endif -%}
+
+  <section>
+    {{ content }}
+  </section>
+
+  {%- if site.posts.size > 0 -%}
+    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
+    <ul class="list-unstyled">
+      <div class="row">
+      {%- for post in site.posts -%}
+        <div class="col-sm-6">
+          <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title text-center">{{ post.title | escape }}</h5>
+                <h6 class="card-subtitle text-center mb-2 text-muted">
+                  {%- assign date_format = "%b %-d, %Y" -%}
+                  {{ post.date | date: date_format }}
+                </h6>
+                {%- if site.show_excerpts -%}
+                  <p class="card-text">{{ post.excerpt }}</p>
+                {%- endif -%}
+                <div class="text-center">
+                  <a href="{{ post.url | relative_url }}" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
+      </div>
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
