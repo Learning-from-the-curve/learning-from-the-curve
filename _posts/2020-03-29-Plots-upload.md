@@ -20,9 +20,9 @@ rank = temp_cases.loc[temp_cases['dateRep'] == '2020-03-28']
 rank = rank.sort_values(by='cases')
 top10 = list(rank['countriesAndTerritories'][-10:])
 top10_cumulative = cumulative_cases.loc[top10].reset_index(level = 'dateRep')
-
+```
 <!--more-->
-
+```python
 fig, ax = plt.subplots(figsize = (12, 6))
 ax.grid(True, alpha=0.3)
 labels_points = []
