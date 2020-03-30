@@ -55,5 +55,3 @@ fig.subplots_adjust(right=0.7)
 
 mpld3.display()
 ```
-
-{%- include interactive_cumulative.html -%}
