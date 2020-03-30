@@ -17,7 +17,7 @@ While the pandemic started in the province of Hubei, China, the virus has spread
 
 We start by evaluating the 10 most hit countries as of today. Figure 1 shows the number of confirmed cases for the top 10 countries on March 27, 2020. While China had the most confirmed cases until yesterday, the USA overtook both Italy and China. Spain and Germany are following.
 
-![](/assets/images/daily-updates/2020-03-28/cumcases_byday_global_top10.svg){: .mx-auto .d-block }
+{% include interactive_cumulative.html %}
 
 Figure 1: Cumulative number of cases by date, global top 10.
 
