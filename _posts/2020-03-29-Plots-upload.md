@@ -6,6 +6,7 @@ authors:
   - Federico Gallina
 category: project-2
 ---
+trial
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
