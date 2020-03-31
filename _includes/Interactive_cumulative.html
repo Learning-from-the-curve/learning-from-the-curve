@@ -192,7 +192,7 @@
                  }.bind(this))
            .on("mouseout",  function(d, i){
                            tooltip.style("visibility", "hidden");})
-           .on("click", function(d, i){
+           .on("touchstart", function(d, i){
                               tooltip.html(labels[i])
                                      .style("visibility", "visible");});
     };
