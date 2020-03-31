@@ -58,3 +58,7 @@ mpld3.display()
 ```
 
 {% include Interactive_cumulative.html %}
+
+Some text between
+
+{% include 2020-03-28-cases-dateRep.html %}
