@@ -191,7 +191,10 @@
                     .style("left",d3.event.pageX + this.props.hoffset + "px");
                  }.bind(this))
            .on("mouseout",  function(d, i){
-                           tooltip.style("visibility", "hidden");});
+                           tooltip.style("visibility", "hidden");})
+           .on("click", function(d, i){
+                              tooltip.html(labels[i])
+                                     .style("visibility", "visible");});
     };
     
     mpld3.register_plugin("htmltooltip", HtmlTooltipPlugin);
@@ -224,7 +227,10 @@
                     .style("left",d3.event.pageX + this.props.hoffset + "px");
                  }.bind(this))
            .on("mouseout",  function(d, i){
-                           tooltip.style("visibility", "hidden");});
+                           tooltip.style("visibility", "hidden");})
+           .on("click", function(d, i){
+                              tooltip.html(labels[i])
+                                     .style("visibility", "visible");});
     };
     
     mpld3.register_plugin("htmltooltip", HtmlTooltipPlugin);
