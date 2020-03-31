@@ -194,7 +194,7 @@
                            tooltip.style("visibility", "hidden");})
            .on("touchstart", function(d, i){
                               tooltip.html(labels[i])
-                                     .style("hover");});
+                                     .style("visibility", "visible", "transition", "visibility 5s");});
     };
     
     mpld3.register_plugin("htmltooltip", HtmlTooltipPlugin);
