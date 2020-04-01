@@ -2,7 +2,6 @@
 layout: post
 title: COVID19 - Daily update on number of cases and deaths
 date: 2020-03-28 15:45:00 +0100
-authors: Glenn Magerman
 category: daily-updates
 ---
 [Prof. Dr. Glenn Magerman (ECARES, ULB)](http://www.glennmagerman.com) and the [“Learning from the curve” team](https://github.com/Learning-from-the-curve).

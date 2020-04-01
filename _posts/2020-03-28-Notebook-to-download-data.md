@@ -2,9 +2,6 @@
 layout: post
 title: Notebook to download data
 date: 2020-03-28 15:41:00 +0100
-authors:
-  - Federico Gallina
-  - Fabrizio Leone
 category: project-2
 ---
 This notebook imports data for COVID related analysis from a number of online sources.
