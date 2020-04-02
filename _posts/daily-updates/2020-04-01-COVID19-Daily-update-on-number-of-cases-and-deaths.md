@@ -10,7 +10,9 @@ category: daily-updates
 
 -------------------------------------
 
-This article presents daily numbers and insights on COVID infections. It analyzes the number of cases and deaths for the most infected countries in the world and the EU, and then presents more detailed statistics for Belgium. The report is updated every day at 13:30 CET, after publication of the global [ECDC](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) and Belgian [Epistat](https://epistat.wiv-isp.be/covid/) numbers.
+This article presents daily numbers and insights on COVID infections. It analyzes the number of cases and deaths for the most infected countries in the world and the EU,
+and then presents more detailed statistics for Belgium. The report is updated every day at 13:30 CET,
+after publication of the global [ECDC](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) and Belgian [Epistat](https://epistat.wiv-isp.be/covid/) numbers.
 
 <!--more-->
 
@@ -33,7 +35,9 @@ We take these numbers and these cautions as given.
 **Data sources:**
 
 - COVID data by country around the world comes from [ECDC](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide).
+
 - Country population data comes from [UN](https://population.un.org/wpp/Download/Standard/CSV).
+
 - Detailed COVID data for Belgium from [Epistat](https://epistat.wiv-isp.be/covid/).
 
 #### 2. Global overview
@@ -44,7 +48,7 @@ As of today, there are 853,200 total cases, 41,887 deaths and 202 countries with
 
 ##### 2.1 Number of cases
 
-Figure 1 shows the total number of cases by date for the 10 most infected countries in the world. This is a snapshot of the outbreak across countries. While China has been stabilizing since the end of February, many countries are still facing the onset of the pandemic in their country. The country with the most cases is the USA, with 189,618 total confirmed cases. Second is Italy, with 105,792 confirmed cases, and Spain follows, with 94,417 cases.
+Figure 1 shows the total number of cases by date for the 10 most infected countries in the world. This is a snapshot of the outbreak across countries. While China has been stabilizing since the end of February, many countries are still facing the onset of the pandemic in their country. The country with the most cases is the United States of America, with 189,618 total confirmed cases. Second is Italy with 105,792 confirmed cases, and Spain follows, with 94,417 cases.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-cases_cum-dateRep-plain.html %}
 *Figure 1: Total cases by date, global top 10.*
@@ -55,7 +59,7 @@ Next, Figure 2 shows the total number of cases per million inhabitants, since th
 
 Second, the figure plots the number of cases since the 100th case per million, instead of calendar days. This allows to compare growth rates of the epidemic across countries, accounting for differences in timing of the onset of the epidemic across countries.
 
-As of today, the USA has 0.058% of its population officially infected. This is still far off the estimates of 30-70% of world population ultimately being infected. There can be at least three reasons: (i) real infection rates are orders of magnitude larger than reported ones, (ii) the epidemic is only in its onset, (iii) we are reaching the end of the epidemic, and infection rates are lower than previously projected. Given the growth rates discussed below, we believe (iii) is not plausible at this moment.
+As of today, the Vatican City has 0.751% of its population officially infected. This is still far off the estimates of 30-70% of world population ultimately being infected. There can be at least three reasons: (i) real infection rates are orders of magnitude larger than reported ones, (ii) the epidemic is only in its onset, (iii) we are reaching the end of the epidemic, and infection rates are lower than previously projected. Given the growth rates discussed below, we believe (iii) is not plausible at this moment.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-cases_per_mln_cum-after_100th_per_mln.html %}
 *Figure 2: Total cases since 100th case, per million inhabitants, global top 10.*
@@ -75,7 +79,7 @@ Two things stand out. First, the slopes, or decreases in growth rates, are not t
 
 As noted in the introduction, the number of cases is prone to several sources of non-random measurement error. While measurement error also exists for the number of deaths, this number draws a clearer picture. It also captures the severity of the epidemic. Furthermore, some hypotheses described above using case data might turn out to be less plausible than others.
 
-Figure 4 shows the total number of deaths for the top 10 countries with the deadliest outbreak by date. Since the second half of February, China has been overtaken by Italy and Spain. Since April 1, the USA is the country with the third highest number of deaths due to COVID. As of today, the country with the most deaths is Italy, with 12,430 deaths. Second is Spain, with 8,189 deaths, and the USA follows, with 4,079 deaths.
+Figure 4 shows the total number of deaths for the top 10 countries with the deadliest outbreak by date. Since the second half of February, China has been overtaken by Italy and Spain. Since April 1, the USA is the country with the third highest number of deaths due to COVID. As of today, the country with the most deaths is Italy, with 12,430 deaths. Second is Spain, with 8,189 deaths, and the United States of America follows, with 4,079 deaths.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-deaths_cum-dateRep-plain.html %}
 *Figure 4: Total deaths by date, global top 10.*
@@ -98,12 +102,12 @@ We repeat the same analysis for the EU28 countries, and highlight the top 10 cou
 
 ##### 3.1 Number of cases, EU28
 
-Figure 7 shows the total number of cases by date for the 10 most infected countries in the EU28. The EU28 country with the most cases is Italy, with 105,792 total confirmed cases. Second is Spain, with 94,417 confirmed cases, and Germany follows, with 67,366 cases.
+Figure 7 shows the total number of cases by date for the 10 most infected countries in the EU28. The EU28 country with the most cases is Italy with 105,792 total confirmed cases. Second is Spain, with 94,417 confirmed cases, and Germany follows, with 67,366 cases.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-cases_cum-dateRep-plain-EU28.html %}
 *Figure 7: Total cases by date, EU28 top 10.*
 
-Next, Figure 8 shows the total number of cases per million inhabitants, since the 100th case per million inhabitants for these most infected EU28 countries. Again, some countries are on a steeper path than Italy. As of today, Italy has 0.175% of its population officially infected.
+Next, Figure 8 shows the total number of cases per million inhabitants, since the 100th case per million inhabitants for these most infected EU28 countries. Again, some countries are on a steeper path than Italy. As of today, Vatican City has 0.751% of its population officially infected.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-cases_per_mln_cum-after_100th_per_mlnEU28.html %}
 *Figure 8: Total cases since 100th case, per million inhabitants, EU28 top 10.*
@@ -117,7 +121,7 @@ Next, Figure 9 shows the growth rate of the number of cases, since the 100th cas
 
 Finally, we turn to the number of deaths for the top 10 EU28 countries.
 
-Figure 10 shows the total number of deads for the top 10 EU28 countries with the deadliest outbreak by date. As of today, the country with the most deaths is Italy, with 12,430 deaths. Second is Spain, with 8,189 deaths, and France follows, with 3,523 deaths.
+Figure 10 shows the total number of deaths for the top 10 EU28 countries with the deadliest outbreak by date. As of today, the country with the most deaths is Italy, with 12,430 deaths. Second is Spain, with 8,189 deaths, and France follows, with 3,523 deaths.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-deaths_cum-dateRep-plain-EU28.html %}
 *Figure 10: Total deaths by date, EU28 top 10.*
