@@ -107,7 +107,7 @@ Figure 7 shows the total number of cases by date for the 10 most infected countr
 {% include plots/daily-update-2020-04-01/2020-04-01-cases_cum-dateRep-plain-EU28.html %}
 *Figure 7: Total cases by date, EU28 top 10.*
 
-Next, Figure 8 shows the total number of cases per million inhabitants, since the 100th case per million inhabitants for these most infected EU28 countries. Again, some countries are on a steeper path than Italy. As of today, Vatican City has 0.751% of its population officially infected.
+Next, Figure 8 shows the total number of cases per million inhabitants, since the 100th case per million inhabitants for these most infected EU28 countries. Again, some countries are on a steeper path than Italy. As of today, Luxembourg has 0.354% of its population officially infected.
 
 {% include plots/daily-update-2020-04-01/2020-04-01-cases_per_mln_cum-after_100th_per_mlnEU28.html %}
 *Figure 8: Total cases since 100th case, per million inhabitants, EU28 top 10.*
