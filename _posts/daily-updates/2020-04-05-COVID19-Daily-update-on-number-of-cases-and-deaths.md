@@ -276,5 +276,7 @@ We also compare COVID deaths by region (Brussels, Flanders, Wallonia) against th
 *Figure 12: Life expectancy and COVID deaths by age.*
 
 We are back with updated numbers tomorrow.
+
 In the mean time, stay safe, and take care of yourself and of others.
+
 Federico and Glenn.
