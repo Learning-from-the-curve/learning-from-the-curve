@@ -1,0 +1,38 @@
+# Team Members
+
+- name: Glenn Magerman
+  role: Team Lead
+  github: https://github.com/glennmagerman
+  email: glenn.magerman@ulb.be
+  description: ""
+  photo_src: /assets/images/profile-pics/glenn-magerman-profile.jpg
+
+- name: Alessandro Gallina
+  role: Web Dev & Design
+  github: https://github.com/alligalli
+  linkedin: https://www.linkedin.com/in/alessandro-gallina-b21388188/
+  twitter: https://twitter.com/alligalli92
+  email: alligallina92@gmail.com
+  description: ""
+  photo_src: /assets/images/profile-pics/alessandro-gallina-profile.jpg
+
+- name: Federico Gallina
+  role: Contributor
+  github: https://github.com/FedeGall
+  email: federico.gallina@ulb.be
+  description: ""
+  photo_src: /assets/images/profile-pics/federico-gallina-profile.jpg
+
+- name: Ilaria Natali
+  role: Contributor
+  github: https://github.com/Ilaria0205
+  email: ilaria.natali@ulb.be
+  description: ""
+  photo_src: /assets/images/profile-pics/ilaria-natali-profile.jpg
+
+- name: Elisa Navarra
+  role: Contributor
+  github: https://github.com/elisanavarra
+  email: elisa.navarra@ulb.be
+  description: ""
+  photo_src: /assets/images/profile-pics/elisa-navarra-profile.jpg

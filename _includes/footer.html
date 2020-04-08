@@ -18,9 +18,12 @@
           {%- if site.email -%}
             <li>
               <a href="mailto:{{ site.email }}">
-                {{ site.email }}
+                <i class="fas fa-envelope"></i> {{ site.email }}
               </a>
             </li>
+          {%- endif -%}
+          {%- if site.copyright -%}
+            <li>&copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</li>
           {%- endif -%}
         </ul>
       </div>
