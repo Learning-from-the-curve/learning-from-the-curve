@@ -9,7 +9,7 @@ It’s also not clear where we will end up after this devastating crisis. Do we 
 </p>
 
 <p style='text-align: justify;'>
-Together with researchers at Solvay Brussels School of Economics and Management (Université libre de Bruxelles), we want to contribute to help get a grip on the current situation and possible actions. We want to:
+Together with researchers at the <a href="https://ecares.ulb.be/" target="blank">European Center for Advanced Research in Economics and Statistics</a> (<a href="https://www.ulb.be/" target="blank">Université libre de Bruxelles</a>), we want to contribute to help get a grip on the current situation and possible actions. We want to:
 </p>
 
 <p style='text-align: justify;'>

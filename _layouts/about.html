@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div>
+
+  <header class="text-center">
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+  
+  <div class="container py-5">
+    <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+            <h2>Team Members</h1>
+            <hr>
+        </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row text-center">
+        {% for member in site.data.team_members %}
+        <!-- Team item -->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{{ member.photo_src }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">{{ member.name }}</h5><span class="small text-uppercase text-muted">{{ member.role }}</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    {% if member.twitter %}
+                        <li class="list-inline-item"><a href="{{ member.twitter }}" target="blank"><i class="fab fa-twitter"></i></a></li>
+                    {% endif %}
+                    {% if member.linkedin %}
+                    <li class="list-inline-item"><a href="{{ member.linkedin }}" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                    {% endif %}
+                    {% if member.github %}
+                    <li class="list-inline-item"><a href="{{ member.github }}" target="blank"><i class="fab fa-github"></i></a></li>
+                    {% endif %}
+                    {% if member.email %}
+                    <li class="list-inline-item"><a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div><!-- End -->
+        {% endfor %}
+    </div>
+  </div>
+
+</div>
