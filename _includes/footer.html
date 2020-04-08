@@ -22,6 +22,9 @@
               </a>
             </li>
           {%- endif -%}
+          {%- if site.copyright -%}
+            <li>&copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</li>
+          {%- endif -%}
         </ul>
       </div>
 

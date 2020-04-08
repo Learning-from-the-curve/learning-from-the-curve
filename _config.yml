@@ -24,6 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 repository: "learning-from-the-curve.github.io"
 
+# Copyright info
+copyright: Learning from the curve
+
 # Build settings
 plugins:
   - jekyll-feed
@@ -32,7 +35,7 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - daily-updates.md
-  - project-1.md
+#  - project-1.md
 #  - project-2.md
   - about.md
 
