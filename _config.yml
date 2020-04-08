@@ -33,7 +33,7 @@ plugins:
 header_pages:
   - daily-updates.md
   - project-1.md
-  - project-2.md
+#  - project-2.md
   - about.md
 
 # Post Excerpts
