@@ -16,7 +16,7 @@
 title: Learning from the curve
 email: glenn.magerman@ulb.ac.be
 description: >- # this means to ignore newlines until "baseurl:"
-  A Bootstrap 4 start up project for Jekyll and Github Pages
+  An open source research project on COVID19 and economics. A collaboration between academics to reach out to policy makers and the general public.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -31,10 +31,10 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - about.md
+  - daily-updates.md
   - project-1.md
   - project-2.md
-  - daily-updates.md
+  - about.md
 
 # Post Excerpts
 show_excerpts: true
