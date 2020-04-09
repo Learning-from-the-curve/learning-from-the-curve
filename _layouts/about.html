@@ -10,6 +10,13 @@ layout: default
   <section>
     {{ content }}
   </section>
+
+  <div class="container">
+    <div class="row text-justify">
+      <p>Learning from the curve is a voluntary and open source research project on COVID-19 and economics. It is a joint initiative of researchers in economics at ECARES, Solvay, ULB. We are economists with different expertises in networks, statistics, welfare, healthcare, political economy, etc.</p>
+      <p>We want to provide policy recommendations based on scientific argumentation and the implementation of daily data updates.</p>
+    </div>
+  </div>
   
   <div class="container py-5">
     <div class="row text-center">
@@ -25,22 +32,44 @@ layout: default
         {% for member in site.data.team_members %}
         <!-- Team item -->
         <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{{ member.photo_src }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <div class="bg-white rounded shadow-sm pt-5 pb-4 px-4"><img src="{{ member.photo_src }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                 <h5 class="mb-0">{{ member.name }}</h5><span class="small text-uppercase text-muted">{{ member.role }}</span>
                 <ul class="social mb-0 list-inline mt-3">
                     {% if member.twitter %}
-                        <li class="list-inline-item"><a href="{{ member.twitter }}" target="blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ member.twitter }}" target="blank"><i class="fab fa-twitter fa-lg"></i></a></li>
                     {% endif %}
                     {% if member.linkedin %}
-                    <li class="list-inline-item"><a href="{{ member.linkedin }}" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ member.linkedin }}" target="blank"><i class="fab fa-linkedin fa-lg"></i></a></li>
                     {% endif %}
                     {% if member.github %}
-                    <li class="list-inline-item"><a href="{{ member.github }}" target="blank"><i class="fab fa-github"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ member.github }}" target="blank"><i class="fab fa-github fa-lg"></i></a></li>
                     {% endif %}
                     {% if member.email %}
-                    <li class="list-inline-item"><a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:{{ member.email }}"><i class="fas fa-envelope fa-lg"></i></a></li>
+                    {% endif %}
+                    {% if member.website %}
+                    <li class="list-inline-item"><a href="{{ member.website }}"><i class="fas fa-globe fa-lg"></i></a></li>
                     {% endif %}
                 </ul>
+                {% if member.description %}
+                <div class="accordion" id="accordionBio">
+                  <div class="card bg-transparent border-0">
+                    <div class="card-header bg-transparent" id="heading{{ member.id }}Bio">
+                      <h2 class="py-auto mx-auto">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ member.id }}Bio" aria-expanded="false" aria-controls="collapse{{ member.id }}Bio">
+                          <i class="fas fa-user-circle fa-lg"></i> Bio
+                        </button>
+                      </h2>
+                    </div>
+                
+                    <div id="collapse{{ member.id }}Bio" class="collapse" aria-labelledby="heading{{ member.id }}Bio" data-parent="#accordionBio">
+                      <div class="card-body">
+                        {{ member.description }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
             </div>
         </div><!-- End -->
         {% endfor %}

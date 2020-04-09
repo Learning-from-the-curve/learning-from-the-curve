@@ -5,6 +5,7 @@ date: 2020-04-08 13:00:00 +0100
 category: daily-updates
 ---
 [Federico Gallina](https://www.ulb.be/fr/federico-gallina) [(ECARES, ULB)](https://ecares.ulb.be) and [Glenn Magerman (ECARES, ULB)](http://www.glennmagerman.com).
+
 ### Introduction
 
 -------------------------------------
@@ -48,22 +49,18 @@ We take these observations as given.
 **Data sources:**:
 
 - Detailed COVID data for Belgium from [Epistat](https://epistat.wiv-isp.be/covid/).
-- 
 - Vector maps for Belgium from [geo.be](geo.be).
-- 
 - Life tables for Belgium from [Statbel](https://statbel.fgov.be/sites/default/files/files/documents/bevolking/5.4%20Sterfte%2C%20levensverwachting%20en%20doodsoorzaken/5.4.3%20Sterftetafels%20en%20levensverwachting/sterftetafelsAE.xls).
-
 - COVID data by country around the world from [ECDC](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide).
-
 - Country population data from [UN](https://population.un.org/wpp/Download/Standard/CSV).
 
 **Table of Contents**:
 
-1. Daily updates for Belgium
-2. Number of cases, world and EU28
-3. Number of deaths, world and EU28
+1. [Daily updates for Belgium](#cap1)
+2. [Number of cases, world and EU28](#cap2)
+3. [Number of deaths, world and EU28](#cap3)
 
-### 1. Daily updates for Belgium
+### 1. Daily updates for Belgium <a name="cap1"></a>
 
 -------------------------------------
 
@@ -92,7 +89,7 @@ Next, figure 2 shows the number of cases and hospitalized patients by province, 
 Most provinces are comparably affected, with the exception of Luxembourg and Namur who have much lower numbers.
 
 {% include plots/daily-update-2020-04-08/Belgium_province.html %}
-*Figure 2: Number of cases and hospitalizations by province.*
+<p style="text-align: center; font-style: italic;">Figure 2: Number of cases and hospitalizations by province.</p>
 
 Then, we show the number of cases by city in Figure 3.[^4]
 
@@ -189,7 +186,7 @@ At this stage, it is important to note that:
 {% include plots/daily-update-2020-04-08/2020-04-08-MA_ln_share_deaths-midpoint-Belgium.html %}
 *Figure 5: Epicurves: an estimated evolution of the epidemic waves.*
 
-### 2. Number of cases, world and EU28
+### 2. Number of cases, world and EU28 <a name="cap2"></a>
 
 -------------------------------------
 
@@ -204,7 +201,7 @@ Figure 6 shows the total number of cases over time.
 The country with the most cases is United States of America with 398,809 total confirmed cases.
 Second is Spain with 140,510 confirmed cases, and Italy follows, with 135,586 cases.
 
-The first tab reports the total number of cases (in log scale), since the 100th confirmed case within that country. 
+The first tab reports the total number of cases (in log scale), since the 100th confirmed case within that country.
 In the initial outbreak phase, the epidemic spreads exponentially, not arithmetically, i.e a log scale is the natural way to track the spread.
 Synchronizing dates since the 100th confirmed case allows to compare the speed and evolution of the epidemic across countries.
 
@@ -266,7 +263,7 @@ This might be partially due to temporal new outbursts of the virus within countr
 {% include plots/daily-update-2020-04-08/2020-04-08-MA_cases-after_100th.html %}
 *Figure 9: Growth rates are declining for most countries, but some stay fluctuating at high levels.*
 
-### 3. Number of deaths, world and EU28
+### 3. Number of deaths, world and EU28 <a name="cap3"></a>
 
 -------------------------------------
 

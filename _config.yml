@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Learning from the curve
-email: glenn.magerman@ulb.be
+email: glenn.magerman@ulb.ac.be
 description: >- # this means to ignore newlines until "baseurl:"
   An open source research project on COVID19 and economics. A collaboration between academics to reach out to policy makers and the general public.
 #baseurl: "" # the subpath of your site, e.g. /blog
