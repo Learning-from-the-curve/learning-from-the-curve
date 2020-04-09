@@ -67,7 +67,7 @@ Figure 2 shows the number of cases and hospitalized patients by province, for th
 {% include plots/daily-update-2020-04-09/2020-04-09-Belgium-province.html %}
 <p style="text-align: center; font-style: italic;">Figure 2: Number of cases and hospitalizations by province.</p>
 
-Figure 3 shows the number of cases by municipality.[^3] The city with the highest number of infections is Antwerpen (Anvers) with 927. Luik (Liège) follows with 541 and Bergen (Mons) is third with 428 cases. In absolute terms, Flanders is much more infected than Wallonia, and these infections are also spread out across most cities. We also show the number of cases as a percentage of the population for each municipality. When controlling for population by municipality, the pattern changes significantly. Relatively hard hit regions are around Hasselt/Sint-Truiden, Mons and Liège.[^4]
+Figure 3 shows the number of cases by municipality.[^3] The city with the highest number of infections is Antwerpen (Anvers) with 927. Luik (Liège) follows with 541 and Bergen (Mons) is third with 428 cases. In absolute terms, Flanders is much more infected than Wallonia, and these infections are also spread out across most cities. We also show the number of cases as a percentage of the population for each municipality. When controlling for population by municipality, the pattern changes significantly. You can hover over the graph to see the share of population infected by municipality. Relatively hard hit regions are around Hasselt/Sint-Truiden, Mons and Liège.[^4]
 
 [^3]: Currently, there is no information hospitalized or deceased patients by municipality.
 
