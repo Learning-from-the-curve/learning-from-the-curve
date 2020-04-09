@@ -7,6 +7,7 @@
   website: "http://www.glennmagerman.com"
   description: "I am Assistant professor of Economics at [ECARES, ULB]. My research agenda focuses on social and economic networks, firm-to-firm relationships and pricing mechanisms."
   photo_src: /assets/images/profile-pics/glenn-magerman-profile.jpg
+  id: 001
 
 - name: Alessandro Gallina
   role: Web Dev & Design
@@ -15,16 +16,18 @@
   twitter: https://twitter.com/alligalli92
   email: alligallina92@gmail.com
   website: 
-  description: ""
+  description: 
   photo_src: /assets/images/profile-pics/alessandro-gallina-profile.jpg
+  id: 002
 
 - name: Federico Gallina
   role: Contributor
   github: https://github.com/FedeGall
   email: federico.gallina@ulb.be
   website: 
-  description: ""
+  description: 
   photo_src: /assets/images/profile-pics/federico-gallina-profile.jpg
+  id: 003
 
 - name: Ilaria Natali
   role: Contributor
@@ -33,6 +36,7 @@
   website: 
   description: "I am a Ph.D. candidate at ECARES and I3Health (ULB). My research interests lie at the intersection between Health Economics and Industrial Organization. My research focuses on the socio-economic determinants of drug consumption and on the patients’ and pharmaceutical companies’ responses to national policies aimed at limiting access to certain medications."
   photo_src: /assets/images/profile-pics/ilaria-natali-profile.jpg
+  id: 004
 
 - name: Elisa Navarra
   role: Contributor
@@ -41,14 +45,16 @@
   website: 
   description: "I am a PhD candidate in Economics at [ECARES, ULB]. My main research interests are in international trade, firm organization, and European policy."
   photo_src: /assets/images/profile-pics/elisa-navarra-profile.jpg
+  id: 005
 
 - name: Alberto Palazzolo
   role: Contributor
   github: https://github.com/albepal
   email: alberto.palazzolo@ulb.be
   website: 
-  description: ""
+  description: 
   photo_src: /assets/images/profile-pics/alberto-palazzolo-profile.jpg
+  id: 006
 
 - name: Fabrizio Leone
   role: Contributor
@@ -57,6 +63,7 @@
   website: 
   description: "I am a PhD candidate in Economics at ECARES, ULB. In my research I use theoretical and empirical tools to study multinational enterprises and global value chains."
   photo_src: /assets/images/profile-pics/fabrizio-leone-profile.jpg
+  id: 007
 
 - name: Bruno Carvalho
   role: Contributor
@@ -65,3 +72,4 @@
   website: https://sites.google.com/view/bpcarvalho
   description: "I am a Post-Doc at ECARES (ULB). I am also affiliated to the Economics for Policy Knowledge Centre, at Nova SBE (UNL). My main research interests are related with Political Economy, Fiscal Policy and Public Economics."
   photo_src: /assets/images/profile-pics/bruno-carvalho-profile.jpg
+  id: 008
