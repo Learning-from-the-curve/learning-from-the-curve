@@ -6,7 +6,9 @@ category: daily-updates
 ---
 [Federico Gallina](https://www.ulb.be/fr/federico-gallina) [(ECARES, ULB)](https://ecares.ulb.be) and [Glenn Magerman (ECARES, ULB)](http://www.glennmagerman.com), with the [Learning from the curve](https://github.com/Learning-from-the-curve) team.
 
-This article presents daily insights on COVID-19 for Belgium, the EU28 and the most infected countries in the world. We report detailed information on cases, hospitalizations and deaths for Belgium. We also compare life expectancy with COVID deaths by age groups, and calibrate a real-time epidemic curve. We then report patterns on cases and deaths for other countries, and epicurves for several countries. By combining different statistics, we aim to better understand where we are in the trajectory of the epidemic.
+This article presents daily insights on COVID-19 for Belgium, the EU28 and the most infected countries in the world. We report detailed information on cases, hospitalizations and deaths for Belgium. We also compare life expectancy with COVID deaths by age groups, and calibrate a real-time epidemic curve. We then report patterns on cases and deaths for other countries, and epicurves for several countries. By combining these different statistics, we aim to better understand where we are in the trajectory of the epidemic.
+
+This article is updated daily after 13:30.
 
 Today's key numbers:
 
@@ -16,7 +18,7 @@ Today's key numbers:
 
 <!--more-->
 
-Statistics on the number of COVID cases and deaths are useful and are the best that are available cross-country, but they are not perfect. Some cautions on the interpretation of the numbers.
+Statistics on the number of COVID cases and deaths are useful and are the best that are available cross-country, but they are not perfect. Some cautions on the interpretation of the numbers:
 
 **Note 1**:  The number of infections is much higher than reported. Not everyone is, will be, nor can be, tested, due to a combination of (i) technical constraints (impossible to test the whole population), (ii) policy constraints (who to test if there are limited resources to test), and (iii) the presence of infected people who are asymptomatic. See e.g. [Bloomberg](https://www.bloomberg.com/opinion/articles/2020-03-28/confirmed-coronavirus-cases-is-an-almost-meaningless-metric) for a discussion on testing policies.
 
@@ -24,7 +26,7 @@ Statistics on the number of COVID cases and deaths are useful and are the best t
 
 **Note 3**:  The number of cases does not convey the severity of the disease. For some countries (including Belgium), information on the number of hospitalized patients is available. Further detailed information on demographics and pre-existing conditions of tested people would be important to make targeted policy decisions.
 
-**Note 4**: There are [several sources of over, under and late reporting](https://www.bbc.com/future/article/20200401-coronavirus-why-death-and-mortality-rates-differ)) which vary over time and across countries.
+**Note 4**: There are [several sources of over, under and late reporting](https://www.bbc.com/future/article/20200401-coronavirus-why-death-and-mortality-rates-differ) which vary over time and across countries.
 
 We share all code for this report (Python and Stata versions) on [GitHub](https://github.com/Learning-from-the-curve/daily-updates). Also see our other projects at [Learning from the curve](https://github.com/Learning-from-the-curve). Any comments are highly welcomed at [glenn.magerman@ulb.ac.be](glenn.magerman@ulb.ac.be)
 
@@ -65,19 +67,18 @@ Figure 2 shows the number of cases and hospitalized patients by province, for th
 {% include plots/daily-update-2020-04-09/2020-04-09-Belgium-province.html %}
 <p style="text-align: center; font-style: italic;">Figure 2: Number of cases and hospitalizations by province.</p>
 
-Figure 3 shows the number of cases by municipality.[^3] The city with the highest number of infections is Antwerpen (Antwerp) with 927. Luik (Liège) follows with 541 and Bergen (Mons) is third with 428 cases. In absolute terms, Flanders is much more infected than Wallonia, and these infections are also spread out across most cities. We also show the number of cases as a percentage of the population for each municipality. When controlling for population by municipality, the pattern changes significantly. Relatively hard hit regions are around Hasselt/Sint-Truiden, Mons and Liège.[^4]
+Figure 3 shows the number of cases by municipality.[^3] The city with the highest number of infections is Antwerpen (Anvers) with 927. Luik (Liège) follows with 541 and Bergen (Mons) is third with 428 cases. In absolute terms, Flanders is much more infected than Wallonia, and these infections are also spread out across most cities. We also show the number of cases as a percentage of the population for each municipality. When controlling for population by municipality, the pattern changes significantly. Relatively hard hit regions are around Hasselt/Sint-Truiden, Mons and Liège.[^4]
 
 [^3]: Currently, there is no information hospitalized or deceased patients by municipality.
 
-[^4]: The geographic data used to build the map are from 2014. For the Belgian municipalities that merged in 2019 we include the former municipalities (pre-2019) separately, and we impute the cases for the merged municipality in 2019 to each per-2019 municipality. Some of the polygons in the map are empty due to missing data for that municipality or a problem with the geogrphic data in the geojson file. For example, Elsene (Ixelles) is not on the map, but we know that it has 176 cumulative cases, that is 0.203 of its population is infected.
+[^4]: The geographic data used to build the map are from 2014. For the Belgian municipalities that merged in 2019 we include the former municipalities (pre-2019) separately, and we impute the cases for the merged municipality in 2019 to each per-2019 municipality. Some of the polygons in the map are empty due to missing data for that municipality or a problem with the geographic data in the geojson file. For example, Elsene (Ixelles) is not on the map, but we know that it has 176 cumulative cases, that is 0.203 of its population is infected.
 
 {% include plots/daily-update-2020-04-09/2020-04-09-Belgium-map.html %}
 <p style="text-align: center; font-style: italic;">Figure 3: Number of cases by municipality.</p>
 
 #### 1.2 COVID mortality by age groups and regions
 
-In Figure 4, we compare the life expectancy for Belgium against COVID deaths across age groups.
-We then overlay the deaths by age group reported in the COVID data.[^5] The COVID density is calculated as the share of deaths by age group. For both sexes, we see that the distribution of COVID mortality is skewed towards the elderly, with a turning point at around 70 years. More elderly people die from COVID than predicted by the life expectancy tables, relative to other age groups.
+In Figure 4, we compare the life expectancy for Belgium (blue) against COVID deaths (red) across age groups.[^5] The COVID density is calculated as the share of deaths by age group. For both sexes, we see that the distribution of COVID mortality is skewed towards the elderly, with a turning point at around 70 years. More elderly people die from COVID than predicted by the life expectancy tables, relative to other age groups.
 This curve might change over the course of the disease. For instance if elderly people die faster, but also younger people die over the epidemic, the distribution might shift its gravitational point to younger ages.
 Importantly, this data does not account for pre-existing conditions, some of which might be a plausible risk factor for COVID (diabetes, vascular diseases etc.): age and pre-existing conditions correlate strongly, and without more information, we cannot disentangle both causes of mortality.
 
@@ -90,7 +91,7 @@ We also compare COVID deaths by age group across regions (Brussels, Flanders, Wa
 
 #### 1.3 Epicurve for Belgium
 
-We conclude with a real-time epidemic curve for both cases and deaths in Figure 5.
+We conclude the analysis for Belgium with a real-time epidemic curve for both cases and deaths in Figure 5.
 The epicurve reports the fraction of total cases or deaths over the span of the disease. When people talk about "flattening the curve", THIS is the curve. Some examples of epicurves for [Mers-CoV](https://www.nature.com/articles/s41598-019-43586-9), [SARS](https://www.who.int/csr/sars/epicurve/epiindex/en/index1.html), [influenza in Canada](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1750-2659.2010.00154.x) and [influenza in Belgium](https://epistat.wiv-isp.be/influenza/).
 
 Epicurves are only available at the end of an outbreak. Then the length, peak and total number of cases or deaths are known. Still, we want to estimate where we are in the trajectory while the disease evolves.
@@ -163,8 +164,12 @@ We conclude with an estimate of real-time epidemic curves for cases and deaths, 
 
 -------------------------------------
 
+
 We are back with updated numbers tomorrow.
 
 In the mean time, stay safe, and take care of yourself and of others.
 
 Federico and Glenn.
+
+
+-------------------------------------
