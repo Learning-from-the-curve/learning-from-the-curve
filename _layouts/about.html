@@ -29,7 +29,7 @@ layout: default
                 <h5 class="mb-0">{{ member.name }}</h5><span class="small text-uppercase text-muted">{{ member.role }}</span>
                 <ul class="social mb-0 list-inline mt-3">
                     {% if member.twitter %}
-                        <li class="list-inline-item"><a href="{{ member.twitter }}" target="blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ member.twitter }}" target="blank"><i class="fab fa-twitter"></i></a></li>
                     {% endif %}
                     {% if member.linkedin %}
                     <li class="list-inline-item"><a href="{{ member.linkedin }}" target="blank"><i class="fab fa-linkedin"></i></a></li>
@@ -39,6 +39,9 @@ layout: default
                     {% endif %}
                     {% if member.email %}
                     <li class="list-inline-item"><a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a></li>
+                    {% endif %}
+                    {% if member.website %}
+                    <li class="list-inline-item"><a href="{{ member.website }}"><i class="fas fa-globe"></i></a></li>
                     {% endif %}
                 </ul>
             </div>
