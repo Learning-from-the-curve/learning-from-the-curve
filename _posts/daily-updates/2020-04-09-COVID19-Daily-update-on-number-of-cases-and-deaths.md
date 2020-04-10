@@ -125,17 +125,14 @@ Figure 6 shows the total number of cases over time. The country with the most ca
 When looking at the EU28, the country with the most cases is Spain with 146,690 total confirmed cases. 
 Second is Italy, with 139,422 confirmed cases, and Germany follows, with 108,202 cases. It's worth noting that Sweden's infection rate has decreased significantly since around the 9th day after the 100th confirmed case, while having a [more lenient policy](https://www.forbes.com/sites/davidnikel/2020/03/30/why-swedens-coronavirus-approach-is-so-different-from-others/#538677cb562b).  
 
-The Figure also reports the total number of deaths since the 10th death. As noted in the introduction, both the number of cases and deaths are prone to several sources of non-random measurement error. However, we expect the measurement error to be smaller for the reported number of deaths. As of today, the country with the most deaths is Italy, with 17,669 deaths. Second is United States of America, with 14,817 deaths, and Spain follows, with 14,555 deaths. Again, we see that China has stabilized for now, with around 3,500 deaths. We repeat the graph for the 10 highest mortality countries in the EU28.
-
-The EU28 country with the most deaths is Italy, with 17,669 deaths. Second is Spain, with 14,555 deaths, and France follows, with 10,869 deaths.
+The Figure also reports the total number of deaths since the 10th death. As noted in the introduction, both the number of cases and deaths are prone to several sources of non-random measurement error. However, we expect the measurement error to be smaller for the reported number of deaths. As of today, the country with the most deaths is Italy, with 17,669 deaths. Second is United States of America, with 14,817 deaths, and Spain follows, with 14,555 deaths. Again, we see that China has stabilized for now, with around 3,500 deaths. We repeat the graph for the 10 highest mortality countries in the EU28. The EU28 country with the most deaths is Italy, with 17,669 deaths. Second is Spain, with 14,555 deaths, and France follows, with 10,869 deaths.
 
 {% include plots/daily-update-2020-04-09/2020-04-09-ln_cum_cases-ln_cum_deaths-after_10th.html %}
 <p style="text-align: center; font-style: italic;">Figure 6: Evolution of cases and deaths for the world and EU28 countries (top 10).</p>
 
 Absolute numbers are a key statistic in the onset of the epidemic, as they relate to the number of people infected from one patient. 
 Moreover, in standard S(E)IR models, in the onset of an outbreak, the predicted number of infected people rises almost identical in countries with vastly different population sizes.
-As the epidemic tapers off however, these numbers will converge to a fraction of the population being infected or deceased.[^7]  
-In Figure 7, we plot the number of cases and deaths for these countries, as a percentage of the population. For cases, we report since the 0,01% case, for mortality, since the 0,001% death. 
+As the epidemic tapers off however, these numbers will converge to a fraction of the population being infected or deceased.[^7] In Figure 7, we plot the number of cases and deaths for these countries, as a percentage of the population. For cases, we report since the 0,01% case, for mortality, since the 0,001% death. 
 
 [^7]: The first few weeks in the outbreak, higher per-capita numbers mostly imply smaller countries, not different policies or growth rates.
 
