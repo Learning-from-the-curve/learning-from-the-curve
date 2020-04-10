@@ -79,7 +79,7 @@ Figure 3 shows the number of cases by municipality.[^3] The city with the highes
 #### 1.2 COVID mortality by age groups and regions
 
 In Figure 4, we compare the life expectancy for Belgium (blue) against COVID deaths (red) across age groups.[^5] 
-The blue curve plots the probability of being dead by a certain age for all causes of death (i.e. it is a cumulative distribution function). 
+The blue curve plots the probability of being dead by a certain age, for all causes of death.
 The red curve shows mortality rates from COVID, across age groups. 
 For both sexes, we see that the distribution of COVID mortality is skewed towards the elderly, with a turning point at around 70 years. More elderly people die from COVID than predicted by the life expectancy tables, relative to other age groups.
 This curve might change over the course of the disease. For instance if elderly people die faster, but also younger people die over the epidemic, the distribution might shift its gravitational point to younger ages.
@@ -87,24 +87,24 @@ Importantly, this data does not account for pre-existing conditions, some of whi
 
 [^5]: In 2018, there was an influenza epidemic that generated significant over-mortality in the elderly. We average the densities over the years 2015-2017 to wash out year-specific peaks in mortality. There are some deaths reported without information on age, we drop these for the COVID CDF calculations. Since COVID mortality is given by age bins, we also bin the life tables. For each age bin (0-24 years, 25-44, 45-64, 65-74, 75-84, 85+), we take the midpoint.
 
-We also compare COVID deaths by age group across regions (Brussels, Flanders, Wallonia). There might be regional differences (e.g. from health care capacity or quality). For instance, there seems to be a slighly lower mortality rate for elderly in Wallonia, but we await more data to reinforce the pattern.
+We also compare COVID deaths by age group across regions (Brussels, Flanders, Wallonia). There might be regional differences (e.g. from health care capacity or quality). For instance, there seems to be a slighly lower mortality rate for elderly in Wallonia, but we await more data to see if the pattern is reinforced.
 
 {% include plots/daily-update-2020-04-09/2020-04-09-Belgium-life-expectancy.html %}
 <p style="text-align: center; font-style: italic;">Figure 4: Life expectancy versus distribution of COVD deaths by age groups and region.</p>
 
 #### 1.3 Epicurve for Belgium
 
-We conclude the analysis for Belgium with a real-time epidemic curve for both cases and deaths in Figure 5.
+We conclude the analysis for Belgium with a real-time epidemic curve for cases and deaths in Figure 5.
 The epicurve reports the fraction of total cases or deaths over the span of the disease. When people talk about "flattening the curve", THIS is the curve. Some examples of epicurves for [Mers-CoV](https://www.nature.com/articles/s41598-019-43586-9), [SARS](https://www.who.int/csr/sars/epicurve/epiindex/en/index1.html), [influenza in Canada](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1750-2659.2010.00154.x) and [influenza in Belgium](https://epistat.wiv-isp.be/influenza/).
 
 Epicurves are only available at the end of an outbreak. Then the length, peak and total number of cases or deaths are known. Still, we want to estimate where we are in the trajectory while the disease evolves.
 We therefore estimate these numbers as follows. First, we target one or more countries that have potentially completed the first wave of the disease. We use these countries as a benchmark epicurve. As of today, we use China as a benchmark. As more countries complete the outbreak cycle, these will also contribute to the benchmark of the "true" epicurve for COVID.
 
-Second, we forecast the trajectory for Belgium. We predict future growth rates and estimate where the peak of the epidemic might be. This shifts the currently observed data for Belgium relative to the trajectory of China on the *x*-axis. Then, based on the predicted growth rates, we calculate the number of cases per day over the trajectory. This rescales the observed data on the *y*-axis. The resulting graph then overlays the current predicted trajectory for Belgium against the benchmark countries.
+Second, we forecast the trajectory for Belgium. We predict future growth rates and estimate where the peak of the epidemic might be. This shifts the currently observed data for Belgium relative to the trajectory of China on the *x*-axis. Then, based on the predicted growth rates, we calculate the number of cases per day over the trajectory. This rescales the curve on the *y*-axis. The resulting graph then overlays the current predicted trajectory for Belgium against the benchmark trajectory.
 
-The results are informative: if Belgium has reached its first peak, the number of days from the onset to the peak of the outbreak is around 25-30 days, comparable to China. From there, we might hope for a similar trajectory as China in the decline. However, also for China we observe the potential onset of a second wave. We compare cases and deaths over time as the outbreak evolves, and we re-estimate, fit and update these curves daily.
+The results are informative: if Belgium has reached its first peak, the number of days from the onset to the peak of the outbreak is around 25-30 days, comparable to China. From there, we might hope for a similar trajectory as China in the decline, conditional on having other factors being the same (lockdown policies, population density and heterogeneity etc). However, also for China we observe the potential onset of a second wave. We compare cases and deaths over time as the outbreak evolves, and we re-estimate, fit and update these curves daily.
 
-It's important to stress that these trajectories depend on several factors, including policy measures taken in each country, population density and geographic disparity. E.g. it is possible that China's cycle is faster due to more stringent policies. These epicurves therefore do not serve as a instrument to strengthen/release COVID policies. However, conditional on policies and cross-country differences in cycle length and severity, we assume that the epicurve follows a similar trajectory.
+It's important to stress that these trajectories depend on several factors, including policy measures taken in each country, population density and geographic disparity. E.g. it is possible that China's cycle is faster due to more stringent policies. These epicurves therefore do not serve as a instrument to strengthen/release COVID policies. 
 
 {% include plots/daily-update-2020-04-09/2020-04-09-MA_ln_share_cases-midpoint-Belgium.html %}
 <p style="text-align: center; font-style: italic;">Figure 5: Epicurves: an estimated evolution of the epidemic waves.</p>
@@ -132,12 +132,14 @@ The EU28 country with the most deaths is Italy, with 17,669 deaths. Second is Sp
 {% include plots/daily-update-2020-04-09/2020-04-09-ln_cum_cases-ln_cum_deaths-after_10th.html %}
 <p style="text-align: center; font-style: italic;">Figure 6: Evolution of cases and deaths for the world and EU28 countries (top 10).</p>
 
-In Figure 7, we plot the number of cases and deaths for these countries, as a fraction of the population. For cases, we report since the 0,01% case, for mortality, since the 0,001% death. Absolute numbers are a key statistic in the onset of the epidemic, as they relate to the number of people infected from one patient. Moreover, in standard S(E)IR models, the predicted number of infected people rises almost identical in countries with vastly different population sizes.
-As the epidemic tapers off, these shares will converge to the final case and mortality rates of the disease.[^7]  
+Absolute numbers are a key statistic in the onset of the epidemic, as they relate to the number of people infected from one patient. 
+Moreover, in standard S(E)IR models, in the onset of an outbreak, the predicted number of infected people rises almost identical in countries with vastly different population sizes.
+As the epidemic tapers off however, these numbers will converge to a fraction of the population being infected or deceased.[^7]  
+In Figure 7, we plot the number of cases and deaths for these countries, as a percentage of the population. For cases, we report since the 0,01% case, for mortality, since the 0,001% death. 
 
 [^7]: The first few weeks in the outbreak, higher per-capita numbers mostly imply smaller countries, not different policies or growth rates.
 
-As of today, the EU28 has an average infection rate of 0.128%/0.012%, calculated as the total number of cases/deaths over the EU28 population. This is still far off the [projections](https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/) of 30-70% of adult world population ultimately being infected.  There are at least four hypotheses:
+As of today, the EU28 has an average infection rate of 0.128%, and a mortality rate of 0.012%, calculated as the total number of cases/deaths over the EU28 population. This is still far off the [projections](https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/) of 30-70% of adult world population ultimately being infected.  There are at least four hypotheses:
 (i) real infection rates are orders of magnitude larger than reported ones. If we are at the end of the epidemic, this implies real infection rates are around 100-300 times larger than currently reported.
 (ii) the epidemic is only in its onset, and we expect to reach higher infection rates.
 (iii) we are reaching the end of the epidemic, and infection rates are much lower than projected. Given the growth rates and our estimates for epidemic curves, we believe this scenario is not probable at this moment.
