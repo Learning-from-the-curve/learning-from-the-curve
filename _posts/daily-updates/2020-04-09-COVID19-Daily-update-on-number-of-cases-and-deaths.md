@@ -44,7 +44,7 @@ We share all code for this report (Python and Stata versions) on [GitHub](https:
 1. [Daily updates for Belgium](#cap1)
 2. [Daily updates, world and EU28](#cap2)
 
-### 1. Daily updates for Belgium <a name="cap1"></a>
+### 1. Daily update for Belgium <a name="cap1"></a>
 [*Back to Table of Contents*](#tbc)
 
 -------------------------------------
@@ -147,9 +147,8 @@ As of today, the EU28 has an average infection rate of 0.128%, and a mortality r
 
 #### 2.2 Growth rates
 
-Next, we plot the evolution of growth rates of the number of cases and deaths, since the 100th case and the 10th death, in Figure 8. Growth rates are expressed in percentage changes from date *t-1* to *t*. We take a 3-day simple moving average to account for strong fluctuations from e.g. reporting lags within countries.
-
-Each country wants to see this growth rate going to zero as soon as possible. China has seen close to zero growth rates for a series of days now. Two things are worth noting. First, the slopes, or decreases in growth rates, are not the same across countries. Second, even smoothed by a 3-day moving average, these growth rates are not monotonically decreasing. 
+Next, in Figure 8 we plot the evolution of growth rates of the number of cases and deaths, since the 100th case and the 10th death. Growth rates are expressed in percentage changes from date *t-1* to *t*. We take a 3-day simple moving average to account for strong fluctuations from e.g. reporting lags within countries.
+Each country wants to see its growth rate going to zero as soon as possible. China has seen close to zero growth rates for a series of days now. Two things are worth noting. First, the slopes, or decreases in growth rates, are not the same across countries. Second, even smoothed by a 3-day moving average, these growth rates are not monotonically decreasing. 
 This might be partially due to temporal new outbursts of the virus within countries, or to increased testing policies.[^8]
 
 [^8]: Approximating these growth rates with a 4th-order polynomial fit (not shown) also shows these non-monotonicities.
