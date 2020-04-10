@@ -1,12 +1,12 @@
 ---
 layout: post
-title: COVID-19 - Daily update on number of cases and deaths
+title: COVID-19 - Daily update Belgium, EU and world
 date: 2020-04-09 13:00:00 +0100
 category: daily-updates
 ---
 [Federico Gallina](https://www.ulb.be/fr/federico-gallina) [(ECARES, ULB)](https://ecares.ulb.be) and [Glenn Magerman (ECARES, ULB)](http://www.glennmagerman.com), with the [Learning from the curve](https://github.com/Learning-from-the-curve) team.
 
-This article presents daily insights on COVID-19 for Belgium, the EU28 and the most infected countries in the world. We report detailed information on cases, hospitalizations and deaths for Belgium. We also compare life expectancy with COVID deaths by age groups, and calibrate a real-time epidemic curve. We then report patterns on cases and deaths for other countries, and epicurves for several countries. By combining these different statistics, we aim to better understand where we are in the trajectory of the epidemic.
+This article presents daily insights on COVID-19 for Belgium, the EU28 and the most infected countries in the world. We report detailed information on cases, hospitalizations and deaths for Belgium. We also compare life expectancy with COVID deaths by age groups, and calibrate a real-time epidemic curve. We then report patterns on cases and deaths for other countries, and their epicurves. By combining these different statistics, we aim to better understand where we are in the trajectory of the epidemic.
 
 This article is updated daily after 13:30.
 
