@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COVID-19 - Daily update on number of cases and deaths
+title: COVID-19 - Daily update Belgium, EU and world
 date: 2020-04-09 13:00:00 +0100
 category: daily-updates
 ---
