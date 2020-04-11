@@ -10,7 +10,7 @@ This article presents daily insights on COVID-19 for Belgium, the EU28 and the m
 We report cases, hospitalizations and deaths for Belgium. We also compare life expectancy with COVID deaths by age groups, and calibrate a real-time epidemic curve.
 We then report patterns on cases and deaths for other countries, lockdown policies and their epicurves. By combining these different statistics, we aim to better understand where we are in the trajectory of the epidemic.
 
-This article is updated daily after 13:30. Last update: April 10, 2020.
+This article is updated daily after 13:30.
 
 Today's key numbers:
 
