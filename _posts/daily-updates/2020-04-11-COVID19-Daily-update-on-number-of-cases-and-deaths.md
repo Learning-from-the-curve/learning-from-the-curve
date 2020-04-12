@@ -85,7 +85,7 @@ When controlling for population by municipality, the pattern changes significant
 
 [^3]: Currently, there is no information hospitalized or deceased patients by municipality.
 
-[^4]: The geographic data used to build the map are from 2014. For the Belgian municipalities that merged in 2019 we include the former municipalities (pre-2019) separately, and we impute the cases for the merged municipality in 2019 to each per-2019 municipality. Some of the polygons in the map are empty due to missing data for that municipality or a problem with the geographic data in the geojson file. For example, Elsene (Ixelles) is not on the map, but we know that it has 196 cumulative cases, that is 0.23 of its population is infected.
+[^4]: The geographic data used to build the map are from 2014. For the Belgian municipalities that merged in 2019 we include the former municipalities (pre-2019) separately, and we impute the cases for the merged municipality in 2019 to each per-2019 municipality. Some of the polygons in the map are empty due to missing data for that municipality or a problem with the geographic data in the geojson file. For example, Elsene (Ixelles) is not on the map, but we know that it has 196 cumulative cases, that is 0.23% of its population is infected.
 
 {% include plots/daily-update-2020-04-11/2020-04-11-Belgium-map.html %}
 
