@@ -35,13 +35,17 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - daily-updates.md
-#  - project-1.md
+  - covid-SIR.md
 #  - project-2.md
   - about.md
 
 # Post Excerpts
 show_excerpts: true
 excerpt_separator: <!--more-->
+
+# MathJax
+usemathjax: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
