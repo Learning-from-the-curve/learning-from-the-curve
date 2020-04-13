@@ -73,3 +73,13 @@
   description: 
   photo_src: /assets/images/profile-pics/alberto-palazzolo-profile.jpg
   id: 008
+
+- name: Vincenzo Verardi
+  role: Contributor
+  github: 
+  email: vincenzo.verardi@uld.ac.be
+  twitter: https://twitter.com/vverardi75
+  website: 
+  description: "Vincenzo Verardi is associate researcher of the FNRS and teaches econometrics at the University of Namur and the Université libre de Bruxelles. His reasearch interests are in applied econometrics."
+  photo_src: /assets/images/profile-pics/vincenzo-verardi-profile.jpg
+  id: 009
