@@ -23,7 +23,7 @@ layout: default
         <div class="col-sm-6">
           <div class="card rounded shadow-sm mb-4">
             <div class="card-body">
-                <h3 class="card-title text-center">{{ post.title | escape }}</h5>
+              <a href="{{ post.url | relative_url }}"><h3 class="card-title text-center">{{ post.title | escape }}</h3></a>
                 <h6 class="card-subtitle text-center mb-2 text-muted">
                   {%- assign date_format = "%b %-d, %Y" -%}
                   {{ post.date | date: date_format }}
@@ -34,6 +34,9 @@ layout: default
                 <div class="text-center">
                   <a href="{{ post.url | relative_url }}" class="btn btn-info">Read More</a>
                 </div>
+            </div>
+            <div class="card-footer text-muted">
+              <i class="fas fa-tags"></i> <a href="/{{ post.category }}">{{ post.category | replace: '-', ' ' | capitalize }}</a>
             </div>
           </div>
         </div>
