@@ -90,7 +90,7 @@ Any comments, suggestions or contributions are highly welcomed at [glenn.magerma
 
 We start with the analysis for Belgium. Figure 1 shows total COVID numbers for cases, hospitalizations and deceased patients by date.[^1]
 
-[^1]: A case is recorded as the date of symptoms onset, sampling, diagnosis, or reporting. There are possible reporting lags, as different sources have to record and transmit their data to Epistat. We present the latest available numbers.
+[^1]: A case is recorded as the date of symptoms onset, sampling, diagnosis, or reporting. There are possible reporting lags, as different sources have to record and transmit their data to Epistat. We present the latest available numbers. Since April 10, the number of cases includes tests done in nursery homes. For fatalities, both hospitals and nursery homes are included.
 
 There are currently 34,243 confirmed infections, 5,309 hospitalized patients, 1,182 patients in intensive care, with 868 patients on respiratory aid, and 4,857 people have died from the infection.
 On the up side, 7,562 patients have been released from the hospital. There is a current maximum capacity of 2,293 ICU beds reserved for COVID patients, and 51.55% of capacity of ICU beds is taken.
