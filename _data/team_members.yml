@@ -9,6 +9,15 @@
   photo_src: /assets/images/profile-pics/glenn-magerman-profile.jpg
   id: 001
 
+- name: Sofia Amaral-Garcia
+  role: Contributor
+  github: https://github.com/samaralgarcia
+  email: amaralgarcia@i3health.eu
+  website: https://sites.google.com/site/amaralgarciasofia
+  description: "I am a research fellow at i3health (http://i3health.eu/) and a visitor at ECARES (ULB). My research focuses on empirical health economics and law & economics, with applications to physician behavior, interactions between doctors and the medical device industry, and medical malpractice."
+  photo_src: /assets/images/profile-pics/sofia-amaral-garcia-profile.jpg
+  id: 002
+
 - name: Bruno Carvalho
   role: Contributor
   github: https://github.com/bmpcarvalho
@@ -16,7 +25,7 @@
   website: https://sites.google.com/view/bpcarvalho
   description: "I am a Post-Doc at ECARES (ULB). I am also affiliated to the Economics for Policy Knowledge Centre, at Nova SBE (UNL). My main research interests are related with Political Economy, Fiscal Policy and Public Economics."
   photo_src: /assets/images/profile-pics/bruno-carvalho-profile.jpg
-  id: 002
+  id: 003
 
 - name: Alessandro Gallina
   role: Web Dev & Design
@@ -27,7 +36,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/alessandro-gallina-profile.jpg
-  id: 003
+  id: 004
 
 - name: Federico Gallina
   role: Contributor
@@ -36,7 +45,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/federico-gallina-profile.jpg
-  id: 004
+  id: 005
 
 - name: Fabrizio Leone
   role: Contributor
@@ -45,7 +54,7 @@
   website: 
   description: "I am a PhD candidate in Economics at ECARES, ULB. In my research I use theoretical and empirical tools to study multinational enterprises and global value chains."
   photo_src: /assets/images/profile-pics/fabrizio-leone-profile.jpg
-  id: 005
+  id: 006
 
 - name: Ilaria Natali
   role: Contributor
@@ -54,7 +63,7 @@
   website: 
   description: "I am a Ph.D. candidate at ECARES and I3Health (ULB). My research interests lie at the intersection between Health Economics and Industrial Organization. My research focuses on the socio-economic determinants of drug consumption and on the patients’ and pharmaceutical companies’ responses to national policies aimed at limiting access to certain medications."
   photo_src: /assets/images/profile-pics/ilaria-natali-profile.jpg
-  id: 006
+  id: 007
 
 - name: Elisa Navarra
   role: Contributor
@@ -63,7 +72,7 @@
   website: 
   description: "I am a PhD candidate in Economics at [ECARES, ULB]. My main research interests are in international trade, firm organization, and European policy."
   photo_src: /assets/images/profile-pics/elisa-navarra-profile.jpg
-  id: 007
+  id: 008
 
 - name: Alberto Palazzolo
   role: Contributor
@@ -72,7 +81,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/alberto-palazzolo-profile.jpg
-  id: 008
+  id: 009
 
 - name: Vincenzo Verardi
   role: Contributor
@@ -82,4 +91,4 @@
   website: 
   description: "Vincenzo Verardi is associate researcher of the FNRS and teaches econometrics at the University of Namur and the Université libre de Bruxelles. His reasearch interests are in applied econometrics."
   photo_src: /assets/images/profile-pics/vincenzo-verardi-profile.jpg
-  id: 009
+  id: 010
