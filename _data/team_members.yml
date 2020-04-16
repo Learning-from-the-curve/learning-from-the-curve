@@ -18,6 +18,13 @@
   photo_src: /assets/images/profile-pics/sofia-amaral-garcia-profile.jpg
   id: 002
 
+- name: Jacques Bughin
+  role: Contributor
+  email: bughinjacquesrenejean@gmail.com
+  description: "Dr Jacques Bughin, UN consultant, Solvay Business School Free university of Brussels, Portulan Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company"
+  photo_src: /assets/images/profile-pics/jacques-bughin-profile.jpg
+  id: 003
+
 - name: Bruno Carvalho
   role: Contributor
   github: https://github.com/bmpcarvalho
@@ -25,7 +32,7 @@
   website: https://sites.google.com/view/bpcarvalho
   description: "I am a Post-Doc at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>. I am also affiliated to the Economics for Policy Knowledge Centre, at <a href='https://www2.novasbe.unl.pt/en/' target='blank'>Nova SBE</a> (UNL). My main research interests are related with Political Economy, Fiscal Policy and Public Economics."
   photo_src: /assets/images/profile-pics/bruno-carvalho-profile.jpg
-  id: 003
+  id: 004
 
 - name: Alessandro Gallina
   role: Web Dev & Design
@@ -36,7 +43,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/alessandro-gallina-profile.jpg
-  id: 004
+  id: 005
 
 - name: Federico Gallina
   role: Contributor
@@ -45,7 +52,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/federico-gallina-profile.jpg
-  id: 005
+  id: 006
 
 - name: Fabrizio Leone
   role: Contributor
@@ -54,7 +61,7 @@
   website: 
   description: "I am a PhD candidate in Economics at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>. In my research I use theoretical and empirical tools to study multinational enterprises and global value chains."
   photo_src: /assets/images/profile-pics/fabrizio-leone-profile.jpg
-  id: 006
+  id: 007
 
 - name: Ilaria Natali
   role: Contributor
@@ -63,7 +70,7 @@
   website:
   description: "I am a Ph.D. candidate at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a> and <a href='http://i3health.eu/' target='blank'>i3health</a> (<a href='https://www.ulb.be/' target='blank'>ULB</a>). My research interests lie at the intersection between Health Economics and Industrial Organization. My research focuses on the socio-economic determinants of drug consumption and on the patients’ and pharmaceutical companies’ responses to national policies aimed at limiting access to certain medications."
   photo_src: /assets/images/profile-pics/ilaria-natali-profile.jpg
-  id: 007
+  id: 008
 
 - name: Elisa Navarra
   role: Contributor
@@ -72,7 +79,7 @@
   website:
   description: "I am a PhD candidate in Economics at [<a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>]. My main research interests are in international trade, firm organization, and European policy."
   photo_src: /assets/images/profile-pics/elisa-navarra-profile.jpg
-  id: 008
+  id: 009
 
 - name: Alberto Palazzolo
   role: Contributor
@@ -81,7 +88,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/alberto-palazzolo-profile.jpg
-  id: 009
+  id: 010
 
 - name: Vincenzo Verardi
   role: Contributor
@@ -91,4 +98,4 @@
   website:
   description: "Vincenzo Verardi is associate researcher of the <a href='https://www.frs-fnrs.be/fr/' target='blank'>FNRS</a> and teaches econometrics at the <a href='https://www.unamur.be/en' target='blank'>University of Namur</a> and the Université libre de Bruxelles (<a href='https://www.ulb.be/' target='blank'>ULB</a>). His reasearch interests are in applied econometrics."
   photo_src: /assets/images/profile-pics/vincenzo-verardi-profile.jpg
-  id: 010
+  id: 011
