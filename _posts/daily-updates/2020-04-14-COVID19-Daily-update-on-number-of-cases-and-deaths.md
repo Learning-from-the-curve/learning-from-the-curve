@@ -248,7 +248,7 @@ There is a clear difference between both the speed with which countries implemen
 
 #### 2.2 Growth rates
 
-Next, in Figure 9 we plot the evolution of growth rates of the number of cases and deaths, since the 100th case and the 10th death. Growth rates are expressed in percentage changes from date *t-1* to *t*. We take a 3-day simple moving average to account for strong fluctuations from e.g. reporting lags within countries.
+Next, in Figure 9 we plot the evolution of growth rates of the number of cases and deaths, since the 100th case and the 10th death. Growth rates are expressed in percentage changes of cumulative cases from date *t-1* to *t*. We take a 3-day simple moving average to account for strong fluctuations from e.g. reporting lags within countries.
 Each country wants to see its growth rate going to zero as soon as possible. China has seen close to zero growth rates for a series of days now. Two things are worth noting. First, the slopes, or decreases in growth rates, are not the same across countries. Second, even smoothed by a 3-day moving average, these growth rates are not monotonically decreasing.
 This might be partially due to temporal new outbursts of the virus within countries, or to increased testing policies.[^9]
 
