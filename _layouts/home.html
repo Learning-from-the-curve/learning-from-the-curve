@@ -17,7 +17,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <ul class="list-unstyled">
       {% for category in site.categories %}
-      <p class="h2">{{ category | first | replace: '-', ' ' | capitalize | default: "Posts" }} - Latest</p>
+      <p class="h2">{{ category | first | replace: '-', ' ' | upcase | default: "Posts" }} - Latest</p>
       <hr>
         {% for post in category.last limit:1 %}
         <div class="row">

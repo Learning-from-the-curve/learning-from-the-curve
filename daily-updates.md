@@ -5,11 +5,7 @@ category: daily-updates
 permalink: /daily-updates/
 ---
 
-# World map
-
--------------------------------------
-
-This map presents daily data on COVID-19 for all countries in the world. The Stringency Index displayed on the hover data for each country is [The Oxford COVID-19 Government Response Tracker](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker). [^1] This index ranges between 0 (no policy) to 100 (maximum measures) and combines 13 indicators of government responses, including school closures, travel bans, and fiscal or monetary measures.
+This map presents daily data on COVID-19 for all countries in the world. The Stringency Index displayed on the hover data for each country is [The Oxford COVID-19 Government Response Tracker](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker). [^1] This index ranges between 0 (no policy) to 100 (maximum measures) and combines 11 indicators of government responses, including school closures, travel bans, and fiscal or monetary measures.
 
 The COVID data by country around the world are published daily by the [ECDC](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide). This map is updated daily after 13:00 following the release of new daily data.
 
