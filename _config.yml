@@ -36,7 +36,7 @@ plugins:
 header_pages:
   - daily-updates.md
   - covid-SIR.md
-#  - project-2.md
+  - papers.md
   - about.md
 
 # Post Excerpts
