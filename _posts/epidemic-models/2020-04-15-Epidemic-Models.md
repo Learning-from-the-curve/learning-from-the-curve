@@ -2,7 +2,7 @@
 layout: post
 title: Predicting hospitalizations and positive cases in Belgium
 date: 2020-04-15 11:00:00 +0100
-category: Covid-SIR
+category: Epidemic-Models
 ---
 [Vincenzo Verardi](https://directory.unamur.be/staff/vverardi) (UNAMUR-CRED, FNRS, ULB).
 
@@ -33,12 +33,12 @@ What we suggest to do is to rely on the number of hospitalized patients, which i
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-15/Belgium.html%}\\
+{% include plots/Epidemic-Models-2020-04-15/Belgium.html%}\\
 The logistic fit is unfortunately not fully appropriate for these data especially in case of existence of public interventions that shape the evolution of the epidemic. Such an intervention was implemented in Belgium the 19th of March 2020 when a lockdown was ordered. This created an artificial maximum in the number of infections and the decline from that point on has been slower than the raise in infections. This skewness in the distribution of infections was expected as can be easily seen in the \\(SIR\\) graph presented in a previous post and reproduced here below (for a smaller time range).
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-15/Lockdown.html%}\\
+{% include plots/Epidemic-Models-2020-04-15/Lockdown.html%}\\
 This asymmetry can be modelled (inter alia) using a skewed logistic model where:
 
 $$ Cases(t) = \frac{m}{(1 + \exp{(-s(t-t_{\inf}))}^{\alpha}} $$
@@ -47,10 +47,10 @@ Where \\(\\alpha\\) is the skewness parameter.
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-15/Belgium_SL.html%}\\
+{% include plots/Epidemic-Models-2020-04-15/Belgium_SL.html%}\\
 The fit is better than that of the standard logistic and the predicted number of hospitalizations in Belgium is slightly higher. Indeed the skew-logit model predicts (ceteris paribus) that 15000 individuals will have been hospitalized while the standard logit estimates about 12500. It is generally accepted that 10% to 20% of the infected individuals need hospitalization. One could therefore extrapolate the total number of infected patients easily. In the graph below we present the total number of estimated cases (assuming that 10% of total infected individuals are hospitalized).
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-15/Belgium_POS.html%}\\
+{% include plots/Epidemic-Models-2020-04-15/Belgium_POS.html%}\\
 Thanks to the public intervention (and if the lockdown is maintained till the end of the epidemic), the number of final cases is estimated to be around 150000 which translates into approximately 6750 deaths (if we accept the mortality rate of 4.5%, as generally assumed in the literature). Naturally, the lockdown cannot be maintained forever, and this estimation is certainly a lower bound. Possible exit strategies should be studied to find the optimal deconfinement. The age structure of the population should play a central role in the analysis given the specificities of this specific virus, particularly lethal for the elderly. We will discuss this point in a future post devoted to exit strategies. In that occasion we will present a more complete epidemic model that includes age classes, symptomatic and asymptomatic cases, location specific interactions and many more features.

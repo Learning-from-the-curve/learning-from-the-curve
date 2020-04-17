@@ -35,8 +35,8 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - daily-updates.md
-  - covid-SIR.md
-  - papers.md
+  - epidemic-models.md
+  - consultant-views.md
   - about.md
 
 # Post Excerpts

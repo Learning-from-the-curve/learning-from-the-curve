@@ -2,7 +2,7 @@
 layout: post
 title: COVID-SIR
 date: 2020-04-13 13:00:00 +0100
-category: Covid-SIR
+category: Epidemic-Models
 ---
 [Vincenzo Verardi](https://directory.unamur.be/staff/vverardi) (UNAMUR-CRED, FNRS, ULB).
 
@@ -56,7 +56,7 @@ In the cases of non-intervention, the virus spreads very quickly. The number of 
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-13/LF.html%}
+{% include plots/Epidemic-Models-2020-04-13/LF.html%}
 
 ### Social distancing <a name="cap3"></a>
 
@@ -70,7 +70,7 @@ In the case of social distancing implemented from the beginning of the epidemy, 
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-13/Flat.html%}
+{% include plots/Epidemic-Models-2020-04-13/Flat.html%}
 
 ### Lockdown <a name="cap4"></a>
 
@@ -84,7 +84,7 @@ In the case of a lockdown (having a visible effect from day 35), the effect is r
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-13/Lockdown.html%}
+{% include plots/Epidemic-Models-2020-04-13/Lockdown.html%}
 
 #### Lockdown and back to normal
 
@@ -96,7 +96,7 @@ In this case the initial lockdown is very efficient. However once the restrictio
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-13/Lockdown_restart.html%}
+{% include plots/Epidemic-Models-2020-04-13/Lockdown_restart.html%}
 
 #### Lockdown and social distancing
 
@@ -108,7 +108,7 @@ In this case, the initial lockdown is very efficient. Once the restrictions are 
 
 **Click on the legend to add or remove lines**
 
-{% include plots/COVID-SIR-2020-04-13/Lockdown_socialD.html%}
+{% include plots/Epidemic-Models-2020-04-13/Lockdown_socialD.html%}
 
 ### Conclusion <a name="cap5"></a>
 

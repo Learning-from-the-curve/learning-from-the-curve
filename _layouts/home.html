@@ -15,6 +15,94 @@ layout: default
   </section>
 
   {%- if site.posts.size > 0 -%}
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-6">
+          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="prev" role="button" aria-pressed="true"><i class="fas fa-arrow-left"></i> Prev</a>
+        </div>
+        <div class="col-6">
+          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="next" role="button" aria-pressed="true">Next <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide container" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          {% for category in site.categories limit:1 %}
+            {% for post in category.last limit:1 %}
+              <li data-target="#carouselExampleCaptions" data-slide-to="{{ post.category }}" class="active"></li>
+            {% endfor %}
+          {% endfor %}
+          {% for category in site.categories offset:1 %}
+            {% for post in category.last limit:1 %}
+              <li data-target="#carouselExampleCaptions" data-slide-to="{{ post.category }}"></li>
+            {% endfor %}
+          {% endfor %}
+        </ol>
+
+        <div class="carousel-inner">
+          {% for category in site.categories limit:1 %}
+            {% for post in category.last limit:1 %}
+              <div class="jumbotron carousel-item active">
+                <i class="fas fa-tags"></i> <a href="/{{ category | first }}">{{ post.category | replace: '-', ' ' | upcase }}</a>
+                <h1 class="display-6">{{ post.title | escape }}</h1>
+                <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
+                <hr class="my-4">
+                {%- if site.show_excerpts -%}
+                  <p>{{ post.excerpt }}</p>
+                {%- endif -%}
+                <a class="btn btn-primary btn-lg" href="{{ post.url | relative_url }}" role="button">Read more</a>
+              </div>
+            {% endfor %}
+          {% endfor %}
+          {% for category in site.categories offset:1 %}
+            {% for post in category.last limit:1 %}
+              <div class="jumbotron carousel-item">
+                <i class="fas fa-tags"></i> <a href="/{{ category | first }}">{{ post.category | replace: '-', ' ' | upcase }}</a>
+                <h1 class="display-6">{{ post.title | escape }}</h1>
+                <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
+                <hr class="my-4">
+                {%- if site.show_excerpts -%}
+                  <p>{{ post.excerpt }}</p>
+                {%- endif -%}
+                <a class="btn btn-primary btn-lg" href="{{ post.url | relative_url }}" role="button">Read more</a>
+              </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+    </div>
+    <div class="container mt-2 mb-4">
+      <div class="row">
+        <div class="col-6">
+          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="prev" role="button" aria-pressed="true"><i class="fas fa-arrow-left"></i> Prev</a>
+        </div>
+        <div class="col-6">
+          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="next" role="button" aria-pressed="true">Next <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
+  {%- endif -%}
+
+</div>
+
+<!--
+<div>
+
+  {%- if page.title -%}
+  <header class="text-center">
+    <h1>{{ page.title }}</h1>
+  </header>
+  {%- endif -%}
+
+  <section>
+    {{ content }}
+  </section>
+
+  {%- if site.posts.size > 0 -%}
     <ul class="list-unstyled">
       {% for category in site.categories %}
       <p class="h2">{{ category | first | replace: '-', ' ' | upcase | default: "Posts" }} - Latest</p>
@@ -48,3 +136,4 @@ layout: default
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
   {%- endif -%}
 </div>
+-->

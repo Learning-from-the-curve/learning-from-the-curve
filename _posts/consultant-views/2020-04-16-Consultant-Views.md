@@ -2,7 +2,7 @@
 layout: post
 title: Three key COVID-19 indicators to curb a potential of 20 million human fatality
 date: 2020-04-16 14:00:00 +0100
-category: Papers
+category: Consultant-Views
 ---
 
 **Table of Contents**:<a name="tbc"></a>
@@ -178,7 +178,7 @@ Usually, the world of interaction and influence behaves more like a Pareto distr
 
 **Figure 1: Heterogeneity in disease spread, indicative estimates**
 
-![](/assets/images/papers/Figure1.png)
+![](/assets/images/Consultant-Views/Figure1.png)
 
 *Source: Author own, Lloyd Smith et al., Litsearch*
 
