@@ -13,6 +13,6 @@ The COVID data by country around the world are published daily by the [ECDC](htt
 
 **Click or hover on a country to display a label including information on that country**
 
-{% include plots/daily-update-2020-04-16/2020-04-16-World-map.html %}
+{% include plots/daily-update-2020-04-17/2020-04-17-World-map.html %}
 
 <p style="text-align: center; font-style: italic;">Figure: COVID-19 data and policy measure for all countries in the world.</p>
