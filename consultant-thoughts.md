@@ -1,5 +1,5 @@
 ---
-layout: home-consultant-thoughts
+layout: home-Consultant-Thoughts
 title: "Consultant Thoughts"
 category: consultant-thoughts
 permalink: /consultant-thoughts/
