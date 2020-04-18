@@ -1,8 +1,8 @@
 ---
-layout: home-Consultant-Views
-title: "Consultant Views"
-category: Consultant-Views
-permalink: /consultant-views/
+layout: home-Consultant-Thoughts
+title: "Consultant Thoughts"
+category: Consultant-Thoughts
+permalink: /consultant-thoughts/
 ---
 
 ## Making sense of the Covid-19 pandemic
