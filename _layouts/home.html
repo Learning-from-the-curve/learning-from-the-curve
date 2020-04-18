@@ -49,7 +49,7 @@ layout: default
           {% for category in site.categories limit:1 %}
             {% for post in category.last limit:1 %}
               <div class="jumbotron carousel-item active">
-                <h3><a href="/{{ category | first }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
+                <h3><a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
                 <h1 class="display-6"><a class="unstyled" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
                 <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
                 <hr class="my-4">
@@ -63,7 +63,7 @@ layout: default
           {% for category in site.categories offset:1 %}
             {% for post in category.last limit:1 %}
               <div class="jumbotron carousel-item">
-                <h3><a href="/{{ category | first }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
+                <h3><a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
                 <h1 class="display-6"><a class="unstyled" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
                 <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
                 <hr class="my-4">
