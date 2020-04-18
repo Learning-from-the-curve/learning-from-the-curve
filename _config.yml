@@ -36,8 +36,11 @@ plugins:
 header_pages:
   - daily-updates.md
   - epidemic-models.md
-  - consultant-views.md
+  - consultant-thoughts.md
   - about.md
+
+# Disqus
+comments: true
 
 # Post Excerpts
 show_excerpts: true

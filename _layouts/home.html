@@ -11,7 +11,11 @@ layout: default
   {%- endif -%}
 
   <section>
-    {{ content }}
+    <div class="container">
+      <div class="row text-justify">
+        {{ content }}
+      </div>
+    </div>
   </section>
 
   {%- if site.posts.size > 0 -%}
@@ -45,8 +49,8 @@ layout: default
           {% for category in site.categories limit:1 %}
             {% for post in category.last limit:1 %}
               <div class="jumbotron carousel-item active">
-                <i class="fas fa-tags"></i> <a href="/{{ category | first }}">{{ post.category | replace: '-', ' ' | upcase }}</a>
-                <h1 class="display-6">{{ post.title | escape }}</h1>
+                <h3><a href="/{{ category | first }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
+                <h1 class="display-6"><a class="unstyled" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
                 <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
                 <hr class="my-4">
                 {%- if site.show_excerpts -%}
@@ -59,8 +63,8 @@ layout: default
           {% for category in site.categories offset:1 %}
             {% for post in category.last limit:1 %}
               <div class="jumbotron carousel-item">
-                <i class="fas fa-tags"></i> <a href="/{{ category | first }}">{{ post.category | replace: '-', ' ' | upcase }}</a>
-                <h1 class="display-6">{{ post.title | escape }}</h1>
+                <h3><a href="/{{ category | first }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
+                <h1 class="display-6"><a class="unstyled" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
                 <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
                 <hr class="my-4">
                 {%- if site.show_excerpts -%}

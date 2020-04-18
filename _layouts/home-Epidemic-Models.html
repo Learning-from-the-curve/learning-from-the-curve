@@ -32,11 +32,11 @@ layout: default
                   <p class="card-text">{{ post.excerpt }}</p>
                 {%- endif -%}
                 <div class="text-center">
-                  <a href="{{ post.url | relative_url }}" class="btn btn-info">Read More</a>
+                  <a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a>
                 </div>
             </div>
             <div class="card-footer text-muted">
-              <i class="fas fa-tags"></i> <a href="/{{ post.category }}">{{ post.category | replace: '-', ' ' | capitalize }}</a>
+              <a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a>
             </div>
           </div>
         </div>
