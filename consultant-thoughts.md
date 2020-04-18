@@ -1,7 +1,7 @@
 ---
-layout: home-Consultant-Thoughts
+layout: home-consultant-thoughts
 title: "Consultant Thoughts"
-category: Consultant-Thoughts
+category: consultant-thoughts
 permalink: /consultant-thoughts/
 ---
 

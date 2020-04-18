@@ -2,7 +2,7 @@
 layout: post
 title: Predicting hospitalizations and positive cases in Belgium
 date: 2020-04-15 11:00:00 +0100
-category: Epidemic-Models
+category: epidemic-models
 ---
 [Vincenzo Verardi](https://directory.unamur.be/staff/vverardi) (UNAMUR-CRED, FNRS, ULB).
 

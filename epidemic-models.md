@@ -1,6 +1,6 @@
 ---
-layout: home-Epidemic-Models
+layout: home-epidemic-models
 title: "Epidemic Models"
-category: Epidemic-Models
+category: epidemic-models
 permalink: /epidemic-models/
 ---

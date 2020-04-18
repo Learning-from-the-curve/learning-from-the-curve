@@ -1,5 +1,5 @@
 ---
-layout: home-Daily-Updates
+layout: home-daily-updates
 title: "Daily Updates"
 category: daily-updates
 permalink: /daily-updates/
