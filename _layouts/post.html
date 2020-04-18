@@ -17,6 +17,11 @@ layout: default
     <div class="container text-justify justify-content-center">
       {{ content }}
     </div>
+    <div class="container">
+      {% if site.comments %}
+        {% include disqus.html %}
+      {% endif %}
+    </div>
   </section>
 
 </article>

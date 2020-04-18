@@ -39,6 +39,9 @@ header_pages:
   - consultant-views.md
   - about.md
 
+# Disqus
+comments: true
+
 # Post Excerpts
 show_excerpts: true
 excerpt_separator: <!--more-->
