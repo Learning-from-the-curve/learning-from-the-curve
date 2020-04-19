@@ -178,7 +178,7 @@ Usually, the world of interaction and influence behaves more like a Pareto distr
 
 **Figure 1: Heterogeneity in disease spread, indicative estimates**
 
-![](/assets/images/consultant-thoughts/Figure1.png)
+![](/assets/images/Consultant-Thoughts/Figure1.png)
 
 *Source: Author own, Lloyd Smith et al., Litsearch*
 
