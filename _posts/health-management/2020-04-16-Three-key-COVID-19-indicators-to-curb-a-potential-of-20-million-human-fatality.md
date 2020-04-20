@@ -178,7 +178,7 @@ Usually, the world of interaction and influence behaves more like a Pareto distr
 
 **Figure 1: Heterogeneity in disease spread, indicative estimates**
 
-![](/assets/images/Health-Management/Figure1.png)
+![](/assets/images/Health-Management/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality/Figure1.png)
 
 *Source: Author own, Lloyd Smith et al., Litsearch*
 
