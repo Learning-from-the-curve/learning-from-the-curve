@@ -1,8 +1,8 @@
 ---
-layout: home-Consultant-Thoughts
-title: "Consultant Thoughts"
-category: consultant-thoughts
-permalink: /consultant-thoughts/
+layout: home-Health-Management
+title: "Health Management"
+category: health-management
+permalink: /health-management/
 ---
 
 ## Making sense of the Covid-19 pandemic
