@@ -36,7 +36,7 @@ plugins:
 header_pages:
   - daily-updates.md
   - epidemic-models.md
-  - consultant-thoughts.md
+  - health-management.md
   - about.md
 
 # Disqus
