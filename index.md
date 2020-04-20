@@ -8,7 +8,7 @@ There are currently three series of articles:
 
 - Daily updates: daily insights on COVID numbers with real-time data for Belgium, EU28 and the world, by Federico Gallina and Glenn Magerman at ECARES.
 - Epidemic models: work-horse epidemic spread models with explanation and estimation for Belgium, by Vincenzo Verardi at UNamur and ULB.
-- A consultant’s thoughts: a series of reflections on COVID and economics, by Jacques Bughin at Solvay and former Mc Kinsey.
+- Health management: a series of reflections on COVID and economics, by Jacques Bughin at Solvay and former Mc Kinsey.
 
 Each series has its own tag, so you can track the different articles of each series.
 More series of posts on COVID and economics are added progressively.

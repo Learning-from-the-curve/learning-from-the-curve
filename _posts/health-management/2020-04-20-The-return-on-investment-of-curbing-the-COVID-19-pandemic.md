@@ -24,8 +24,8 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 My two recent articles (available [here](https://learning-from-the-curve.github.io/health-management/)) have tried to make the case that
 
-- The Covid-19 outbreak might be serious. The Covid-19 looks like it behaves as a <mark class="text-black" style="background-color: #4dffd2;">global hitter</mark>, -- not a serial <mark class="text-black" style="background-color: #4dffd2;">killer</mark> like the 1918 Spanish influenza pandemics that killed tens of millions of people, but likely a bug that is an order of magnitude, - more than ten times -, what we know from the flu.
-- <mark class="text-black" style="background-color: #4dffd2;">There is a plausible scenario for reducing its risk, but a way to curb it to level of a severe flu will require a significant set of actions at scale, delivered with speed and agility, and with cooperation to population.</mark>
+- The Covid-19 outbreak might be serious. The Covid-19 looks like it behaves as a **global hitter**, -- not a serial **killer** like the 1918 Spanish influenza pandemics that killed tens of millions of people, but likely a bug that is an order of magnitude, - more than ten times -, what we know from the flu.
+- **There is a plausible scenario for reducing its risk, but a way to curb it to level of a severe flu will require a significant set of actions at scale, delivered with speed and agility, and with cooperation to population.**
 
 The typical question that arises now is what is the **economic consequence of the action plan — and can the world afford it?**
 
