@@ -54,6 +54,15 @@
   photo_src: /assets/images/profile-pics/federico-gallina-profile.jpg
   id: 006
 
+- name: Victor Ginsburgh
+  role: Contributor
+  github:
+  email: vginsbur@ulb.ac.be
+  website: https://sites.google.com/view/victor-ginsburgh
+  description: "Professor em. Université libre de Bruxelles ECARES, Brussels, and CORE, Louvain-la-Neuve."
+  photo_src: /assets/images/profile-pics/victor-ginsburgh-profile.jpg
+  id: 007
+
 - name: Fabrizio Leone
   role: Contributor
   github: https://github.com/Fab993
@@ -61,7 +70,7 @@
   website: 
   description: "I am a PhD candidate in Economics at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>. In my research I use theoretical and empirical tools to study multinational enterprises and global value chains."
   photo_src: /assets/images/profile-pics/fabrizio-leone-profile.jpg
-  id: 007
+  id: 008
 
 - name: Ilaria Natali
   role: Contributor
@@ -70,7 +79,7 @@
   website:
   description: "I am a Ph.D. candidate at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a> and <a href='http://i3health.eu/' target='blank'>i3health</a> (<a href='https://www.ulb.be/' target='blank'>ULB</a>). My research interests lie at the intersection between Health Economics and Industrial Organization. My research focuses on the socio-economic determinants of drug consumption and on the patients’ and pharmaceutical companies’ responses to national policies aimed at limiting access to certain medications."
   photo_src: /assets/images/profile-pics/ilaria-natali-profile.jpg
-  id: 008
+  id: 009
 
 - name: Elisa Navarra
   role: Contributor
@@ -79,7 +88,7 @@
   website:
   description: "I am a PhD candidate in Economics at [<a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>]. My main research interests are in international trade, firm organization, and European policy."
   photo_src: /assets/images/profile-pics/elisa-navarra-profile.jpg
-  id: 009
+  id: 010
 
 - name: Alberto Palazzolo
   role: Contributor
@@ -88,7 +97,7 @@
   website: 
   description: 
   photo_src: /assets/images/profile-pics/alberto-palazzolo-profile.jpg
-  id: 010
+  id: 011
 
 - name: Vincenzo Verardi
   role: Contributor
@@ -98,4 +107,4 @@
   website:
   description: "Vincenzo Verardi is associate researcher of the <a href='https://www.frs-fnrs.be/fr/' target='blank'>FNRS</a> and teaches econometrics at the <a href='https://www.unamur.be/en' target='blank'>University of Namur</a> and the Université libre de Bruxelles (<a href='https://www.ulb.be/' target='blank'>ULB</a>). His reasearch interests are in applied econometrics."
   photo_src: /assets/images/profile-pics/vincenzo-verardi-profile.jpg
-  id: 011
+  id: 012
