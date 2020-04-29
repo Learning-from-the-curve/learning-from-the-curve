@@ -95,7 +95,7 @@ Note the logic of selectivity versus reach, here. The point is that we today, wi
 
 **Figure 1: Going for selectivity (extensive testing) in the fight for COVID-19**
 
-![](/assets/images/Health-Management/A-Belgian-and-other-countries-mandate-to-fight-the-COVID-19/FIgure1.jpg)
+![](/assets/images/Health-Management/A-Belgian-and-other-countries-mandate-to-fight-the-COVID-19/Figure.jpg)
 
 - In parallel, we must avoid a negative spiral of low economic supply, lower demand effect, and so on. We must thus quickly spot new major investment to make the economy rebound. **The good news is that priorities are easily identifiable — this lies into the healthcare and healthcare supply chain, this lies into ensuring the food chain flow, this is in ensuring basic utilities supply to everyone**.
 
