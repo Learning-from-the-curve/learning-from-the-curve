@@ -26,7 +26,7 @@ layout: default
 
   <div class="container">
     <div class="row text-center">
-        {% for member in site.data.team_members %}
+        {% for member in site.data.team_members.main %}
         <!-- Team item -->
         <div class="col-xl-3 col-sm-6 mb-5">
             <div class="bg-white rounded shadow-sm pt-5 pb-4 px-4"><img src="{{ member.photo_src }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">

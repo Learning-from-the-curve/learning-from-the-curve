@@ -12,34 +12,44 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title=="Daily Updates" -%}
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.url | append: site.baseurl %}
+          {% endif %}
+
+          {% if link.children %}
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="{{ domain }}{{ link.url }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="{{ link.icon }}"></i> {{ link.title }}
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                {% for child in link.children %}
+                  {% if child.url contains 'http' %}
+                    {% assign domain = '' %}
+                  {% else %}
+                    {% assign domain = site.url | append: site.baseurl %}
+                  {% endif %}
+                  <a class="dropdown-item" href="{{ domain }}{{ child.url }}"><i class="{{ child.icon }}"></i> {{ child.title }}</a>
+                {% endfor %}
+              </div>
+              
+            </li>
+          
+          {% else %}
+
           <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}"><i class="fas fa-chart-bar"></i> {{ my_page.title | escape }}</a>
+
+            <a class="nav-link" href="{{ domain }}{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
+
           </li>
-          {%- elsif my_page.title=="About" -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}"><i class="fas fa-address-card"></i> {{ my_page.title | escape }}</a>
-          </li>
-          {%- elsif my_page.title=="Opinions" -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}"><i class="fas fa-comment-dots"></i> {{ my_page.title | escape }}</a>
-          </li>
-          {%- elsif my_page.title=="Epidemic Models" -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}"><i class="fas fa-chalkboard-teacher"></i> {{ my_page.title | escape }}</a>
-          </li>
-          {%- elsif my_page.title=="Health Management" -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}"><i class="fas fa-laptop-medical"></i> {{ my_page.title | escape }}</a>
-          </li>
-          {%- else -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}"><i class="fas fa-pencil-ruler"></i> {{ my_page.title | escape }}</a>
-          </li>
-          {%- endif -%}
-        {%- endfor -%}
+          
+          {% endif %}
+
+        {% endfor %}
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/Learning-from-the-curve" target="blank"><i class="fab fa-github"></i> Github</a>
         </li>
