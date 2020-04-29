@@ -11,3 +11,4 @@ Gemfile.lock
 _asset_bundler_cache
 codekit-config.json
 npm-debug.log*
+.vscode
