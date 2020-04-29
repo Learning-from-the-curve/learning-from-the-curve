@@ -1,0 +1,25 @@
+# main links
+main:
+  - title: "Daily Updates"
+    url: /daily-updates/
+    icon: "fas fa-chart-bar"
+  - title: "Epidemic Models"
+    url: /epidemic-models/
+    icon: "fas fa-chalkboard-teacher"
+  - title: "Health Management"
+    url: /health-management/
+    icon: "fas fa-laptop-medical"
+  - title: "Opinions"
+    url: /opinions/
+    icon: "fas fa-comment-dots"
+  - title: "About"
+    url: /about/
+    icon: "fas fa-address-card"
+
+#    children:
+#      - title: "Sitemap"
+#        url: /sitemap.xml
+#        icon: "fas fa-chart-bar"
+#      - title: "RSS"
+#        url: /feed.xml
+#        icon: "fas fa-chart-bar"

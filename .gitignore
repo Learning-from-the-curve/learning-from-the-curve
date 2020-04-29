@@ -3,3 +3,11 @@ _site
 .jekyll-metadata
 node_modules
 Gemfile.lock
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+.DS_Store
+_asset_bundler_cache
+codekit-config.json
+npm-debug.log*
