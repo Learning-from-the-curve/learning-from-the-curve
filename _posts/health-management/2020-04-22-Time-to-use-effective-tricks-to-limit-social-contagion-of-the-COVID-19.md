@@ -20,7 +20,7 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 #### **March 9**
 
-In previous articles (available [here](https://learning-from-the-curve.github.io/health-management/)), I mentioned that one of the critical drivers of how Covid-19 will end up as a small epidemy, or a large pandemic, is highly dependent on the level of reproduction rate in the population, \\(R_0\\), as well as its dynamics, \\(R_t\\), through time. If this rate breaches the threshold, \\(R_0>1\\), and remains (long) above it, we may face a difficult pandemic issue.
+In previous articles (available [here](https://learning-from-the-curve.netlify.app/health-management/)), I mentioned that one of the critical drivers of how Covid-19 will end up as a small epidemy, or a large pandemic, is highly dependent on the level of reproduction rate in the population, \\(R_0\\), as well as its dynamics, \\(R_t\\), through time. If this rate breaches the threshold, \\(R_0>1\\), and remains (long) above it, we may face a difficult pandemic issue.
 
 #### **Win or break is now**
 
@@ -91,9 +91,9 @@ We thus clearly see that actions must be fast to curb the exponential threat in 
 
 This is precisely what China has done, and what Italy has been launching this Sunday, by creating major quarantines, and larger set of controls of contacts within their affected regions.
 
-The jury is still out for Italy, **but this is a very high priority to make it work there, as first set of data may seem to suggest that Italy is more like what the Hubei region was in China by early January**, with an average \\(R_0\\) that is more in the range of 4 to 6, and a fatality rate, closer to above 3% range, a rate higher than my original view expressed in my [previous article](https://learning-from-the-curve.github.io/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html).
+The jury is still out for Italy, **but this is a very high priority to make it work there, as first set of data may seem to suggest that Italy is more like what the Hubei region was in China by early January**, with an average \\(R_0\\) that is more in the range of 4 to 6, and a fatality rate, closer to above 3% range, a rate higher than my original view expressed in my [previous article](https://learning-from-the-curve.netlify.app/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html).
 
-We have more perspectives on China. Provided data reported are right, early data may seem to prove that it works, as the average \\(R_0=2.7\\) across the 10 weeks is in fact the result of a constant decline across the recent weeks, from \\(R_0=6\\) by the time the epidemy was recognized early January by the Chinese authorities, to possibly below 1, by late February (see my [recent post](https://learning-from-the-curve.github.io/health-management/2020/04/22/We-might-be-winning-the-battle-of-the-COVID-19-epidemic-in-China-a-dynamic-perspective.html)).[^2]
+We have more perspectives on China. Provided data reported are right, early data may seem to prove that it works, as the average \\(R_0=2.7\\) across the 10 weeks is in fact the result of a constant decline across the recent weeks, from \\(R_0=6\\) by the time the epidemy was recognized early January by the Chinese authorities, to possibly below 1, by late February (see my [recent post](https://learning-from-the-curve.netlify.app/health-management/2020/04/22/We-might-be-winning-the-battle-of-the-COVID-19-epidemic-in-China-a-dynamic-perspective.html)).[^2]
 
 [^2]: See also Sun, et al. 2020, *Tracking and Predicting COVID-19 Epidemic in China Mainland*, **medRxiv**; who essentially come to the same conclusions as mine.
 
