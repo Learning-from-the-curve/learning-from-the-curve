@@ -27,6 +27,8 @@ By April 14th, the number of recorded infections by the COVID-19 is being close 
 
 It has put hospital systems struggling to cope with the flow of heavy infected cases, as feared by Richard Baldwin in a recent post on Vox (2020). Hospital, human, equipment as well as ICU beds capacity have been under excess demand in a matter of just a few weeks following the outbreak in Wuhan. By end of January, Chinese authorities stimulated the import of many health workers into the city, and managed to build up extra bed capacity in a record time to alleviate the pressure. The health system issue has been apparent as well in Europe, in particular Spain, Northern Italy and France. Major consequences of this disequilibrium are a higher fatality rate and a slower pace of recovery rate of contaminated people than average.[^1] Medical resources are alas witnessing high toll of illness and excessive stress levels (see Day, 2020; Fang, 2020; Bughin, 2020a).
 
+<!--more-->
+
 [^1]: Ji et al., 2020, *Potential association between COVID-19 mortality and health-care resource availability*, **The Lancet Global Health, 8(4), p.e 480**.
 
 Accordingly, many countries have taken a radical « suppression » approach by imposing major economic standstill in the hope of flattening the epidemic curve of COVID-19 and spread the demand for care more in line with health system abilities. This suppression strategy went crescendo, first forbidding large crowds meetings (theatres, mega-events, etc). It moved quickly to closing schools and asking people to work remotely, then the went to ask the population to stay home. In general, this suppression strategy is a powerful response to a first wave of an unknown pandemic emerging globally, like the COVID-19. There is emerging evidence, that if containement measures are followed by population, pandemic diffusion may slow (Lin et al., 2020). This also buys time to know more about the still unknown features of the COVID-19, and to work on means to battle it via the discovery of powerful antiviral and vaccines.
@@ -431,7 +433,6 @@ Our simulation is illustrated the following discrete values: \\(s=0.4\\) and \\(
     </tbody>
 </table>
 
-
 *Core assumption 1: non recorded cases (including asymptomatic cases) leads to 4 times lower hospitalisations;*
 
 *Core assumption 2: Distribution of contagion follows influenza (top 20% makes 50% of contagion)*
@@ -522,13 +523,13 @@ Brahmbhatt and Dutta, (2008), *"On SARS type of economic effects during infectio
 
 Brauer, M. (2019), *"Early estimates of epidemic final sizes,"* **Journal of Biological Dynamics**.
 
-Bughin, J. (2020), [Why we must protect our heathcare workfoce during COVID-19.](https://learning-from-the-curve.github.io/health-management/2020/04/25/Why-we-must-protect-the-healthcare-workforce-during-COVID-19.html)
+Bughin, J. (2020), [Why we must protect our heathcare workfoce during COVID-19.](https://learning-from-the-curve.netlify.app/health-management/2020/04/25/Why-we-must-protect-the-healthcare-workforce-during-COVID-19.html)
 
-Bughin, J. (2020), [Beyond the recorded figures: How the COVID-19 pandemic might actually be playing out.](https://learning-from-the-curve.github.io/health-management/2020/04/27/Beyond-the-recorded-figures-How-the-COVID-19-pandemic-might-actually-be-playing-out.html)
+Bughin, J. (2020), [Beyond the recorded figures: How the COVID-19 pandemic might actually be playing out.](https://learning-from-the-curve.netlify.app/health-management/2020/04/27/Beyond-the-recorded-figures-How-the-COVID-19-pandemic-might-actually-be-playing-out.html)
 
 Caley, et al. (2008), *"Quantifying social distancing arising from pandemic influenza,"* **Journal of the Royal Society Interface**.
 
-Christoph and Gunther (2020), *"Tracing contacts to control covid 19 pandemic,"* 
+Christoph and Gunther (2020), *"Tracing contacts to control covid 19 pandemic,"*
 **Arxiv**.
 
 Dewatripont, M., M. Goldman, E. Muraille and J.-P. Platteau (2020), *“Rapidly identifying workers who are immune to COVID-19 and virus-free is a priority for restarting the economy”,* **VoxEU.org, 23 March**.

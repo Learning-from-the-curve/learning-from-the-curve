@@ -16,7 +16,7 @@ category: epidemic-models
 
 -------------------------------------
 
-As explained in a previous post [COVID-SIR](https://learning-from-the-curve.github.io/epidemic-models/2020/04/13/COVID-SIR.html#cap1), epidemiologists have very performant models to understand the evolution of an epidemic. Probably the best known is the so-called
+As explained in a previous post [COVID-SIR](https://learning-from-the-curve.netlify.app/epidemic-models/2020/04/13/COVID-SIR.html#cap1), epidemiologists have very performant models to understand the evolution of an epidemic. Probably the best known is the so-called
 
 $$ SIR: \bf{Susceptible} \rightarrow \bf{Infected} \rightarrow \bf{Removed} $$
 

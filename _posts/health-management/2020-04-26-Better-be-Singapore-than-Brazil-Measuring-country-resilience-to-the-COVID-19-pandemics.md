@@ -40,7 +40,7 @@ Looking at how the number of infections is expanding, and comparing **within**�
 
 Of course, the pandemic is only a few weeks old, which means that those differences may soon evolve and change. Likewise, the recording of cases may make the current comparison at best noisy, at worse, rather inadequate. **But still, countries with large number of COVID-19 tests, such as South Korea, Singapore or Norway, have recorded a more controlled growth of their fatalities to date, and we have shown elsewhere that countries matching South Korea performance in test intensity may be curbing by HALF the new Coronavirus cases** as infected people can be easily identified and put in quarantine, before contaminating other fellow citizens.[^1]
 
-[^1]: See [The Western world should urgently play the "Asian smart"​ route to control the COVID-19, Jacques Bughin.](https://learning-from-the-curve.github.io/health-management/2020/04/25/The-Western-world-should-urgently-play-the-Asian-smart-route-to-control-the-COVID-19.html)
+[^1]: See [The Western world should urgently play the "Asian smart"​ route to control the COVID-19, Jacques Bughin.](https://learning-from-the-curve.netlify.app/health-management/2020/04/25/The-Western-world-should-urgently-play-the-Asian-smart-route-to-control-the-COVID-19.html)
 
 ### 2. How are countries exposed? <a name="cap2"></a>
 

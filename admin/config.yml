@@ -2,10 +2,110 @@ backend:
     name: git-gateway
     branch: master # Branch to update (optional; defaults to master)
 
+publish_mode: editorial_workflow
+future: true
+
 media_folder: 'assets/images/uploads'
+
 collections:
-    - name: 'blog'
-      label: 'Blog'
-      folder: '_posts/'
-      fields:
-        - { name: Title }
+
+  - name: 'daily-updates-blog'
+    label: 'Daily Updates Blog'
+    folder: '_posts/daily-updates'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'daily-updates' }
+
+  - name: 'epidemic-models-blog'
+    label: 'Epidemic Models Blog'
+    folder: '_posts/epidemic-models'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'epidemic-models' }
+
+  - name: 'health-management-blog'
+    label: 'Health Management Blog'
+    folder: '_posts/health-management'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'health-management' }
+
+  - name: 'opinions-blog'
+    label: 'Opinions Blog'
+    folder: '_posts/opinions'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'opinions' }
+
+  - name: "page"
+    label: "Pages"
+    folder: "_pages"
+    create: true
+    slug: ".md"
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'default' }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", required: false }
+  
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "main"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Url, name: url, widget: string}
+              - {label: Icon, name: icon, widget: string}
+              - label: "Navigation Children"
+                name: "children"
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Url, name: url, widget: string}
+                  - {label: Icon, name: icon, widget: string}
+      - label: "Team Members"
+        name: "team-members"
+        file: "_data/team_members.yml"
+        fields:
+          - label: "Member"
+            name: "main"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: string}
+              - {label: ID, name: id, widget: number}
+              - {label: "Photo", name: "photo_src", widget: "string"}
+              - {label: "Github", name: "github", widget: "string", required: false}
+              - {label: "Linkedin", name: "linkedin", widget: "string", required: false}
+              - {label: "Twitter", name: "twitter", widget: "string", required: false}
+              - {label: "Website", name: "website", widget: "string", required: false}
+              - {label: "Email", name: "email", widget: "string", required: false}
+              - {label: "Bio", name: "description", widget: "text", required: false}

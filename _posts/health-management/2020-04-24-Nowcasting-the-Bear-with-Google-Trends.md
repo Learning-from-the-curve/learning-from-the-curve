@@ -17,7 +17,7 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 -------------------------------------
 
-The stock market has taken a major downbeat again on this day, possibly as the result from fear mounting that COVID-19 is more difficult than imagine to contain in short time, further leading to inevitable sanitary risks, and breakdown of aggregate demand. Looking like I did in [my previous article on Google trends](https://learning-from-the-curve.github.io/health-management/2020/04/24/People-do-react-to-the-COVID-19-pandemic-nowcasting-behavioral-changes-through-Google-searches.html), five points are becoming clear:
+The stock market has taken a major downbeat again on this day, possibly as the result from fear mounting that COVID-19 is more difficult than imagine to contain in short time, further leading to inevitable sanitary risks, and breakdown of aggregate demand. Looking like I did in [my previous article on Google trends](https://learning-from-the-curve.netlify.app/health-management/2020/04/24/People-do-react-to-the-COVID-19-pandemic-nowcasting-behavioral-changes-through-Google-searches.html), five points are becoming clear:
 
 <!--more-->
 

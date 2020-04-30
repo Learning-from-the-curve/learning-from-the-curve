@@ -2,7 +2,7 @@
 layout: home
 title: Learning from the curve
 ---
-This page contains various blogs and articles on COVID-19 and economics, a joint effort of the [Learning from the curve team](https://learning-from-the-curve.github.io/about/) at [ECARES](https://ecares.ulb.be/), [Solvay](https://www.solvay.edu/en/), [ULB](https://www.ulb.be/).
+This page contains various blogs and articles on COVID-19 and economics, a joint effort of the [Learning from the curve team](https://learning-from-the-curve.netlify.app/about/) at [ECARES](https://ecares.ulb.be/), [Solvay](https://www.solvay.edu/en/), [ULB](https://www.ulb.be/).
 
 There are currently three series of articles:
 
