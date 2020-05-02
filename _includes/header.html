@@ -22,7 +22,7 @@
           {% if link.children %}
             <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="{{ domain }}{{ link.url }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="{{ domain | relative_url }}{{ link.url }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="{{ link.icon }}"></i> {{ link.title }}
               </a>
 
@@ -33,7 +33,7 @@
                   {% else %}
                     {% assign domain = site.url | append: site.baseurl %}
                   {% endif %}
-                  <a class="dropdown-item" href="{{ domain }}{{ child.url }}"><i class="{{ child.icon }}"></i> {{ child.title }}</a>
+                  <a class="dropdown-item" href="{{ domain | relative_url }}{{ child.url }}"><i class="{{ child.icon }}"></i> {{ child.title }}</a>
                 {% endfor %}
               </div>
               
@@ -43,7 +43,7 @@
 
           <li class="nav-item">
 
-            <a class="nav-link" href="{{ domain }}{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
+            <a class="nav-link" href="{{ domain | relative_url }}{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
 
           </li>
           
