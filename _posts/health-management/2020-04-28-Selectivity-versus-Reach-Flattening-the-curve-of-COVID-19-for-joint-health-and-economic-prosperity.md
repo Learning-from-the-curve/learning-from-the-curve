@@ -523,9 +523,9 @@ Brahmbhatt and Dutta, (2008), *"On SARS type of economic effects during infectio
 
 Brauer, M. (2019), *"Early estimates of epidemic final sizes,"* **Journal of Biological Dynamics**.
 
-Bughin, J. (2020), [Why we must protect our heathcare workfoce during COVID-19.](https://learning-from-the-curve.netlify.app/health-management/2020/04/25/Why-we-must-protect-the-healthcare-workforce-during-COVID-19.html)
+Bughin, J. (2020), [Why we must protect our heathcare workfoce during COVID-19.](https://www.learningfromthecurve.com/health-management/2020/04/25/Why-we-must-protect-the-healthcare-workforce-during-COVID-19.html)
 
-Bughin, J. (2020), [Beyond the recorded figures: How the COVID-19 pandemic might actually be playing out.](https://learning-from-the-curve.netlify.app/health-management/2020/04/27/Beyond-the-recorded-figures-How-the-COVID-19-pandemic-might-actually-be-playing-out.html)
+Bughin, J. (2020), [Beyond the recorded figures: How the COVID-19 pandemic might actually be playing out.](https://www.learningfromthecurve.com/health-management/2020/04/27/Beyond-the-recorded-figures-How-the-COVID-19-pandemic-might-actually-be-playing-out.html)
 
 Caley, et al. (2008), *"Quantifying social distancing arising from pandemic influenza,"* **Journal of the Royal Society Interface**.
 
