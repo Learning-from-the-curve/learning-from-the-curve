@@ -55,7 +55,7 @@ The long-term impact is important indeed, but the evidence suggests that on aver
 
 Hence, in a recent post,[^1] we calibrated a model of COVID infections, taking into account the emerging consensus about epidemiologic data linked to COVID-19 on welfare. The estimates related to two experiments, one with no containment, whereby one is aiming for herd immunity (a strategy followed by some countries such as Sweden and the Netherlands), and the other where countries are taking major containment measures to be able to flatten the curve of the epidemic, and get health system to support the sick (happening in close to half of countries to date).
 
-[^1]: See [COVID-19 requires a massive recovery plan to stay on our welfare growth trajectory](https://learning-from-the-curve.netlify.app/health-management/2020/04/29/COVID-19-requires-a-massive-recovery-plan-to-stay-on-our-welfare-growth-trajectory.html)
+[^1]: See [COVID-19 requires a massive recovery plan to stay on our welfare growth trajectory](https://www.learningfromthecurve.com/health-management/2020/04/29/COVID-19-requires-a-massive-recovery-plan-to-stay-on-our-welfare-growth-trajectory.html)
 
 Five messages are emerging from this work, when toying again with the data.
 

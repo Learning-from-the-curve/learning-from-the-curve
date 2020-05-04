@@ -21,7 +21,7 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 #### **March 3**
 
-In [yesterday’s companion article](https://learning-from-the-curve.netlify.app/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html), I have mixed the ranges of values of three key fundamental drivers of pandemic development, based on data collected from academic studies and international health organizations such as the WHO, to derive a possible distribution of global fatalities arising from the diffusion of COVID-19 virus. The outcome is that the **potential** of fatalities has a mode at 20 million people worldwide, with a standard deviation of 5 million, or a pandemic more than tenfold the severity of a flu pandemic, **if COVID-19 is able to continue its curse freely.  History of self-protection and health policy has usually been able to curb pandemics, even if more difficulty with viruses like new forms of H1N1 influenza. Assuming same success rates as in the past, the actual pandemic may take a toll of 2 to 4 million lives worldwide.**
+In [yesterday’s companion article](https://www.learningfromthecurve.com/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html), I have mixed the ranges of values of three key fundamental drivers of pandemic development, based on data collected from academic studies and international health organizations such as the WHO, to derive a possible distribution of global fatalities arising from the diffusion of COVID-19 virus. The outcome is that the **potential** of fatalities has a mode at 20 million people worldwide, with a standard deviation of 5 million, or a pandemic more than tenfold the severity of a flu pandemic, **if COVID-19 is able to continue its curse freely.  History of self-protection and health policy has usually been able to curb pandemics, even if more difficulty with viruses like new forms of H1N1 influenza. Assuming same success rates as in the past, the actual pandemic may take a toll of 2 to 4 million lives worldwide.**
 
 <!--more-->
 
@@ -48,7 +48,7 @@ Two other side messages are also in order:
 
 -------------------------------------
 
-**Curbing a pandemic is a game of scaling actions.** Consider that in the case of the current drivers of COVID-19, the actual \\(R_0\\) is indeed like 1.9, as per our high-level simulation in the [previous post](https://learning-from-the-curve.netlify.app/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html). At this level, a vaccine that protects the population is easy to compute as:
+**Curbing a pandemic is a game of scaling actions.** Consider that in the case of the current drivers of COVID-19, the actual \\(R_0\\) is indeed like 1.9, as per our high-level simulation in the [previous post](https://www.learningfromthecurve.com/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html). At this level, a vaccine that protects the population is easy to compute as:
 
 $$ V = 1 -\frac{1}{R_0} $$
 
@@ -78,7 +78,7 @@ An important driver of the fatality rate evolution is how well one manages to li
 
 #### **Spotting and controlling super-spreaders**
 
-Consider now the super-spreaders. As said in my [previous article](https://learning-from-the-curve.netlify.app/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html), super-spreading is a natural outcome of many viruses. Typically, super-spreaders in the population obey a power law like Pareto where the top 20% of population accounts for 80% of the contamination.
+Consider now the super-spreaders. As said in my [previous article](https://www.learningfromthecurve.com/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html), super-spreading is a natural outcome of many viruses. Typically, super-spreaders in the population obey a power law like Pareto where the top 20% of population accounts for 80% of the contamination.
 
 In the case of influenza viruses, we have a less skewed distribution of contribution, where the top 20% is more likely accountable for 40% to 65%, average 55% of the contamination. In such an average case, an individual in the top 20% of the population will be about 7 times more amenable to social contagion than someone in the other 80% of population. With a population average of reproduction rate at \\(R_0=1.9\\) (our best case for COVID-19 to date), the contribution rate of the top 20% is 6 (each person contaminates 6), while it is more like 0.9 for the bottom 80% (each person contaminates less than 1).
 
