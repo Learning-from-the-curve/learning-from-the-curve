@@ -24,7 +24,7 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 The risk of a viral outbreak turning into a pandemic has become a reality for COVID-19, affecting to date more than hundred countries, and with a large concentration of known contaminated people in China, Italy, Iran and South Korea among others. People stress might remain imminent, as pharmaceutical responses, (be it an antiviral method for infected individuals, or be it a new type of vaccines), are largerly absent, or will take months to be developed.
 
-As we discussed in previous articles (available [here](https://www.learningfromthecurve.com/health-management/)), it is rather crucial **to act fast**, due to large attack rates linked to influenza type of viruses. In fact, we have estimated form our own model of viral diffusion that **one to two weeks delay in acting may easily create a multiple  increase in the rate of the virus fatalities, a few weeks later**.
+As we discussed in previous articles (available [here](https://learning-from-the-curve.netlify.app/health-management/)), it is rather crucial **to act fast**, due to large attack rates linked to influenza type of viruses. In fact, we have estimated form our own model of viral diffusion that **one to two weeks delay in acting may easily create a multiple  increase in the rate of the virus fatalities, a few weeks later**.
 
 <!--more-->
 
@@ -89,7 +89,7 @@ During serious influenza, like H1N1, or a COVID-19 type, the rate of absence not
 
 #### **Limit close contacts**
 
-We already mentioned in a [previous article](https://www.learningfromthecurve.com/health-management/2020/04/22/Time-to-use-effective-tricks-to-limit-social-contagion-of-the-COVID-19.html) that one key driver of mitigating a pandemic, is through a reduction of contacts, so called social distancing. Major policies enforcements exist for this, such as work or school closure, but there might be more subtle and focused cases when the outbreak is still manageable (e.g. avoiding large, close, gathering festivities for example), and people might themselves change their own behavior.  In the case of the current China outbreak, for example, Chinese people are privileging **the use of more digital life styles, instead of face to face social interactions, while a large part of people stop going out, to restaurants, or stop travelling**.[^7]
+We already mentioned in a [previous article](https://learning-from-the-curve.netlify.app/health-management/2020/04/22/Time-to-use-effective-tricks-to-limit-social-contagion-of-the-COVID-19.html) that one key driver of mitigating a pandemic, is through a reduction of contacts, so called social distancing. Major policies enforcements exist for this, such as work or school closure, but there might be more subtle and focused cases when the outbreak is still manageable (e.g. avoiding large, close, gathering festivities for example), and people might themselves change their own behavior.  In the case of the current China outbreak, for example, Chinese people are privileging **the use of more digital life styles, instead of face to face social interactions, while a large part of people stop going out, to restaurants, or stop travelling**.[^7]
 
 [^7]: See [https://www.bloomberg.com/press-releases/2020-03-04/westwin-research-shows-how-chinese-consumer-behavior-changed-as-a-result-of-the-coronavirus-COVID-19-outbreak](https://www.bloomberg.com/press-releases/2020-03-04/westwin-research-shows-how-chinese-consumer-behavior-changed-as-a-result-of-the-coronavirus-COVID-19-outbreak)
 
@@ -121,7 +121,7 @@ Mask usage is not that frequent in our population. In the curse of recent, mild,
 
 [^9]: See MacIntyre et al., 2009, *Face mask use and control of respiratory virus transmission in households*, **Emerging infectious diseases**.
 
-Taking a rough average of extra protection use of masks out those studies, and the fact that roughly 30% to 40% of infections occur in communities/houses (see my [previous post](https://www.learningfromthecurve.com/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html)), we can compute the following effects of mask usage:
+Taking a rough average of extra protection use of masks out those studies, and the fact that roughly 30% to 40% of infections occur in communities/houses (see my [previous post](https://learning-from-the-curve.netlify.app/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html)), we can compute the following effects of mask usage:
 
 $$ \frac{dR_t}{dt} = 2.5\% + 50\%\times(attack\ rate) $$
 
