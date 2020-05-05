@@ -22,7 +22,7 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 #### **March 7**
 
-In a series of post articles (available [here](https://www.learningfromthecurve.com/health-management/)), I recently made the point that, under a no containment scenario, COVID-19 may bring a) millions of fatalities worldwide, b) as well as significant damage to economies, as result of a negative worldwide spiral of reduction in demand and supply.
+In a series of post articles (available [here](https://learning-from-the-curve.netlify.app/health-management/)), I recently made the point that, under a no containment scenario, COVID-19 may bring a) millions of fatalities worldwide, b) as well as significant damage to economies, as result of a negative worldwide spiral of reduction in demand and supply.
 
 COVID-19 went recognized at the end of December 2019, when a Wuhan hospital admitted four individuals from the Seafood Market. Given the exponential contagion during  the outbreak as it was also discovered at the start of the epidemic at Hunan for the COVID-19, there has been an absolute case that warrants to act fast (that is, before the take off of the exponential), as well as at scale, (so that the contagion becomes non self-reproducing). The good news is that the world has been facing many epidemics, and has learned a set of critical actions to curb the diffusion of many diseases, such as Ebola, SARS and others.
 
@@ -46,7 +46,7 @@ Based on current numbers and the actions taken by China, and in other European c
 
 -------------------------------------
 
-A pandemic's size, speed, and risk depend on the  level and spread of population clusters’ reproduction rate, incubation and contagious period, and fatality rate (see my [previous article](https://www.learningfromthecurve.com/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html)). On the positive side for COVID-19, the virus seems to exhibit a strong, but not exceptional high level of the reproduction rate, called \\(R_0\\), (\\(R_0\\) is in the range of 2 for the whole of China, estimated from data january to February, and about 2.7 for same period in the Hubei region). But on the negative side, the virus has a material fatality rate (we estimate between 0.5% to 2%) versus a typical flu, as well as exhibits a possibly less concentrated distribution of social contagion than other viral diseases.
+A pandemic's size, speed, and risk depend on the  level and spread of population clusters’ reproduction rate, incubation and contagious period, and fatality rate (see my [previous article](https://learning-from-the-curve.netlify.app/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html)). On the positive side for COVID-19, the virus seems to exhibit a strong, but not exceptional high level of the reproduction rate, called \\(R_0\\), (\\(R_0\\) is in the range of 2 for the whole of China, estimated from data january to February, and about 2.7 for same period in the Hubei region). But on the negative side, the virus has a material fatality rate (we estimate between 0.5% to 2%) versus a typical flu, as well as exhibits a possibly less concentrated distribution of social contagion than other viral diseases.
 
 #### **Changing \\(R_t\\):the underlying maths and case study**
 
