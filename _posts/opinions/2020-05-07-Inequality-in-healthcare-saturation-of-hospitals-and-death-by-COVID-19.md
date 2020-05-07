@@ -30,9 +30,17 @@ more severely.
 
 Although these correlations do not necessarily unveil causal relationships, our results provide preliminary evidence of a non-linear positive link between ICUs saturation and deaths by COVID-19. Our findings hold even when considering the new IC beds built with great effort in the last weeks (result not shown here). If the causal nature of these associations is confirmed and in view of a potential second wave of COVID-19, then investing in ICUs and hospital equipment could contribute to reduce the lethality of the disease. Given the lower number of IC beds per capita in the South than in the North of Italy, due also to new equipment having being built in the last weeks in more severely hit regions, our results suggest that the cost in terms of human lives in the South would be dramatically higher than in the North shall the second wave of COVID-19 hit with equal severity across the national territory. Moreover, our study provides evidence in favor of policies directed to the relocation of patients from extremely to mildly saturated regions.
 
+**Figure**
+
+![](/assets/images/Opinions/Inequality-in-healthcare-saturation-of-hospitals-and-death-by-COVID-19/total.png)
+
+<small><i>Note: </i>Deaths is the total number of deaths by COVID-19 as of April 30, 2020. ICU beds is the total number of beds in ICUs in 2018. Variables in per-100-infected terms are divided by the total number of infected times 100.</small>
+
+<small><i>Data source</i> Protezione Civile (Deaths and infected by COVID-19); Ministry of Health (ICU beds).</small>
+
 **Table 1: Balance Test**
 
-<table class='table table-bordered table-dark table-hover'>
+<table class='table table-hover'>
     <thead>
         <tr>
             <th scope='col'></th>
@@ -97,7 +105,7 @@ Although these correlations do not necessarily unveil causal relationships, our 
         </tr>
         <tr>
             <th scope= 'row'>Observations</th>
-            <td colspan='4'>20</td>
+            <td colspan='4' style="text-align:center">20</td>
         </tr>
     </tbody>
 </table>
@@ -107,15 +115,15 @@ Although these correlations do not necessarily unveil causal relationships, our 
 
 **Table 2: Table**
 
-<table class='table table-bordered table-hover'>
+<table class='table table-hover'>
     <thead>
         <tr>
             <th scope='col'></th>
-            <th colspan='4'>Deaths per 100 infected</th>
-            <th colspan='4'>Deaths per infected in ICU</th>
+            <th colspan='4' style="text-align:center">Deaths per 100 infected<hr></th>
+            <th colspan='4' style="text-align:center">Deaths per infected in ICU<hr></th>
         </tr>
         <tr>
-            <th scope='col'></th>
+            <th scope='row'></th>
             <th>(1)</th>
             <th>(2)</th>
             <th>(3)</th>
