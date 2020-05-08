@@ -9,8 +9,8 @@ main:
   - title: "Health Management"
     url: /health-management/
     icon: "fas fa-laptop-medical"
-  - title: "Opinions"
-    url: /opinions/
+  - title: "Articles"
+    url: /articles/
     icon: "fas fa-comment-dots"
   - title: "About"
     url: /about/

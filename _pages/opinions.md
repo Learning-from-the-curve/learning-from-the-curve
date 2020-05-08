@@ -1,6 +1,6 @@
 ---
-layout: home-Opinions
-title: "Opinions"
-category: opinions
-permalink: /opinions/
+layout: home-Articles
+title: "Articles"
+category: articles
+permalink: /articles/
 ---
