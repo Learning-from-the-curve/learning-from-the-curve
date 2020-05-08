@@ -2,7 +2,7 @@
 layout: post
 title: "Inequality in healthcare: saturation of hospitals and death by COVID-19"
 date: 2020-05-07 12:00:00 +0200
-category: opinions
+category: articles
 ---
 
 **Authors:** Stefano Falcone ([ECARES](https://ecares.ulb.be/?option=com_content&task=view&id=136&Itemid=95); [Université Libre de Bruxelles](https://www.ulb.be/); e-mail: Stefano.Falcone@ulb.be) and Elisa Navarra ([ECARES](https://ecares.ulb.be/?option=com_content&task=view&id=136&Itemid=95); [Université Libre de Bruxelles](https://www.ulb.be/); e-mail: Elisa.Navarra@ulb.be).[^1]
@@ -32,7 +32,7 @@ Although these correlations do not necessarily unveil causal relationships, our 
 
 **Figure**
 
-![](/assets/images/Opinions/Inequality-in-healthcare-saturation-of-hospitals-and-death-by-COVID-19/total.png)
+![](/assets/images/Articles/Inequality-in-healthcare-saturation-of-hospitals-and-death-by-COVID-19/total.png)
 
 <small><i>Note: </i>Deaths is the total number of deaths by COVID-19 as of April 30, 2020. ICU beds is the total number of beds in ICUs in 2018. Variables in per-100-infected terms are divided by the total number of infected times 100.</small>
 

@@ -9,18 +9,6 @@ media_folder: 'assets/images/uploads'
 
 collections:
 
-  - name: 'daily-updates-blog'
-    label: 'Daily Updates Blog'
-    folder: '_posts/daily-updates'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Category', name: 'category', widget: 'hidden', default: 'daily-updates' }
-
   - name: 'epidemic-models-blog'
     label: 'Epidemic Models Blog'
     folder: '_posts/epidemic-models'
@@ -45,9 +33,9 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Category', name: 'category', widget: 'hidden', default: 'health-management' }
 
-  - name: 'opinions-blog'
-    label: 'Opinions Blog'
-    folder: '_posts/opinions'
+  - name: 'articles-blog'
+    label: 'Articles Blog'
+    folder: '_posts/articles'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
@@ -55,7 +43,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Category', name: 'category', widget: 'hidden', default: 'opinions' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'articles' }
 
   - name: "page"
     label: "Pages"

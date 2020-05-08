@@ -2,7 +2,7 @@
 layout: post
 title: The wanderings of Coronavirus
 date: 2020-04-21 22:00:00 +0100
-category: opinions
+category: articles
 ---
 
 [Victor Ginsburgh](https://sites.google.com/view/victor-ginsburgh)
