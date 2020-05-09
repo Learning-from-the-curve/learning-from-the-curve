@@ -27,9 +27,21 @@ To further investigate the heterogeneity of the correlation, in columns (3)-(4) 
 
 Although these correlations do not necessarily unveil causal relationships, our results provide preliminary evidence of a non-linear positive link between ICUs saturation and deaths by COVID-19. Our findings hold even when considering the new IC beds built with great effort in the last weeks (result not shown here). If the causal nature of these associations is confirmed and in view of a potential second wave of COVID-19, then investing in ICUs and hospital equipment could contribute to reduce the lethality of the disease. Given the lower number of IC beds per capita in the South than in the North of Italy, due also to new equipment having being built in the last weeks in more severely hit regions, our results suggest that the cost in terms of human lives in the South would be dramatically higher than in the North shall the second wave of COVID-19 hit with equal severity across the national territory. Moreover, our study provides evidence in favor of policies directed to the relocation of patients from extremely to mildly saturated regions.
 
-**Figure**
+<iframe width="100%" height="700" frameborder="0" scrolling="no" src="//plotly.com/~FedeGall/5.embed?link=false"></iframe>
 
-![](/assets/images/Articles/Inequality-in-healthcare-saturation-of-hospitals-and-death-by-COVID-19/total.png)
+Linear Model<br>
+\\(\text{Deaths (per 100 infected)} = \alpha + \beta\ \text{IC beds (per 100 infected)} + \epsilon\\)<br>
+\\(\beta = -0.51\\)<br>
+\\(SE(\beta) = 0.11\\)<br>
+\\(\text{Average Deaths (per 100 infected)} = 10.07\\)
+
+<iframe width="100%" height="700" frameborder="0" scrolling="no" src="//plotly.com/~FedeGall/3.embed?link=false"></iframe>
+
+Linear Model<br>
+\\(\text{Deaths (per infected in ICU)} = \alpha + \beta \text{IC beds (per infected in ICU)} + \epsilon\\)<br>
+\\(\beta = -0.64\\)<br>
+\\(SE(\beta) = 0.31\\)<br>
+\\(\text{Average Deaths (per infected in ICU)} = 4.24\\)
 
 <small><i>Note: </i>Deaths is the total number of deaths by COVID-19 as of April 30, 2020. ICU beds is the total number of beds in ICUs in 2018. Variables in per-100-infected terms are divided by the total number of infected times 100.</small>
 
