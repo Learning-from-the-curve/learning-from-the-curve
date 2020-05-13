@@ -22,7 +22,7 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 
 #### **March 4**
 
-My two recent articles (available [here](https://learning-from-the-curve.netlify.app/health-management/)) have tried to make the case that
+My two recent articles (available [here](https://www.learningfromthecurve.net/health-management/)) have tried to make the case that
 
 - The Covid-19 outbreak might be serious. The Covid-19 looks like it behaves as a **global hitter**, -- not a serial **killer** like the 1918 Spanish influenza pandemics that killed tens of millions of people, but likely a bug that is an order of magnitude, - more than ten times -, what we know from the flu.
 - **There is a plausible scenario for reducing its risk, but a way to curb it to level of a severe flu will require a significant set of actions at scale, delivered with speed and agility, and with cooperation to population.**
@@ -224,7 +224,7 @@ Typically, we have witnessed such a material drop in recent weeks on the stock m
 
 Clearly, the insight from the simulation is that if Covid-19 is free to diffuse, not only the human costs will be high (tens of millions of deaths) as will be the economic costs, implying in all logic, a possible recession.
 
-In a [separate post](https://learning-from-the-curve.netlify.app/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html) I mentioned a set of levers and actions, and the need for speed and agility to implement them at a global level. What is critical is both to identify and block super-spreaders, to limit false negatives in the virus infection, and to stop any new node of the virus deployment, mostly by major social distancing, quarantines, and closure of social spaces for a few weeks/month(s-) at work, at school, etc. If this works, and reduces the reproduction rate by 0.5% people, and if fatality rate is reduced by 50%, the total GDP effect may come down from 4.5%-6.5% effect to 1 to 2%, or a gain of 2 to 3 trillion US dollars a year.
+In a [separate post](https://www.learningfromthecurve.net/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html) I mentioned a set of levers and actions, and the need for speed and agility to implement them at a global level. What is critical is both to identify and block super-spreaders, to limit false negatives in the virus infection, and to stop any new node of the virus deployment, mostly by major social distancing, quarantines, and closure of social spaces for a few weeks/month(s-) at work, at school, etc. If this works, and reduces the reproduction rate by 0.5% people, and if fatality rate is reduced by 50%, the total GDP effect may come down from 4.5%-6.5% effect to 1 to 2%, or a gain of 2 to 3 trillion US dollars a year.
 
 Leveraging the cost estimate at the world bank (Jonas, 2013, Pandemic risk, World Bank) as well as community studies led by Joel Kelso and colleagues (see *Kelso et al.  2013 Economic analysis of pandemic influenza mitigation strategies for five pandemic severity categories. BMC Public Health*; and *Milne et al, 2013,  The cost effectiveness of pandemic influenza interventions: A pandemic severity based analysis. PLoS ONE*), the fully loaded disruptive costs of avoiding affection might be less than  1 to 2 trillion, enough to suggest a positive return of investment.  
 
