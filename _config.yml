@@ -18,7 +18,7 @@ email: glenn.magerman@ulb.ac.be
 description: >- # this means to ignore newlines until "baseurl:"
   An open source research project on COVID19 and economics. A collaboration between academics to reach out to policy makers and the general public.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.learningfromthecurve.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.learningfromthecurve.net" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 

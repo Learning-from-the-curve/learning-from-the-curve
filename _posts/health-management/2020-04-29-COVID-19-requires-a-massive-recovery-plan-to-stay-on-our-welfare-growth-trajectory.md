@@ -45,7 +45,7 @@ By looking through this lens, **high level figures suggest that welfare may be s
 
 There have been some measures of how pandemics may depress GDP growth. Mild effects results in a decline of 0.8% to 1.5% in a year, but can quickly build up to 3% to 5% decline, for major pandemics.[^1]
 
-[^1]: [See recent post](https://learning-from-the-curve.netlify.app/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html).
+[^1]: [See recent post](https://www.learningfromthecurve.net/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html).
 
 GDP however may fall short of many impacts to welfare. Forced unemployment, inequality in containment measures, or still mortality risks, are some of the major factors affecting living standards that are incorporated imperfectly, if at all, in GDP. We leverage work by Jones & Klenow, (2016) to define welfare change as an evolution of consumption equivalent. In particular, under its simplified version, the relative change in Welfare due to the COVID-19 pandemic, noted by \\(D(W)\\), is the sum of relative change, \\(D\\), in healthy life expectations \\(EL\\), and of change in certainty equivalent income \\(D(CI)\\), or:
 
@@ -109,7 +109,7 @@ How do we get to those findings? Consider the non containment case and no reboun
 
 - \\(D(EL) = -3.8\%\\); There is a reduction of 2.0% of healthy time (35% of people with symptomatic infections, of which 80% sick for 15 days, and 20% sick for 20 days as more severe cases), as well as a reduction of 1.8% due to death, and under the hospital constraint significantly binding.
 
-- \\(D(I) = -3.2\%\ to\ -5.5\%\\); ([As per previous blogs](https://learning-from-the-curve.netlify.app/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html))
+- \\(D(I) = -3.2\%\ to\ -5.5\%\\); ([As per previous blogs](https://www.learningfromthecurve.net/health-management/2020/04/20/A-20-million-lives-pay-off-how-to-curb-the-effects-of-the-COVID-19-pandemic.html))
 
 - \\(-s(I)= -3.5\%\\); We use here a set of triangulations for this figure. First, we use the findings by Baker et, al. (2020) which calibrate a model of economic growth based on implied volatilities in consumer sentiments and from the stock market VIX, that concludes to a volatility depressing economic activity by about 5% in one year in the US, including shutdown. Second, we use change in perception of personal economic situation based on perception on the severity of the COVID-19 outbreak, as computed by Fetzer et al. (2020). There is 0.16 standard deviation of percent income depression for the group feeling that COVID-19 is severe versus the other group that feels it is mild, thus \\(-\frac{s}{I} = -\frac{0.16}{5} = -3.5\%\\).
 

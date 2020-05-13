@@ -7,7 +7,7 @@ category: articles
 
 **Authors:** Stefano Falcone ([ECARES](https://ecares.ulb.be/?option=com_content&task=view&id=136&Itemid=95); [Université Libre de Bruxelles](https://www.ulb.be/); e-mail: Stefano.Falcone@ulb.be) and Elisa Navarra ([ECARES](https://ecares.ulb.be/?option=com_content&task=view&id=136&Itemid=95); [Université Libre de Bruxelles](https://www.ulb.be/); e-mail: Elisa.Navarra@ulb.be).[^1]
 
-[^1]: We thank Glenn Magerman, Federico Gallina and other members of [*Learning from the curve*](https://learning-from-the-curve.netlify.app/about/)
+[^1]: We thank Glenn Magerman, Federico Gallina and other members of [*Learning from the curve*](https://www.learningfromthecurve.net/about/)
 
 The spread of COVID-19 pandemic has put healthcare systems around the world under strain. Is there any relationship between the burden on hospital facilities and the number of deaths by COVID-19?
 
