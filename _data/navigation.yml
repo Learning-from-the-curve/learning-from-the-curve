@@ -1,5 +1,14 @@
 # main links
 main:
+  - title: "Dashboards"
+    url: /
+    children:
+      - title: "All"
+        url: /Dashboards/
+        icon: "fas fa-globe-europe"
+      - title: "World"
+        url: /Dashboards/World-Dashboard/
+        icon: "fas fa-globe-europe"
   - title: "Daily Updates"
     url: /daily-updates/
     icon: "fas fa-chart-bar"
