@@ -9,9 +9,9 @@ main:
       - title: "World"
         url: /Dashboards/World-Dashboard/
         icon: "fas fa-globe-europe"
-#      - title: "Belgium"
-#        url: /Dashboards/Belgium-Dashboard/
-#        icon: "fas fa-flag" 
+      - title: "Belgium"
+        url: /Dashboards/Belgium-Dashboard/
+        icon: "fas fa-flag" 
 #  - title: "Commentaries"
 #    url: /commentaries/
 #    icon: "fas fa-microphone-alt"
