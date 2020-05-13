@@ -5,13 +5,16 @@ main:
     children:
       - title: "All"
         url: /Dashboards/
-        icon: "fas fa-globe-europe"
+        icon: "fas fa-chart-bar"
       - title: "World"
         url: /Dashboards/World-Dashboard/
         icon: "fas fa-globe-europe"
-  - title: "Daily Updates"
-    url: /daily-updates/
-    icon: "fas fa-chart-bar"
+      - title: "Belgium"
+        url: /Dashboards/Belgium-Dashboard/
+        icon: "fas fa-flag" 
+#  - title: "Commentaries"
+#    url: /commentaries/
+#    icon: "fas fa-microphone-alt"
   - title: "Epidemic Models"
     url: /epidemic-models/
     icon: "fas fa-chalkboard-teacher"
