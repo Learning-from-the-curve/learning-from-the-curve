@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div>
+
+  {%- if page.title -%}
+  <header class="text-center">
+    <h1>{{ page.title }}</h1>
+  </header>
+  {%- endif -%}
+
+  <section>
+    {{ content }}
+  </section>
+
+  <div class="card-deck">
+
+    <div class="card">
+      <img src="/assets/images/dashboards/world-from-space.jpg" class="card-img" style="opacity: 0.85;" alt="World from space">
+      <div class="card-img-overlay d-flex">
+        <h2 class="card-title align-self-center mx-auto"><a href="/Dashboards/World-Dashboard" class="text-white stretched-link">World</a></h2>
+      </div>
+    </div>
+<!--
+    <div class="card text-white">
+      <img src="/assets/images/dashboards/belgium-flag-medium.jpg" class="card-img" style="opacity: 0.85;" alt="Belgium Flag">
+      <div class="card-img-overlay d-flex">
+        <h2 class="card-title align-self-center mx-auto"><a href="/Dashboards/Belgium-Dashboard" class="text-white stretched-link">Belgium</a></h2>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>

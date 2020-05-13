@@ -1,8 +1,20 @@
 # main links
 main:
-  - title: "Daily Updates"
-    url: /daily-updates/
-    icon: "fas fa-chart-bar"
+  - title: "Dashboards"
+    url: /
+    children:
+      - title: "All"
+        url: /Dashboards/
+        icon: "fas fa-chart-bar"
+      - title: "World"
+        url: /Dashboards/World-Dashboard/
+        icon: "fas fa-globe-europe"
+#      - title: "Belgium"
+#        url: /Dashboards/Belgium-Dashboard/
+#        icon: "fas fa-flag" 
+#  - title: "Commentaries"
+#    url: /commentaries/
+#    icon: "fas fa-microphone-alt"
   - title: "Epidemic Models"
     url: /epidemic-models/
     icon: "fas fa-chalkboard-teacher"
