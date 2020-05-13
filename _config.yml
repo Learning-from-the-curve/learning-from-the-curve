@@ -31,6 +31,7 @@ copyright: Learning from the curve
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Disqus
 comments: true
