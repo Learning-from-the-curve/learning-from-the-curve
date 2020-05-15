@@ -18,7 +18,7 @@ layout: default
     <!--
     <p class="h2">{{ page.list_title | default: "Posts" }}</p>
     -->
-    <ul class="list-unstyled">
+    <ul class="mt-3 list-unstyled">
       {%- for post in site.posts -%}
       {%- if post.category=="commentaries" -%}
         {%- include post-entry.html -%}
