@@ -3,6 +3,7 @@ layout: home-Health-Management
 title: "Health Management"
 category: health-management
 permalink: /health-management/
+category-icon: "fas fa-laptop-medical"
 ---
 
 ## Making sense of the Covid-19 pandemic

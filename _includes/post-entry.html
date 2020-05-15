@@ -1,20 +1,19 @@
 <li class="media mb-4">
-    <img src="https://via.placeholder.com/64.jpg" class="mr-3" alt="...">
-    <div class="media-body">
-        <a href="{{ post.url | relative_url }}"><h3 class="mt-0">{{ post.title | escape }}</h3></a>
-        <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-                <a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a>    
-            </li>
-            <li class="list-inline-item">
-                <h6 class="text-muted">
-                    {%- assign date_format = "%b %-d, %Y" -%}
-                    {{ post.date | date: date_format }}
-                </h6>
-            </li>  
-        </ul>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
+  <i class="{{ page.category-icon }} fa-2x mr-3" alt="..."></i>
+  <div class="media-body">
+    <a href="{{ post.url | relative_url }}"><h3 class="mt-0">{{ post.title | escape }}</h3></a>
+    <ul class="list-inline mb-0">
+      <li class="list-inline-item">
+        <a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a>    
+      </li>
+      <li class="list-inline-item">
+        <h6 class="text-muted">
+          {%- assign date_format = "%b %-d, %Y" -%}
+          {{ post.date | date: date_format }}
+        </h6>
+      </li>  
+    </ul>
+  </div>
 </li>
 
 <!--
