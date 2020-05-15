@@ -2,16 +2,19 @@
 layout: home
 title: Learning from the curve
 ---
-This page contains various blogs and articles on COVID-19 and economics, a joint effort of the [Learning from the curve team](https://learningfromthecurve.net/about/) at [ECARES](https://ecares.ulb.be/), [Solvay](https://www.solvay.edu/en/), [ULB](https://www.ulb.be/).
+The global spread of the COVID-19 virus is intimidating. In the very short run, the rise of the virus disrupts individual health, health care systems, economic systems and social systems. Governments, institutions and doctors have to act very rapidly, taking into account changes in confirmed cases, deaths, recoveries, capacity of infrastructure, policy decisions etc. At the same time, there is a very large amount of uncertainty: there are reporting lags, there is under-reporting of the number of cases as not everyone is tested, it’s not clear who is infected, we need to account for comorbidity, true mortality rates can only be calculated at the end of the pandemic, etc. However, there is no time to let the uncertainty resolve before taking actions that save lives; actions that in many cases only have an effect in the future, like steering a tanker blindfolded in unknown and unseen waters. It’s also not clear where we will end up after this devastating crisis. Do we revert back to business as usual, do output levels return to their previous levels or do we see systemic breaks with growth paths to new equilibria?
 
-There are currently three series of articles:
+[Learning from the curve](https://learningfromthecurve.net/about/) contains various dashboards and articles on COVID-19 and economics. It is a joint initiative of researchers in economics at [ECARES](https://ecares.ulb.be/), [Solvay](https://www.solvay.edu/en/), [ULB](https://www.ulb.be/).
 
-- **Daily updates:** daily insights on COVID-19 numbers with real-time data for Belgium, EU28 and the world, by Federico Gallina and Glenn Magerman at ECARES.
-- **Epidemic models:** work-horse epidemic spread models with explanation and estimation for Belgium, by Vincenzo Verardi at UNamur and ULB.
-- **Health management:** a series of reflections on COVID-19 and economics, by Jacques Bughin at Solvay and former Mc Kinsey.
-- **Articles:** a collection of articles on COVID-19, including less technical, more philosophical and perhaps lighter, tongue-in-cheek writings on COVID-19.
+- **Dashboards**: visualizations on the COVID-19 outbreak for the world and several individual countries
 
-Each series has its own tag, so you can track the different articles of each series.
-More series of posts on COVID-19 and economics are added progressively.
-We also share data and code on our [Github organization](https://github.com/Learning-from-the-curve).
-Comments and suggestions welcome at [glenn.magerman@ulb.ac.be](mailto:glenn.magerman@ulb.ac.be).
+- **Commentaries**: articles on COVID-19 and economics
+
+- **Epidemic models**: a user-friendly introduction to SIR, the work-horse model of disease spreads, and its variations
+
+- **Health management**: a series of reflections on COVID-19, healthcare and economics
+
+- **Github**: a link to the underlying datasets and codes used on this platform
+
+This is evolving work: more articles and dashboards are added progressively. You can also stay up to date by subscribing to our [RSS feed](https://www.learningfromthecurve.net/feed.xml).
+Comments and suggestions welcome at glenn.magerman@ulb.ac.be.
