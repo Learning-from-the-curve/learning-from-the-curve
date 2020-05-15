@@ -17,4 +17,4 @@ The global spread of the COVID-19 virus is intimidating. In the very short run, 
 - **Github**: a link to the underlying datasets and codes used on this platform
 
 This is evolving work: more articles and dashboards are added progressively. You can also stay up to date by subscribing to our [RSS feed](https://www.learningfromthecurve.net/feed.xml).
-Comments and suggestions welcome at glenn.magerman@ulb.ac.be.
+Comments and suggestions welcome at [glenn.magerman@ulb.ac.be](mailto:glenn.magerman@ulb.ac.be).
