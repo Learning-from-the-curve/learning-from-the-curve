@@ -18,6 +18,20 @@ layout: default
     </div>
   </section>
 
+  {% if site.events.size > 0 %}
+    <div class="card">
+      <div class="card-header">
+        <i class="fas fa-calendar-alt"></i> Events
+      </div>
+      <ul class="list-group list-group-flush">
+        {% for event in site.events limit:3 %}
+          {%- assign date_format = "%b %-d, %Y - %H:%M" -%}
+          <li class="list-group-item"><a href="{{ event.url | relative_url }}">{{ event.title }}</a> | {{ event.event_organizer }} | {{ event.event_date | date: date_format }} ({{ event.event_timezone }})</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
   {%- if site.posts.size > 0 -%}
     <div class="container my-4">
       <div class="row">
