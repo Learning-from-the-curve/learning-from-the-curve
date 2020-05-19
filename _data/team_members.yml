@@ -34,46 +34,53 @@ main:
     photo_src: /assets/images/profile-pics/bruno-carvalho-profile.jpg
     id: 4
 
+  - name: Micael Castanheira
+    role: Contributor
+    email: micael.casta@gmail.com
+    description: "Micael Castanheira (<a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>), Ph.D. is a senior research fellow ('Directeur de Recherche') with <a href='https://www.frs-fnrs.be/fr/' target='blank'>FNRS</a>, the Belgian National Science Foundation. His main research topics include the political economics of collective decisions, reforms, and the economics of the pharmaceutical industry."
+    photo_src: /assets/images/profile-pics/micael-castanheira-profile.jpg
+    id: 5
+
   - name: Bram De Rock
     role: Contributor
     email: bram.de.rock@ulb.be
     description: "Bram De Rock is full professor at the <a href='https://www.ulb.be/' target='blank'>ULB</a> and the <a href='https://www.kuleuven.be/english/' target='blank'>KU Leuven</a>. He is also director of <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>. His research focuses on the impact of household decisions on individual well-being. In 2019 he received the Francqui Prize in human sciences."
     photo_src: /assets/images/profile-pics/bram-de-rock-profile.jpg
-    id: 5
+    id: 6
 
   - name: Mathias Dewatripont
     role: Contributor
     email: mathias.dewatripont@ulb.be
     description: "Mathias Dewatripont is full professor at the <a href='https://www.ulb.be/' target='blank'>ULB</a> and co-director of <a href='http://i3health.eu/' target='blank'>I3H</a>. He is also member of the GEES group advising prime minister WIlmès. His research focuses on contract theory and its applications to a variety of topics including recently in health economics. In 1998 he received the Francqui Prize in human sciences."
     photo_src: /assets/images/profile-pics/mathias-dewatripont-profile.jpg
-    id: 6
+    id: 7
 
   - name: Stefano Falcone
     role: Contributor
     email: falcone89@gmail.com
     description: "I am a PhD candidate in Economics at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>. I am interested in conflict and inequality from an applied micro perspective."
     photo_src: /assets/images/profile-pics/stefano-falcone-profile.jpg
-    id: 7
+    id: 8
     
   - name: Alessandro Gallina
-    role: Web Dev & Design
+    role: Web Dev
     github: https://github.com/alligalli
     linkedin: https://www.linkedin.com/in/alessandro-gallina-b21388188/
     twitter: https://twitter.com/alligalli92
     email: alligallina92@gmail.com
     website: 
-    description: "Degree in Media Studies and Digital Communication. Developer for the Learning From The Curve project. My motto is: 'When you do things right, people won't be sure you've done anything at all.'"
+    description: "Degree in Media Studies and Digital Communication. Developer for the Learning From The Curve project. My favourite quote is: 'When you do things right, people won't be sure you've done anything at all.'"
     photo_src: /assets/images/profile-pics/alessandro-gallina-profile.jpg
-    id: 8
+    id: 9
 
   - name: Federico Gallina
-    role: Contributor
+    role: Team Co-Lead
     github: https://github.com/FedeGall
     email: federico.gallina@ulb.be
     website: 
-    description: 
+    description: "I am a PhD candidate in Economics at [<a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>]. My main research interests are in international trade and European policy."
     photo_src: /assets/images/profile-pics/federico-gallina-profile.jpg
-    id: 9
+    id: 10
 
   - name: Victor Ginsburgh
     role: Contributor
@@ -82,7 +89,7 @@ main:
     website: https://sites.google.com/view/victor-ginsburgh
     description: "Professor em. Université libre de Bruxelles ECARES, Brussels, and CORE, Louvain-la-Neuve."
     photo_src: /assets/images/profile-pics/victor-ginsburgh-profile.jpg
-    id: 10
+    id: 11
 
   - name: Fabrizio Leone
     role: Contributor
@@ -91,7 +98,7 @@ main:
     website: 
     description: "I am a PhD candidate in Economics at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>. In my research I use theoretical and empirical tools to study multinational enterprises and global value chains."
     photo_src: /assets/images/profile-pics/fabrizio-leone-profile.jpg
-    id: 11
+    id: 12
 
   - name: Ilaria Natali
     role: Contributor
@@ -100,7 +107,7 @@ main:
     website:
     description: "I am a Ph.D. candidate at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a> and <a href='http://i3health.eu/' target='blank'>i3health</a> (<a href='https://www.ulb.be/' target='blank'>ULB</a>). My research interests lie at the intersection between Health Economics and Industrial Organization. My research focuses on the socio-economic determinants of drug consumption and on the patients’ and pharmaceutical companies’ responses to national policies aimed at limiting access to certain medications."
     photo_src: /assets/images/profile-pics/ilaria-natali-profile.jpg
-    id: 12
+    id: 13
 
   - name: Elisa Navarra
     role: Contributor
@@ -109,7 +116,7 @@ main:
     website:
     description: "I am a PhD candidate in Economics at [<a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>]. My main research interests are in international trade, firm organization, and European policy."
     photo_src: /assets/images/profile-pics/elisa-navarra-profile.jpg
-    id: 13
+    id: 14
 
   - name: Alberto Palazzolo
     role: Contributor
@@ -118,21 +125,21 @@ main:
     website: 
     description: 
     photo_src: /assets/images/profile-pics/alberto-palazzolo-profile.jpg
-    id: 14
+    id: 15
 
   - name: Marco Pinchetti
     role: Contributor
     email: marcoluca.pinchetti@gmail.com
     description: "Marco is a doctoral researcher at <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, Université Libre de Bruxelles. His research focuses on monetary policy models and the effects of central bank communication on the real economy."
     photo_src: /assets/images/profile-pics/marco-pinchetti-profile.jpg
-    id: 15
+    id: 16
 
   - name: Giorgio Pizzuto
-    role: Backend Dev & Consulting
+    role: Backend Dev
     email: giorgio.pizzuto91@gmail.com
     description: "Degree in Computer Science, backend developer for the Learning From The Curve project."
     photo_src: /assets/images/profile-pics/giorgio-pizzuto-profile.jpg
-    id: 16
+    id: 17
 
   - name: Giang Tran
     role: Contributor
@@ -140,7 +147,7 @@ main:
     website: 
     description: "PhD candidate in <a href='https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics' target='blank'>Economics at Maastricht University</a> and <a href='https://ecares.ulb.be/' target='blank'>ECARES</a>, <a href='https://www.ulb.be/' target='blank'>ULB</a>. My research interests are experimental economics and microeconomic theory."
     photo_src: /assets/images/profile-pics/giang-tran-profile.jpg
-    id: 17
+    id: 18
 
   - name: Vincenzo Verardi
     role: Contributor
@@ -150,4 +157,4 @@ main:
     website:
     description: "Vincenzo Verardi is associate researcher of the <a href='https://www.frs-fnrs.be/fr/' target='blank'>FNRS</a> and teaches econometrics at the <a href='https://www.unamur.be/en' target='blank'>University of Namur</a> and the Université libre de Bruxelles (<a href='https://www.ulb.be/' target='blank'>ULB</a>). His reasearch interests are in applied econometrics."
     photo_src: /assets/images/profile-pics/vincenzo-verardi-profile.jpg
-    id: 18
+    id: 19
