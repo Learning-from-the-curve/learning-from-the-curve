@@ -15,7 +15,7 @@ These are huge numbers: 10-15% of Belgium would have represented 1.1-1.6 million
 
 Besides, among survivors, many hospitalized people would end up being incapacitated for several months, if not up to a year. This could have meant about 10-15% of the working age population in Belgium! Our economy could have collapsed, adding further economic pain and suffering. The dangers of a prolonged recession due to the crippling of our productive capacity must not be underestimated.
 
-We now have more hindsight and, thanks to the latest report by Sciensano (May 15, 2020), we can reassess these numbers. Today, 8'959 people are reported to have lost their life to COVID-19 in Belgium, of which 4’277 died in a hospital. In total, Sciensano reports that 14’301 other people had recovered after hospitalization, and 1’862 are still hospitalized (of which 380 in intensive care). In total more than twenty thousand people needed heavy medical assistance:
+We now have more hindsight and, thanks to the latest report by Sciensano (May 15, 2020), we can reassess these numbers. Today, 8’959 people are reported to have lost their life to COVID-19 in Belgium, of which 4’277 died in a hospital. In total, Sciensano reports that 14’301 other people had recovered after hospitalization, and 1’862 are still hospitalized (of which 380 in intensive care). In total more than twenty thousand people needed heavy medical assistance:
 
 <table class='table table-bordered table-hover'>
     <tbody>
