@@ -9,6 +9,27 @@ media_folder: 'assets/images/uploads'
 
 collections:
 
+  - name: 'commentaries-blog'
+    label: 'Commentaries Blog'
+    folder: '_posts/commentaries'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'team-members.main',
+          displayFields: [name],
+          searchFields: [name],
+          valueField: 'name',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'commentaries' }
+
   - name: 'epidemic-models-blog'
     label: 'Epidemic Models Blog'
     folder: '_posts/epidemic-models'
@@ -45,6 +66,21 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Category', name: 'category', widget: 'hidden', default: 'articles' }
 
+  - name: 'events'
+    label: 'Events'
+    folder: '_events'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Event Date', name: 'event_date', widget: 'datetime' }
+      - { label: 'Event Organizer', name: 'event_organizer', widget: 'string', required: false }
+      - { label: 'Event Timezone', name: 'event_timezone', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'events' }
+
   - name: "page"
     label: "Pages"
     folder: "_pages"
@@ -55,7 +91,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false }
-  
+
   - name: "config"
     label: "Config"
     editor:

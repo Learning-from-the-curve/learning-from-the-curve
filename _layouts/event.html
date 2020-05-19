@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article>
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = "%b %-d, %Y - %H:%M" -%}
+        {{ page.event_date | date: date_format }} ({{ event.event_timezone }})
+      </time>
+    </p>
+  </header>
+
+  <section>
+    <div class="container text-justify justify-content-center">
+      {{ content }}
+    </div>
+  </section>
+
+</article>

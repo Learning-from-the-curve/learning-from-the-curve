@@ -15,37 +15,18 @@ layout: default
   </section>
 
   {%- if site.posts.size > 0 -%}
+    <!--
     <p class="h2">{{ page.list_title | default: "Posts" }}</p>
-    <ul class="list-unstyled">
-      <div class="row">
+    -->
+    <ul class="mt-3 list-unstyled">
       {%- for post in site.posts -%}
       {%- if post.category=="epidemic-models" -%}
-        <div class="col-sm-6">
-          <div class="card rounded shadow-sm mb-4">
-            <div class="card-body">
-              <a href="{{ post.url | relative_url }}"><h3 class="card-title text-center">{{ post.title | escape }}</h3></a>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  {%- assign date_format = "%b %-d, %Y" -%}
-                  {{ post.date | date: date_format }}
-                </h6>
-                {%- if site.show_excerpts -%}
-                  <p class="card-text">{{ post.excerpt }}</p>
-                {%- endif -%}
-                <div class="text-center">
-                  <a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-            <div class="card-footer text-muted">
-              <a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a>
-            </div>
-          </div>
-        </div>
+        {%- include post-entry.html -%}
       {%- endif -%}
       {%- endfor -%}
-      </div>
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
   {%- endif -%}
 
 </div>
