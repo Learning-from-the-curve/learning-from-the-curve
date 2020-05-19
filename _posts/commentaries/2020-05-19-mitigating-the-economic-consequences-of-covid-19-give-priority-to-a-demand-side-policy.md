@@ -9,6 +9,8 @@ category: commentaries
 
 The COVID-19 crisis hit hard both healthcare and economic systems. The objective of this short column is to try and identify how badly the pandemic may damage our long-term productive capacity. While it is clear that it will bring about an extremely deep recession, we argue that the effects will mainly be determined by the demand-side of the economy. This calls for aggressive demand stabilization policies.
 
+<!--more-->
+
 At the onset of the COVID-19 outbreak, a typical estimate of health risks was as follows: about 10-15% of the people getting infected would need heavy medical assistance (hospitalization or close monitoring at home). Those who could not access medical care would face substantial risk of death. Flattening the curve was a necessity to reduce that risk: with access to hospital care, the estimated risk of death would be reduced to about 0.7-1.5%.
 
 These are huge numbers: 10-15% of Belgium would have represented 1.1-1.6 million patients in need of hospitalization. To save lives, a tight lockdown was the only safe option to buy time and organize a more informed policy. Opponents were arguing that 0.7-1.5% risk of death was not much higher than a bad flu strain: why panic? The fundamental difference is the fact that a flu never sends 1.1-1.6 million people to the hospital.
