@@ -8,7 +8,7 @@ layout: default
     <p class="text-muted">
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = "%b %-d, %Y - %H:%M" -%}
-        {{ page.event_date | date: date_format }} ({{ event.event_timezone }})
+        {{ page.event_date | date: date_format }} ({{ page.event_timezone }})
       </time>
     </p>
   </header>
