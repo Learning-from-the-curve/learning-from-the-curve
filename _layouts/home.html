@@ -20,13 +20,11 @@ layout: default
 
   {% if site.events.size > 0 %}
     <div class="card">
-      <div class="card-header">
-        <i class="fas fa-calendar-alt"></i> Events
-      </div>
+      <h4 class="card-header"><i class="fas fa-calendar-alt"></i> Events</h4>
       <ul class="list-group list-group-flush">
         {% for event in site.events limit:3 %}
           {%- assign date_format = "%b %-d, %Y - %H:%M" -%}
-          <li class="list-group-item"><a href="{{ event.url | relative_url }}">{{ event.title }}</a> | {{ event.event_organizer }} | {{ event.event_date | date: date_format }} ({{ event.event_timezone }})</li>
+          <li class="list-group-item"><h5><a href="{{ event.url | relative_url }}">{{ event.title }}</a> | {{ event.event_organizer }} | {{ event.event_date | date: date_format }} ({{ event.event_timezone }})</h5></li>
         {% endfor %}
       </ul>
     </div>
