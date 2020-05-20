@@ -53,6 +53,8 @@ include:
   - _pages
 
 collections:
+  authors:
+    
   events:
     output: true
     permalink: /:collection/:title/
