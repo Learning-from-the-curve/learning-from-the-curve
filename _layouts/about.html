@@ -23,10 +23,11 @@ layout: default
         </div>
     </div>
   </div>
-
+  
+  {%- assign authors_sorted = site.authors | sort:'ids' -%}
   <div class="container">
     <div class="row text-center">
-        {% for member in site.data.team_members.main %}
+        {% for member in authors_sorted %}
         <!-- Team item -->
         <div class="col-xl-3 col-sm-6 mb-5">
             <div class="bg-white rounded shadow-sm pt-5 pb-4 px-4"><img src="{{ member.photo_src }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
@@ -49,17 +50,17 @@ layout: default
                     {% endif %}
                 </ul>
                 {% if member.description %}
-                <div class="accordion" id="accordionBio">
+                <div class="accordion" id="accordion{{ member.ids }}Bio">
                   <div class="card bg-transparent border-0">
-                    <div class="card-header bg-transparent" id="heading{{ member.id }}Bio">
+                    <div class="card-header bg-transparent" id="heading{{ member.ids }}Bio">
                       <h2 class="py-auto mx-auto">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ member.id }}Bio" aria-expanded="false" aria-controls="collapse{{ member.id }}Bio">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ member.ids }}Bio" aria-expanded="false" aria-controls="collapse{{ member.ids }}Bio">
                           <i class="fas fa-user-circle fa-lg"></i> Bio
                         </button>
                       </h2>
                     </div>
                 
-                    <div id="collapse{{ member.id }}Bio" class="collapse" aria-labelledby="heading{{ member.id }}Bio" data-parent="#accordionBio">
+                    <div id="collapse{{ member.ids }}Bio" class="collapse" aria-labelledby="heading{{ member.ids }}Bio" data-parent="#accordion{{ member.ids }}Bio">
                       <div class="card-body">
                         {{ member.description }}
                       </div>
