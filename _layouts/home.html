@@ -4,21 +4,31 @@ layout: default
 
 <div>
 
-  {%- if page.title -%}
-  <header class="text-center">
-    <h1>{{ page.title }}</h1>
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          {%- if page.title -%}
+            <h1 class="text-white font-weight-bold">{{ page.title }}</h1>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
   </header>
-  {%- endif -%}
 
   <section>
     <div class="container">
-      <div class="row text-justify">
+      <div class="text-justify">
         {{ content }}
       </div>
     </div>
   </section>
 
   {% if site.events.size > 0 %}
+  <div class="container">
+    <div class="text-center">
+      <h2 class="font-weight-light">Events</h2>
+    </div>
     <div class="card">
       <h4 class="card-header"><i class="fas fa-calendar-alt"></i> Events</h4>
       <ul class="list-group list-group-flush">
@@ -28,6 +38,7 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+  </div>
   {% endif %}
 
   {%- if site.posts.size > 0 -%}
@@ -99,9 +110,11 @@ layout: default
       </div>
     </div>
 
-    <hr>
-    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
-  {%- endif -%}
+    <div class="container pb-5">
+      <hr>
+      <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
+    </div>
+    {%- endif -%}
 
 </div>
 
