@@ -1,5 +1,7 @@
 <li class="media mb-4">
+  <!--
   <i class="{{ page.category-icon }} fa-2x mr-3" alt="..."></i>
+  -->
   <div class="media-body">
     <a href="{{ post.url | relative_url }}"><h3 class="mt-0">{{ post.title | escape }}</h3></a>
     <ul class="list-inline mb-0">
@@ -11,29 +13,37 @@
           {%- assign date_format = "%b %-d, %Y" -%}
           {{ post.date | date: date_format }}
         </h6>
-      </li>  
+      </li>   
+      <li class="list-inline-item">
+        <h6 class="text-muted">
+          -
+        </h6>
+      </li>
+      <li class="list-inline-item">
+        <h6 class="text-muted">
+        {% assign authorCount = post.author | size %}
+        {% if authorCount == 0 %}
+          No author
+        {% elsif authorCount == 1 %}
+          {{ post.author | first }}
+        {% else %}
+          {% for author in post.author %}
+            {% if forloop.first %}
+              {{ author }}
+            {% elsif forloop.last %}
+              and {{ author }}
+            {% else %}
+              , {{ author }}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        </h6>
+      </li>
     </ul>
+    <!--
+    {%- if site.show_excerpts -%}
+      <p>{{ post.excerpt }}</p>
+    {%- endif -%}
+    -->
   </div>
 </li>
-
-<!--
-    <div class="card rounded shadow-sm mb-4">
-      <div class="card-body">
-        <a href="{{ post.url | relative_url }}"><h3 class="card-title text-center">{{ post.title | escape }}</h3></a>
-          <h6 class="card-subtitle text-center mb-2 text-muted">
-            {%- assign date_format = "%b %-d, %Y" -%}
-            {{ post.date | date: date_format }}
-          </h6>
-          {%- if site.show_excerpts -%}
-            <p class="card-text">{{ post.excerpt }}</p>
-          {%- endif -%}
-          <div class="text-center">
-            <a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a>
-          </div>
-      </div>
-      <div class="card-footer text-muted">
-        <a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a>
-      </div>
-    </div>
-  </div>
--->

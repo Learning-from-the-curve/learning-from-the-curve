@@ -137,7 +137,7 @@ collections:
     create: true
     slug: ".md"
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'string', default: 'page' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false }

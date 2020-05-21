@@ -5,12 +5,42 @@ layout: page
 
   <header>
     <h1>{{ page.title | escape }}</h1>
-    <p class="text-muted">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-    </p>
+    
+    <ul class="list-inline mb-0">
+      <li class="list-inline-item">
+        <h6 class="text-muted">
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+            {%- assign date_format = "%b %-d, %Y" -%}
+            {{ page.date | date: date_format }}
+          </time>
+        </h6>
+      </li>   
+      <li class="list-inline-item">
+        <h6 class="text-muted">
+          -
+        </h6>
+      </li>
+      <li class="list-inline-item">
+        <h6 class="text-muted">
+        {% assign authorCount = post.author | size %}
+        {% if authorCount == 0 %}
+          No author
+        {% elsif authorCount == 1 %}
+          {{ post.author | first }}
+        {% else %}
+          {% for author in post.author %}
+            {% if forloop.first %}
+              {{ author }}
+            {% elsif forloop.last %}
+              and {{ author }}
+            {% else %}
+              , {{ author }}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        </h6>
+      </li>
+    </ul>
   </header>
 
   <section>
