@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'We might be winning the battle of the COVID-19 epidemic in China: a dynamic R(t) perspective'
-date: 2020-04-22 10:00:00 +0100
+date: 2020-04-22T10:00:00.021Z
 category: health-management
+summary: COVID-19 went recognized at the end of December 2019, when a Wuhan hospital admitted four individuals from the Seafood Market. Given the exponential contagion during  the outbreak as it was also discovered at the start of the epidemic at Hunan for the COVID-19, there has been an absolute case that warrants to act fast (that is, before the take off of the exponential), as well as at scale, (so that the contagion becomes non self-reproducing). The good news is that the world has been facing many epidemics, and has learned a set of critical actions to curb the diffusion of many diseases, such as Ebola, SARS and others.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -25,8 +28,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 In a series of post articles (available [here](https://www.learningfromthecurve.net/health-management/)), I recently made the point that, under a no containment scenario, COVID-19 may bring a) millions of fatalities worldwide, b) as well as significant damage to economies, as result of a negative worldwide spiral of reduction in demand and supply.
 
 COVID-19 went recognized at the end of December 2019, when a Wuhan hospital admitted four individuals from the Seafood Market. Given the exponential contagion during  the outbreak as it was also discovered at the start of the epidemic at Hunan for the COVID-19, there has been an absolute case that warrants to act fast (that is, before the take off of the exponential), as well as at scale, (so that the contagion becomes non self-reproducing). The good news is that the world has been facing many epidemics, and has learned a set of critical actions to curb the diffusion of many diseases, such as Ebola, SARS and others.
-
-<!--more-->
 
 The type of explosion of cases one witnessed at the start of the COVID-19 outbreak made indeed lots of insiders to fear for the worst. In less than one month, from January 20 to February 17, **the recorded cases increased exponentially, from 270 to close to 50,000 in the Hubei province of China, or a factor of 200; with a continous doubling of cases every 7 days like in the early weeks of the outbreak, this could have led to hundreds of thousands infected cases by early April.**
 

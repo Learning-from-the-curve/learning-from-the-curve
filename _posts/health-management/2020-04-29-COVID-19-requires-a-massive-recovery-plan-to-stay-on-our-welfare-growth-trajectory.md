@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'COVID-19 requires a massive recovery plan to stay on our welfare growth trajectory'
-date: 2020-04-29 10:01:00 +0200
+date: 2020-04-29T10:01:00.021Z
 category: health-management
+summary: The current coronavirus outbreak has already claimed more than 160,000 lives worldwide, according to recorded statistics. As a result of the pandemic, a significant lockdown has been put in place worldwide, especially in order to flatten the curve of the pandemic in compliance with hospital capacity. The consequence of the containment actions has been already been made clear by many economists that this would lead to an economic reduction in the range of more than 10% of worldwide output in first semester of the year, or close to 3% for the full 2020, under an optimistic? "V"-like rebound.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -30,8 +33,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 The current coronavirus outbreak has already claimed more than 160,000 lives worldwide, according to recorded statistics. As a result of the pandemic, a significant lockdown has been put in place worldwide, especially in order to flatten the curve of the pandemic in compliance with hospital capacity. The consequence of the containment actions has been already been made clear by many economists that this would lead to **an economic reduction in the range of more than 10% of worldwide output in first semester of the year, or close to 3% for the full 2020**, under an optimistic? "V"-like rebound (see [https://www.oxfordeconomics.com/coronavirus](https://www.oxfordeconomics.com/coronavirus)).
 
 Economic activity measures are an important metric to gauge the pain of a major outbreak, **but they also are likely to understate the true citizen consequences, given other non-GDP impact, of which the most obvious one is a healthy life**.
-
-<!--more-->
 
 If, instead of looking at GDP change only, we take a simple version of economic welfare change, **this will be essentially driven by the product of healthy life expectations change times the flow of certainty-equivalent income**. Regarding life expectations, this would be a reduction in welfare, as COVID-19 is firmly putting itself in the list of the top 15th largest pandemics back to the 14th century. It is already converging to the rate of deaths of the 2009 H1N1 outbreak. This number of deaths continues to escalate as COVID-19 death claims have doubled in just 10 days worldwide according to Worldometers statistics. Regarding income change, this is more or less the same as the GDP change, a shrinkage of labor supply, as well as a reduction in aggregate demand. Further, forced lockdown reduces economic output - and as seen in the reaction of the major, (even unprecedented) stock market reactions worldwide. Uncertainty is however another important factor, affecting the utility of citizens, as uncertainty as to the severity and duration of COVID-19 may lead to major worries on personal situations.
 

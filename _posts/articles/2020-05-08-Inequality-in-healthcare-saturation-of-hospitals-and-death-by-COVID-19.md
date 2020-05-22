@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "Inequality in healthcare: saturation of hospitals and death by COVID-19"
-date: 2020-05-08 12:00:00 +0100
+date: 2020-05-08T12:00:00.021Z
 category: articles
+summary: The spread of COVID-19 pandemic has put healthcare systems around the world under strain. Is there any relationship between the burden on hospital facilities and the number of deaths by COVID-19? In this study, we exploit regional variation in the Italian healthcare system and the severity of the contagion to provide suggestive evidence that well-equipped intensive care units (ICUs) can save human lives from deaths by COVID-19.
+author:
+  - S. Falcone
+  - E. Navarra
 ---
 
 **Authors:** Stefano Falcone ([ECARES](https://ecares.ulb.be/?option=com_content&task=view&id=136&Itemid=95); [Université Libre de Bruxelles](https://www.ulb.be/); e-mail: Stefano.Falcone@ulb.be) and Elisa Navarra ([ECARES](https://ecares.ulb.be/?option=com_content&task=view&id=136&Itemid=95); [Université Libre de Bruxelles](https://www.ulb.be/); e-mail: Elisa.Navarra@ulb.be).[^1]

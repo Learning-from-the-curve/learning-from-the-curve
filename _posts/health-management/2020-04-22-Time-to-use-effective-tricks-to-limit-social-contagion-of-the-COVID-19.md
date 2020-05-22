@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Time to use effective tricks to limit social contagion of the Covid-19
-date: 2020-04-22 10:01:00 +0100
+date: 2020-04-22T10:01:00.021Z
 category: health-management
+summary: While I have estimated the reproduction rate for the coronavirus looks to be just above 2.7 for the Hubei region in China (60 million inhabitants), that is, one contaminated person infects 2.7 others, when fitted to daily confirmed cases across the last 10 weeks, we are just at the time when the exponential play may materially affect the time spread of the infectious disease for the region.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -25,8 +28,6 @@ In previous articles (available [here](https://www.learningfromthecurve.net/heal
 #### **Win or break is now**
 
 While I have estimated the reproduction rate for the coronavirus looks to be just above 2.7 for the Hubei region in China (60 million inhabitants), that is, one contaminated person infects 2.7 others, when fitted to daily confirmed cases across the last 10 weeks, we are just at the time when the exponential play may materially affect the time spread of the infectious disease for the region.
-
-<!--more-->
 
 In China, we are currently roughly at 60,000 recorded contaminations, or roughly 0.1% of total population, and a reproduction rate of 1.5 or 3 gives 20 times less infections, but does not change the needle in the total affected population. However, let us put ourselves 6 weeks down the road. If the reproduction rates remain constant, the difference of infections between \\(R_0=3\\) and \\(R_0=1.5\\) explodes to be a 30-fold factor (see my high level simulation, in Table 1).  
 

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: The Return on Investment of curbing the COVID-19 pandemic
-date: 2020-04-20 10:00:00 +0100
+date: 2020-04-20T10:00:00.021Z
 category: health-management
+summary: At current, the stock markets have given a first high level data point. They have been under large pressure – and may be continue their drop, when they came to realize that contamination was not confined to Asia but was moving quickly into the Western world. They lost an estimate of US 6 to 7 trillion by end of February in the worst week since the 2008.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -28,8 +31,6 @@ My two recent articles (available [here](https://www.learningfromthecurve.net/he
 - **There is a plausible scenario for reducing its risk, but a way to curb it to level of a severe flu will require a significant set of actions at scale, delivered with speed and agility, and with cooperation to population.**
 
 The typical question that arises now is what is the **economic consequence of the action plan — and can the world afford it?**
-
-<!--more-->
 
 At current, the stock markets have given a first high level data point. They have been under large pressure – and may be continue their drop, when they came to realize that contamination was not confined to Asia but was moving quickly into the Western world. They lost an estimate of US 6 to 7 trillion by end of February in the worst week since the 2008. This is equivalent to **9% decline of the equity value by end of 2019 worldwide, and up to 10% from peak achieved in late Jan 2020.**[^1] The first week of March is ongoing with a further decline reaching -14%, with an interquartile range of -19.7% to -7.9%.[^2]
 

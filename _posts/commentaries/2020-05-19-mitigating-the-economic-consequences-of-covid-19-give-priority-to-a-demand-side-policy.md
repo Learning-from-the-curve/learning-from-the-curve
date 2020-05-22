@@ -4,12 +4,13 @@ title: Mitigating the economic consequences of COVID-19 - give priority to a
   demand-side policy
 date: 2020-05-19T18:56:32.021Z
 category: commentaries
+summary: The COVID-19 crisis hit hard both healthcare and economic systems. The objective of this short column is to try and identify how badly the pandemic may damage our long-term productive capacity. While it is clear that it will bring about an extremely deep recession, we argue that the effects will mainly be determined by the demand-side of the economy. This calls for aggressive demand stabilization policies.
+author:
+  - M. Castanheira
 ---
 **By**: Micael Castanheira ([ECARES](https://ecares.ulb.be/), [SBS-EM](https://www.solvay.edu/en/), [Université Libre de Bruxelles](https://www.ulb.be/))
 
 The COVID-19 crisis hit hard both healthcare and economic systems. The objective of this short column is to try and identify how badly the pandemic may damage our long-term productive capacity. While it is clear that it will bring about an extremely deep recession, we argue that the effects will mainly be determined by the demand-side of the economy. This calls for aggressive demand stabilization policies.
-
-<!--more-->
 
 At the onset of the COVID-19 outbreak, a typical estimate of health risks was as follows: about 10-15% of the people getting infected would need heavy medical assistance (hospitalization or close monitoring at home). Those who could not access medical care would face substantial risk of death. Flattening the curve was a necessity to reduce that risk: with access to hospital care, the estimated risk of death would be reduced to about 0.7-1.5%.
 
@@ -57,4 +58,3 @@ The **second priority** must be to reinforce they aid to sectors that will be hi
 Last, the amounts involved will be enormous, and **cannot translate into another debt crisis**, even more so in the euro area. The ECB intervention so far appears [entirely proportionate to the challenge](https://www.ecb.europa.eu/press/blog/date/2020/html/ecb.blog200501~a2d8f514a0.en.html) in that regard. Epidemiological data shows that, with prompt and focused action, the economic recovery can be faster than what information from 2 months ago would have suggested.[^1] But the economic data today demonstrate that, like for health measures in March, failing to act at the economic level is not an option today.
 
 [^1]: A recent paper by [Correia, Luck, and Verner](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3561560) also shows that protecting the population stimulated the recovery after the 1918 flu pandemic: *We find that cities that intervened earlier and more aggressively do not perform worse and, if anything, grow faster after the pandemic is over.*
-

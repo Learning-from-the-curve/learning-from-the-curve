@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Each of us doing five easy actions might cut the risk and size of the COVID-19 pandemic by more than half'
-date: 2020-04-23 10:00:00 +0100
+date: 2020-04-23T10:00:00.021Z
 category: health-management
+summary: The risk of a viral outbreak turning into a pandemic has become a reality for COVID-19, affecting to date more than hundred countries, and with a large concentration of known contaminated people in China, Italy, Iran and South Korea among others. People stress might remain imminent, as pharmaceutical responses, (be it an antiviral method for infected individuals, or be it a new type of vaccines), are largerly absent, or will take months to be developed.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -25,8 +28,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 The risk of a viral outbreak turning into a pandemic has become a reality for COVID-19, affecting to date more than hundred countries, and with a large concentration of known contaminated people in China, Italy, Iran and South Korea among others. People stress might remain imminent, as pharmaceutical responses, (be it an antiviral method for infected individuals, or be it a new type of vaccines), are largerly absent, or will take months to be developed.
 
 As we discussed in previous articles (available [here](https://www.learningfromthecurve.net/health-management/)), it is rather crucial **to act fast**, due to large attack rates linked to influenza type of viruses. In fact, we have estimated form our own model of viral diffusion that **one to two weeks delay in acting may easily create a multiple  increase in the rate of the virus fatalities, a few weeks later**.
-
-<!--more-->
 
 Hopefully, we have shown that there are some proven, non pharmaceutical techniques, to curb a pandemic, even if some can create either large social disruption and/or are very costly from an economic perspective, such as school and work closing. Some can be relatively easy to do, e.g. hand washing, and may require not much, but more attention from ourselves, to perform systematically.
 

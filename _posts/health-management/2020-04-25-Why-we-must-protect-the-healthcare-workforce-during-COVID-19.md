@@ -1,13 +1,11 @@
 ---
-
 layout: post
-
 title: 'Why we must protect the healthcare workforce during COVID-19'
-
-date: 2020-04-25 10:00:00 +0100
-
+date: 2020-04-25T10:00:00.021Z
 category: health-management
-
+summary: The COVID-19 pandemic continues its world expansion, affecting now more than 200,000 citizens, and leading many countries in the midst of the turmoil to launch aggressive social distancing plans, constraining multiple business closures, and further adding economic stress, on top of health risks.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -33,8 +31,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 The COVID-19 pandemic continues its world expansion, affecting now more than 200,000 citizens, and leading many countries in the midst of the turmoil to launch aggressive social distancing plans, constraining multiple business closures, and further adding economic stress, on top of health risks.
 
 Those costs may seem to be large for some people, as indeed COVID-19 does not match the fatality rate of scary diseases like Ebola, and many others, but it is critical to recognize that the level of contagion of the virus is large enough to induce a very large number of fatalities, possibly in an order of magnitude 10 times, higher than what we usually have observed with the normal flu. Last but not least, **a burst in the pandemic may quickly overwhelm health systems, leading to much larger fatality rates** for those 20% of serious COVID-19 infections, which either may be denied access to hospitalization, or may be hospitalized with sub-optimal care (emergency unit overflows, etc).
-
-<!--more-->
 
 The importance of enough technical capacity of healthcare is thus critical for managing the COVID-19 epidemic as recognized by many. **But the healthcare workforce must also be fit as well. A burst of the disease would imply for the health professionals ascending workload, exposure to stress, possible violence by patients, or simply large and not fully safe exposure to the outbreak.**
 

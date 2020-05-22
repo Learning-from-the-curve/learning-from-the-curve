@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'A “20 million lives” pay off: how to curb the effects of the COVID-19 pandemic'
-date: 2020-04-20 10:00:00 +0100
+date: 2020-04-20T10:00:00.021Z
 category: health-management
+summary: I have mixed the ranges of values of three key fundamental drivers of pandemic development, based on data collected from academic studies and international health organizations such as the WHO, to derive a possible distribution of global fatalities arising from the diffusion of COVID-19 virus. The outcome is that the potential of fatalities has a mode at 20 million people worldwide, with a standard deviation of 5 million, or a pandemic more than tenfold the severity of a flu pandemic, if COVID-19 is able to continue its curse freely.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -22,8 +25,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 #### **March 3**
 
 In [yesterday’s companion article](https://www.learningfromthecurve.net/health-management/2020/04/16/Three-key-COVID-19-indicators-to-curb-a-potential-of-20-million-human-fatality.html), I have mixed the ranges of values of three key fundamental drivers of pandemic development, based on data collected from academic studies and international health organizations such as the WHO, to derive a possible distribution of global fatalities arising from the diffusion of COVID-19 virus. The outcome is that the **potential** of fatalities has a mode at 20 million people worldwide, with a standard deviation of 5 million, or a pandemic more than tenfold the severity of a flu pandemic, **if COVID-19 is able to continue its curse freely.  History of self-protection and health policy has usually been able to curb pandemics, even if more difficulty with viruses like new forms of H1N1 influenza. Assuming same success rates as in the past, the actual pandemic may take a toll of 2 to 4 million lives worldwide.**
-
-<!--more-->
 
 A casualty of 4-20 million lives lost is a big figure, adding, **if it ever materializes, about 5% to 25% additional increase to the world crude number of deaths per year.** Furthermore, using as a very rough proxy, the various demographics of infections and deaths from South Korea and China, **40 to 50% of the deaths seems to cluster around the age of 45 years old.** This means that 20 years of human capital for those with ability to work is lost, leading to a value loss at purchasing power parity of wages.[^1] A complete sizing implication is deferred to another future article, but suffice is to say that it is important to take actions to limit the COVID-19 virus to spread freely across the world for human and economic matters.
 

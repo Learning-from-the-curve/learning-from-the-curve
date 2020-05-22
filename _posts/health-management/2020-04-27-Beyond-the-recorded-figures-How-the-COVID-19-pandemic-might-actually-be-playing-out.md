@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Beyond the recorded figures: How the COVID-19 pandemic might actually be playing out'
-date: 2020-04-27 10:00:00 +0100
+date: 2020-04-27T10:00:00.021Z
 category: health-management
+summary: Since March 3, I started to study the COVID-19 outbreak, and related some of my key findings in more than 10 articles during the month of March. This article stands back on what was written in that first month anniversary article, and especially aims to comment on the measurement challenges linked to the COVID-19 pandemic.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -27,8 +30,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 Since March 3, I started to study the COVID-19 outbreak, and related some of my key findings in more than 10 articles during the month of March. This article stands back on what was written in that first month anniversary article, and especially aims to comment on the measurement challenges linked to the COVID-19 pandemic.
 
 The main message is that **infections have been significantly unreported, and that the corrected figures provide a much more consistent picture as to the pandemic dynamics linked to COVID-19, than the current records**. By documenting more cases than not, we are making a better guide to the health system and economic reactions. **The metrics, adjusted from unreported cases, are «better» than what has been reported (that is, we find lower \\(R_0\\) and lower fatality rate than early estimates), but they also are pinpointing how milder and asymptomatic cases remain an understated, core dissemination vehicle of the pandemic. Careful zoom on those cases is a core battle to win and avoid a second wave of the outbreak by 2020**.
-
-<!--more-->
 
 ### 2. A Reminder <a name="cap2"></a>
 

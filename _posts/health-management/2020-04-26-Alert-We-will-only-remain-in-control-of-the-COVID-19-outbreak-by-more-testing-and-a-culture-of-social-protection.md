@@ -1,13 +1,11 @@
 ---
-
 layout: post
-
 title: 'Alert. We will only remain in control of the COVID-19 outbreak by more testing and a culture of social protection'
-
-date: 2020-04-26 10:01:00 +0100
-
+date: 2020-04-26T10:01:00.021Z
 category: health-management
-
+summary: I made clear that successful examples existed, especially when it comes to (some, not all), Asian countries. While procastrinating for a while during the Lunar New Year, China aggressively scaled measures after it was recognized by Jan 20 that COVID-19 was a major human to human transmission disease. Those measures included limiting mobility, remarkably, no public transport and no car in Wuhan were imposed in 5 days, an aggressive tracing of even mild cases via technology based predictions, a strict imposition of quarantines regarding any suspected case, and an enforced policy of protection via masks in public, etc.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -33,8 +31,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 In early articles, I made clear that we need to be radical in curbing social encounters, and in protecting against infectious contacts, **both to control the COVID-19 pandemics, and to secure a working healthcare system that may maximize the care to the contaminated**.
 
 I also made clear that successful examples existed, especially when it comes to (some, not all), Asian countries. While procastrinating for a while during the Lunar New Year, China aggressively scaled measures after it was recognized by Jan 20 that COVID-19 was a major human to human transmission disease. Those measures included limiting mobility, remarkably, no public transport and no car in Wuhan were imposed in 5 days, an aggressive tracing of even mild cases via technology based predictions, a strict imposition of quarantines regarding any suspected case, and an enforced policy of protection via masks in public, etc.
-
-<!--more-->
 
 ### 2. The global status today: we are not winning <a name="cap2"></a>
 

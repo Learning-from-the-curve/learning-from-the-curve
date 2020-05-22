@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Selectivity versus Reach: Flattening the curve of COVID-19 for joint health and economic prosperity'
-date: 2020-04-28 10:01:00 +0100
+date: 2020-04-28T10:01:00.021Z
 category: health-management
+summary: By April 14th, the number of recorded infections by the COVID-19 is being close to pass the bar of 2 million individuals worldwide. The death toll is just below 120,000 deaths, according to Worldometer’s compiled statistics (2020). The current virus, which originated in China, has now spread to more than 200 countries worldwide, leaving virtual no one safe.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -26,8 +29,6 @@ We calibrate a SEIR contagion framework, with an extended transmission rate, \\(
 By April 14th, the number of recorded infections by the COVID-19 is being close to pass the bar of 2 million individuals worldwide. The death toll is just below 120,000 deaths, according to Worldometer’s compiled statistics (2020). The current virus, which originated in China, has now spread to more than 200 countries worldwide, leaving virtual no one safe.
 
 It has put hospital systems struggling to cope with the flow of heavy infected cases, as feared by Richard Baldwin in a recent post on Vox (2020). Hospital, human, equipment as well as ICU beds capacity have been under excess demand in a matter of just a few weeks following the outbreak in Wuhan. By end of January, Chinese authorities stimulated the import of many health workers into the city, and managed to build up extra bed capacity in a record time to alleviate the pressure. The health system issue has been apparent as well in Europe, in particular Spain, Northern Italy and France. Major consequences of this disequilibrium are a higher fatality rate and a slower pace of recovery rate of contaminated people than average.[^1] Medical resources are alas witnessing high toll of illness and excessive stress levels (see Day, 2020; Fang, 2020; Bughin, 2020a).
-
-<!--more-->
 
 [^1]: Ji et al., 2020, *Potential association between COVID-19 mortality and health-care resource availability*, **The Lancet Global Health, 8(4), p.e 480**.
 

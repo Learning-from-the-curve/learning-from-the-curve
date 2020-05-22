@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Fighting the virus requires to know its habits better and for us to rethink our social interactions'
-date: 2020-04-27 10:01:00 +0100
+date: 2020-04-27T10:01:00.021Z
 category: health-management
+summary: COVID-19 has passed 1 million recorded cases and is driving a crisis feared to be like "no other,” - with many countries in economic standstill. The tension is clearly building between saving lives and saving the economy. Yet both can be reconciled if we adapt our model of social connections, and we kill a large set of remaining unknowns about the COVID-19 virus, that drives a lot of excessive protection to date.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -24,8 +27,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 #### **April 4**
 
 COVID-19 has passed 1 million recorded cases and is driving a crisis feared to be like "no other,” - with many countries in economic standstill. The tension is clearly building between saving lives and saving the economy. Yet both can be reconciled if we adapt our model of social connections, and we kill a large set of remaining unknowns about the COVID-19 virus, that drives a lot of excessive protection to date.
-
-<!--more-->
 
 ### 2. Imposed social changes: multiple flavours <a name="cap2"></a>
 

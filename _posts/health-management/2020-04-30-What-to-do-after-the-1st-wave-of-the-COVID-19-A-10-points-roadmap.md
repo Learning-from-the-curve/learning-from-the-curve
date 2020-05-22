@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'What to do after the 1st wave of the COVID-19? A 10 points roadmap'
-date: 2020-04-30 10:00:00 +0200
+date: 2020-04-30T10:00:00.021Z
 category: health-management
+summary: In a recent article regarding the impact on COVID-19 on our economies, I have used a more broader "economic welfare" approach than GDP alone to compute the size of the challenge we face. The insight is that fighting the COVID-19 by "all for one, one for all' containment or letting it go, will be generating a welfare loss with an impact for the total curse above 10 percent decline. This is a major hit - any way we look at and react to COVID-19.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -26,8 +29,6 @@ In a recent article regarding the impact on COVID-19 on our economies, I have us
 ### 1. Welfare model update - confirmation of the loss, but also that we are at the start of the journey <a name="cap1"></a>
 
 This sizeable effect on welfare has been parametrized by some key assumptions. We have updated, that is, refined some, for this research. This includes a refined "Susceptible Infected, Recovered (SIR)" model of contagion, based on an original epidemiology contagion of \\(R_0=2.5\\), that ultimately predicts the portion of infected. But contrary to the referred article, we further "endogenize" the demand side, in that we anticipate that segments at risk of being at higher risk of being infected (e.g. the old group segment) will adapt and reduce their contact rates as a self-protection, reducing in part, the final size of the pandemic. We also have adjusted the fatality rate to 1 percent, (under no healthcare constraints), in line with new data that make fatalities likely lower than the original crude rates of 3-4%, from the start of the pandemic in China (Riou et al, 2020).
-
-<!--more-->
 
 With the new changes, we end up with a reference scenario of COVID-19.
 

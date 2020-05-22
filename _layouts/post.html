@@ -22,13 +22,13 @@ layout: page
       </li>
       <li class="list-inline-item">
         <h6 class="text-muted">
-        {% assign authorCount = post.author | size %}
+        {% assign authorCount = page.author | size %}
         {% if authorCount == 0 %}
           No author
         {% elsif authorCount == 1 %}
-          {{ post.author | first }}
+          {{ page.author | first }}
         {% else %}
-          {% for author in post.author %}
+          {% for author in page.author %}
             {% if forloop.first %}
               {{ author }}
             {% elsif forloop.last %}
