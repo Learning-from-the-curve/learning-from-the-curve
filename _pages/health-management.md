@@ -6,7 +6,9 @@ permalink: /health-management/
 category-icon: "fas fa-laptop-medical"
 ---
 
-## Making sense of the Covid-19 pandemic
+A series of reflections on COVID-19, healthcare and economics.
+
+### Making sense of the Covid-19 pandemic
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 

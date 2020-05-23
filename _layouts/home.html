@@ -4,152 +4,138 @@ layout: default
 
 <div>
 
-  {%- if page.title -%}
-  <header class="text-center">
-    <h1>{{ page.title }}</h1>
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 align-self-end text-center">
+          {%- if page.title -%}
+            <h1 class="display-3 text-white font-weight-bold outline">{{ page.title }}</h1>
+          {%- endif -%}
+        </div>
+        <div id="intro" class="col-12 align-self-end text-center">
+          <a href="#intro"><i class="fas fa-chevron-down fa-3x" style="color: white;"></i></a>
+        </div>
+      </div>
+    </div>
   </header>
-  {%- endif -%}
 
   <section>
-    <div class="container">
-      <div class="row text-justify">
+    <div class="container mt-5 mb-4">
+      <div class="text-center">
+        <h2 class="font-weight-light">About Us</h2>
+      </div>
+      <div class="text-center">
         {{ content }}
       </div>
+      <div class="text-center mx-auto">
+        <a href="/about" class="btn btn-primary btn-lg" role="button" aria-pressed="true">More info</a>
+      </div>
     </div>
   </section>
 
-  {% if site.events.size > 0 %}
-    <div class="card">
-      <h4 class="card-header"><i class="fas fa-calendar-alt"></i> Events</h4>
-      <ul class="list-group list-group-flush">
-        {% for event in site.events limit:3 %}
-          {%- assign date_format = "%b %-d, %Y - %H:%M" -%}
-          <li class="list-group-item"><h5><a href="{{ event.url | relative_url }}">{{ event.title }}</a> | {{ event.event_organizer }} | {{ event.event_date | date: date_format }} ({{ event.event_timezone }})</h5></li>
-        {% endfor %}
-      </ul>
+  <div class="container my-4">
+    <div class="text-center">
+      <h2 class="font-weight-light">Dashboards</h2>
     </div>
+    <div class="text-justify">
+      <p>The global spread of the COVID-19 virus is intimidating. In the very short run, the rise of the virus disrupts individual health, health care systems, economic systems and social systems. Governments, institutions and doctors have to act very rapidly, taking into account changes in confirmed cases, deaths, recoveries, capacity of infrastructure, policy decisions etc. At the same time, there is a very large amount of uncertainty: there are reporting lags, there is under-reporting of the number of cases as not everyone is tested, it’s not clear who is infected, we need to account for comorbidity, true mortality rates can only be calculated at the end of the pandemic, etc. However, there is no time to let the uncertainty resolve before taking actions that save lives; actions that in many cases only have an effect in the future, like steering a tanker blindfolded in unknown and unseen waters. It’s also not clear where we will end up after this devastating crisis. Do we revert back to business as usual, do output levels return to their previous levels or do we see systemic breaks with growth paths to new equilibria?</p>
+    </div>
+    <div class="text-center mx-auto">
+      <a href="/Dashboards" class="btn btn-primary btn-lg" role="button" aria-pressed="true">See our Dashboards!</a>
+    </div>
+  </div>
+
+
+
+  <div class="container my-4">
+    <div class="text-center">
+      <h2 class="font-weight-light">Blog Categories</h2>
+    </div>
+
+    <div class="row text-center">
+
+      <div class="col-xl-3 col-sm-6">
+        <div class="rounded pt-4 pb-4 px-4 border-0"><i class="fas fa-microphone-alt fa-4x mb-3"></i>
+            <h3 class="mb-0"><a href="/commentaries" class="stretched-link text-decoration-none">Commentaries</a></h3>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-sm-6">
+        <div class="rounded pt-4 pb-4 px-4 border-0"><i class="fas fa-laptop-medical fa-4x mb-3"></i>
+            <h3 class="mb-0"><a href="/health-management" class="stretched-link text-decoration-none">Health Management</a></h3>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-sm-6">
+        <div class="rounded pt-4 pb-4 px-4 border-0"><i class="fas fa-chalkboard-teacher fa-4x mb-3"></i>
+            <h3 class="mb-0"><a href="/epidemic-models" class="stretched-link text-decoration-none">Epidemic Models</a></h3>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-sm-6">
+        <div class="rounded pt-4 pb-4 px-4 border-0"><i class="fas fa-comment-dots fa-4x mb-3"></i>
+            <h3 class="mb-0"><a href="/articles" class="stretched-link text-decoration-none">Articles</a></h3>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+
+
+  {%- if site.posts.size > 0 -%}
+  <div class="container my-4">
+    <div class="text-center">
+      <h2 class="font-weight-light">Recent Posts</h2>
+    </div>
+    <ul class="mt-3 list-unstyled">
+      {% for category in site.categories %}
+        {% for post in category.last limit:1 %}
+          {%- include post-entry.html -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
+
+
+  
+  {% if site.events.size > 0 %}
+  <div class="container my-4">
+    <div class="text-center">
+      <h2 class="font-weight-light">Events</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-8">
+        <div class="card">
+          <h4 class="card-header"><i class="fas fa-calendar-alt"></i> Recent Events</h4>
+          <ul class="list-group list-group-flush">
+            {% for event in site.events limit:3 %}
+              {%- assign date_format = "%b %-d, %Y - %H:%M" -%}
+              <li class="list-group-item"><h5><a href="{{ event.url | relative_url }}">{{ event.title }}</a> | {{ event.event_organizer }} | {{ event.event_date | date: date_format }} ({{ event.event_timezone }})</h5></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <div class="rounded pt-4 pb-4 border-0"><i class="fas fa-calendar-alt fa-4x mb-3"></i>
+          <h3 class="mb-0"><a href="/events" class="stretched-link text-decoration-none">All Events</a></h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
   {% endif %}
 
-  {%- if site.posts.size > 0 -%}
-    <div class="container my-4">
-      <div class="row">
-        <div class="col-6">
-          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="prev" role="button" aria-pressed="true"><i class="fas fa-arrow-left"></i> Prev</a>
-        </div>
-        <div class="col-6">
-          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="next" role="button" aria-pressed="true">Next <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide container" data-ride="carousel">
 
-        <ol class="carousel-indicators">
-          {% for category in site.categories limit:1 %}
-            {% for post in category.last limit:1 %}
-              <li data-target="#carouselExampleCaptions" data-slide-to="{{ post.category }}" class="active"></li>
-            {% endfor %}
-          {% endfor %}
-          {% for category in site.categories offset:1 %}
-            {% for post in category.last limit:1 %}
-              <li data-target="#carouselExampleCaptions" data-slide-to="{{ post.category }}"></li>
-            {% endfor %}
-          {% endfor %}
-        </ol>
-
-        <div class="carousel-inner">
-          {% for category in site.categories limit:1 %}
-            {% for post in category.last limit:1 %}
-              <div class="jumbotron carousel-item active">
-                <h3><a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
-                <h1 class="display-6"><a class="unstyled" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
-                <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
-                <hr class="my-4">
-                {%- if site.show_excerpts -%}
-                  <p>{{ post.excerpt }}</p>
-                {%- endif -%}
-                <a class="btn btn-primary btn-lg" href="{{ post.url | relative_url }}" role="button">Read more</a>
-              </div>
-            {% endfor %}
-          {% endfor %}
-          {% for category in site.categories offset:1 %}
-            {% for post in category.last limit:1 %}
-              <div class="jumbotron carousel-item">
-                <h3><a href="/{{ post.category }}" class="badge badge-primary"><i class="fas fa-tags"></i> {{ post.category | replace: '-', ' ' | upcase }}</a></h3>
-                <h1 class="display-6"><a class="unstyled" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
-                <p class="lead">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</p>
-                <hr class="my-4">
-                {%- if site.show_excerpts -%}
-                  <p>{{ post.excerpt }}</p>
-                {%- endif -%}
-                <a class="btn btn-primary btn-lg" href="{{ post.url | relative_url }}" role="button">Read more</a>
-              </div>
-            {% endfor %}
-          {% endfor %}
-        </div>
-    </div>
-    <div class="container mt-2 mb-4">
-      <div class="row">
-        <div class="col-6">
-          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="prev" role="button" aria-pressed="true"><i class="fas fa-arrow-left"></i> Prev</a>
-        </div>
-        <div class="col-6">
-          <a class="btn btn-primary btn-block active" href="#carouselExampleCaptions" data-slide="next" role="button" aria-pressed="true">Next <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <hr>
-    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
-  {%- endif -%}
-
-</div>
-
-<!--
-<div>
-
-  {%- if page.title -%}
-  <header class="text-center">
-    <h1>{{ page.title }}</h1>
-  </header>
-  {%- endif -%}
-
-  <section>
-    {{ content }}
-  </section>
-
-  {%- if site.posts.size > 0 -%}
-    <ul class="list-unstyled">
-      {% for category in site.categories %}
-      <p class="h2">{{ category | first | replace: '-', ' ' | upcase | default: "Posts" }} - Latest</p>
+    <div class="container pb-5">
       <hr>
-        {% for post in category.last limit:1 %}
-        <div class="row">
-          <div class="col-sm-9 mx-auto">
-            <div class="card rounded shadow-sm mb-4">
-              <div class="card-body">
-                <a href="{{ post.url | relative_url }}"><h3 class="card-title text-center">{{ post.title | escape }}</h3></a>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  {%- assign date_format = "%b %-d, %Y" -%}
-                  {{ post.date | date: date_format }}
-                </h6>
-                {%- if site.show_excerpts -%}
-                  <p class="card-text">{{ post.excerpt }}</p>
-                {%- endif -%}
-                <div class="text-center">
-                  <a href="{{ post.url | relative_url }}" class="btn btn-info">Read More</a>
-                </div>
-              </div>
-              <div class="card-footer text-muted">
-                <i class="fas fa-tags"></i> <a href="/{{ category | first }}">{{ post.category | replace: '-', ' ' | capitalize }}</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      {% endfor %}
-    </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
-  {%- endif -%}
+      <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS <i class="fas fa-rss" aria-hidden="true"></i></a></p>
+    </div>
+
 </div>
--->

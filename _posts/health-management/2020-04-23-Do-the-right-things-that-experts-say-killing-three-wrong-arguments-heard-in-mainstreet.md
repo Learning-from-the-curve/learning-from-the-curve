@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Do the right things that experts say: killing three (wrong) arguments heard in mainstreet'
-date: 2020-04-23 10:01:00 +0100
+date: 2020-04-23T10:01:00.021Z
 category: health-management
+summary: Europe is in the middle of the pandemic, and governments are now scaling measures to significantly limit social contacts. Here and there, measures of quarantines and restrictions are often not very welcome. Not only do they lead to socioeconomic disruptions, but also because they may hurt the democratic feeling of freedom and choic or simply because people believe that the crisis is limited. They are however clearly wrong, at this time of the outbreak, and given large uncertainty on how the virus behaves, the measures launched are necessary and of the right scale.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -22,8 +25,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 #### **March 13**
 
 Europe is in the middle of the pandemic, and governments are now scaling measures to significantly limit social contacts. Here and there, measures of quarantines and restrictions are often not very welcome. Not only do they lead to socioeconomic disruptions, but also because they may hurt the democratic feeling of freedom and choic or simply because people believe that the crisis is limited. They are however clearly wrong, at this time of the outbreak, and given large uncertainty on how the virus behaves, the measures launched are necessary and of the right scale.
-
-<!--more-->
 
 Here are the three arguments deconstructed by those still not bought, or not willing to comply with experts:
 

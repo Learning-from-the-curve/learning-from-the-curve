@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Predicting hospitalizations and positive cases in Belgium
-date: 2020-04-15 11:00:00 +0100
+date: 2020-04-15T11:00:00.021Z
 category: epidemic-models
+summary: As explained in a previous post COVID-SIR, epidemiologists have very performant models to understand the evolution of an epidemic. Probably the best known is the so-called SIR that allows to easily model the evolution of an epidemic relying on the reproduction number R0 and the infectious period of a pathogen.
+author:
+  - V. Verardi
 ---
 [Vincenzo Verardi](https://directory.unamur.be/staff/vverardi) (UNAMUR-CRED, FNRS, ULB).
 
@@ -20,7 +23,8 @@ As explained in a previous post [COVID-SIR](https://www.learningfromthecurve.net
 
 $$ SIR: \bf{Susceptible} \rightarrow \bf{Infected} \rightarrow \bf{Removed} $$
 
-that allows to easily model the evolution of an epidemic relying on the reproduction number \\(R\_0\\) and the infectious period of a pathogen. A great epidemic calculator is freely available at [http://gabgoh.github.io/COVID/index.html](http://gabgoh.github.io/COVID/index.html). This is a wonderful tool to simulate how the Covid-19 epidemic might spread according to the characteristics of a population. The reproduction number \\(R\_0\\) is the average number of infections produced by a single case in a population where everyone is susceptible to be contaminated. This has been estimated to be around 2.2 for the Covid-19 pandemic. Thomas Pueyo has illustrated how this value could cause dramatic outcomes in his article [Coronavirus: The Hammer and the Dance](https://medium.com/@tomaspueyo/coronavirus-the-hammer-and-the-dance-be9337092b56) if nothing is done.<!--more-->
+that allows to easily model the evolution of an epidemic relying on the reproduction number \\(R\_0\\) and the infectious period of a pathogen. A great epidemic calculator is freely available at [http://gabgoh.github.io/COVID/index.html](http://gabgoh.github.io/COVID/index.html). This is a wonderful tool to simulate how the Covid-19 epidemic might spread according to the characteristics of a population. The reproduction number \\(R\_0\\) is the average number of infections produced by a single case in a population where everyone is susceptible to be contaminated. This has been estimated to be around 2.2 for the Covid-19 pandemic. Thomas Pueyo has illustrated how this value could cause dramatic outcomes in his article [Coronavirus: The Hammer and the Dance](https://medium.com/@tomaspueyo/coronavirus-the-hammer-and-the-dance-be9337092b56) if nothing is done.
+
 The effective reproduction number \\(R\_e\\) (i.e. the product of \\(R\_0\\) and of the fraction of the population that is susceptible of being contaminated) can be reduced thanks to social distancing. By increasing social distances, the share of the population susceptible of being contaminated decreases and so does \\(R\_e\\). As soon as \\(R\_e\\) becomes smaller than one, the epidemic will start fading away or at least slowing down. To summarize, thanks to the increase in social distancing, the spread of epidemic can be slowed, and an overwhelming of the health sector can hopefully be avoided. After an exponential growth in the number of cases in the beginning of the epidemic, an inflection point of the curve could be reached much earlier than if nothing was done. A very simple and naïve model to estimate the total number of contaminated individuals could then be used to have a broad idea of how the epidemic is evolving. This would be to look for the sigmoidal (\\(S\\)-looking) function relating the number of observed cases to time, that better approximates the observed cases. Probably the simplest candidate is the *logistic function* that can be written as:
 
 $$ Cases(t) = \frac{m}{1 + \exp{(-s(t-t_{\inf}))}} $$

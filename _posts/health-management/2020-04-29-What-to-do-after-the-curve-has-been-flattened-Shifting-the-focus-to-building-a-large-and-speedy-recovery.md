@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'What to do after the curve has been flattened? Shifting the focus to building a large and speedy recovery'
-date: 2020-04-29 10:00:00 +0200
+date: 2020-04-29T10:00:00.021Z
 category: health-management
+summary: No doubt that the socio-economic effect of the COVID-19 pandemic might have a significant effect on our economies, and more broadly on our life. The question raised by many is how big the effect might be, and how quickly one can one recover. After each pandemic, a literature has emerged on the topic, trying to estimate the negative effect of a pandemic, on one side, and attempting on the other side to see how the shocks may be absorbed to return to a new normal, if anything.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -28,8 +31,6 @@ No doubt that the socio-economic effect of the COVID-19 pandemic might have a si
 After each pandemic, a literature has emerged on the topic, trying to estimate the negative effect of a pandemic, on one side, and attempting on the other side to see how the shocks may be absorbed to return to a new normal, if anything.
 
 The tagline for the optimist has been that a pandemic may be costly, but often recovers very quickly, exhibiting a classical «V» type situation. Others would argue that **excess-mortality pandemics are different, and may build significant and lasting damages, requiring significant support plans in order to get fast out of a dragging crisis**.
-
-<!--more-->
 
 ### 2. A large GDP decline for pandemics like COVID-19 <a name="cap2"></a>
 

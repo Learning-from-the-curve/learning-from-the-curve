@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'People do react to the COVID-19 pandemic: nowcasting behavioural changes through Google searches'
-date: 2020-04-24 10:00:00 +0100
+date: 2020-04-24T10:00:00.021Z
 category: health-management
+summary: From recorded data collected by the CDC, we are in an inflexion point in terms of the COVID-19 pandemic. Since 5 days ago , we have surpassed the positive linear trend of new daily cases, and even we got up to 10,000 new cases in one day yesterday, as the virus extended its spread across the globe, and accelerated its diffusion in Europe, including Spain, Italy, but also Germany, France, Benelux and Scandinavia.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -26,8 +29,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 #### **March 14**
 
 Clearly, as figure 1 demonstrates from recorded data collected by the CDC, we are in an **inflexion point in terms of the COVID-19 pandemic**. Since 5 days ago , we have surpassed the positive linear trend of new daily cases, **and even we got up to 10,000 new cases in one day yesterday**, as the virus extended its spread across the globe, and accelerated its diffusion in Europe, including Spain, Italy, but also Germany, France, Benelux and Scandinavia.
-
-<!--more-->
 
 **Figure 1: How reported new cases have evolved during the COVID-19 outbreak**
 

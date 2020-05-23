@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Nowcasting the Bear with Google Trends'
-date: 2020-04-24 10:01:00 +0100
+date: 2020-04-24T10:01:00.021Z
 category: health-management
+summary: The stock market has taken a major downbeat again on this day, possibly as the result from fear mounting that COVID-19 is more difficult than imagine to contain in short time, further leading to inevitable sanitary risks, and breakdown of aggregate demand.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -18,8 +21,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 -------------------------------------
 
 The stock market has taken a major downbeat again on this day, possibly as the result from fear mounting that COVID-19 is more difficult than imagine to contain in short time, further leading to inevitable sanitary risks, and breakdown of aggregate demand. Looking like I did in [my previous article on Google trends](https://www.learningfromthecurve.net/health-management/2020/04/24/People-do-react-to-the-COVID-19-pandemic-nowcasting-behavioral-changes-through-Google-searches.html), five points are becoming clear:
-
-<!--more-->
 
 1. **"Stock market crash" and "recession terms" online searches are strongly and positively correlated, and have spiked five times in the last 5 years**, e.g. end of Aug 2016, Early November 2016, Early Feb 2018, last three weeks of Dec 2018, and now recently from Feb 23. **Those spikes are at the same time the stock markets were in sharply down territory, and the change in intensity of searches (especially stock market crash) is closely linked to the size of the drop**, e.g. minus 1,400 points of the Dow Jones Industrial in Aug 2016 (for a spike of 2.6 times average crash term search intensity), minus 2,300 in Feb 2018 (for a spike of 4.5 times average search intensity), mid February fall of 6,000 points (and a spike of 6.7 times average search intensity for market crash).
 

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Three key COVID-19 indicators to curb a potential of 20 million human fatality
-date: 2020-04-16 14:00:00 +0100
+date: 2020-04-16T14:00:00.021Z
 category: health-management
+summary: Today’s major headline across the globe is the spread of the new coronavirus, COVID-19, soon to affect 100,000s of individual in the coming weeks since its start by December 2019, presumably from a market in the Hubei province, China. There is large concern among the population as to how COVID-19 will unfold, given health and economic consequences. The number of Google searches increased 100-fold in the last six weeks across the planet, and many stock marketplaces went down significantly with losses of more than 10% from their peak during the last week of February, as a likely fear that the COVID-19 may become a major pandemic.
+author:
+  - J. Bughin
 ---
 
 **Table of Contents**:<a name="tbc"></a>
@@ -23,8 +26,6 @@ category: health-management
 ### March 2
 
 Today’s major headline across the globe is the spread of the new coronavirus, COVID-19, soon to affect 100,000s of individual in the coming weeks since its start by December 2019, presumably from a market in the Hubei province, China. There is large concern among the population as to how COVID-19 will unfold, given health and economic consequences. The number of Google searches increased 100-fold in the last six weeks across the planet, and many stock marketplaces went down significantly with losses of more than 10% from their peak during the last week of February, as a likely fear that the COVID-19 may become a major pandemic.
-
-<!--more-->
 
 In the first of what I hope to be a working series around COVID-19, I review the evidence around the virus deployment. In this article, **I focus on three main indicators whose current ranges may imply a most probable case of a world pandemic** with a power to be killing up to 20 million humans in the absence of any interventions:
 

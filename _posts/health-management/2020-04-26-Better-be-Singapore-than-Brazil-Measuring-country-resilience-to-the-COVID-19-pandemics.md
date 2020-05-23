@@ -1,13 +1,11 @@
 ---
-
 layout: post
-
 title: 'Better be Singapore than Brazil: Measuring country resilience to the COVID-19 pandemic'
-
-date: 2020-04-26 10:00:00 +0100
-
+date: 2020-04-26T10:00:00.021Z
 category: health-management
-
+summary: How different are countries able to handling the COVID-19? We see major differences in the way COVID-19 spreads and takes life of citizens, worldwide. While the number of COVID-19 fatalities has doubled in the last 5, 7 days worldwide, countries such as Belgium have witnessed a doubling in fatalities in just 2, 4 days only (or twice faster than the world), while in Japan fatalities only double after 11 days.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -31,8 +29,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 How different are countries able to handling the COVID-19? We see major differences in the way COVID-19 spreads and takes life of citizens, worldwide. While the number of COVID-19 fatalities has doubled in the last 5, 7 days worldwide, countries such as Belgium have witnessed a doubling in fatalities in just 2, 4 days only (or twice faster than the world), while in Japan fatalities only double after 11 days (Figure 1).
 
 Looking at how the number of infections is expanding, and comparing **within** each continent, so that we control better for the timing of the pandemic, Brazil is developing faster than Colombia in Latin America; US is growing faster than Canada, while in Europe, Norway is expanding slower than Italy. Asian Singapore is much better than Iran, and within Africa, Morocco seems to be less affected than South Africa.
-
-<!--more-->
 
 **Figure 1: Days to double the number of fatalities to COVID-19 (from March 25 backward)**
 

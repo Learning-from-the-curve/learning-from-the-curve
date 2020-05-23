@@ -1,13 +1,11 @@
 ---
-
 layout: post
-
 title: 'The Western world should urgently play the "Asian smart" route to control COVID-19'
-
-date: 2020-04-25 10:01:00 +0100
-
+date: 2020-04-25T10:01:00.021Z
 category: health-management
-
+summary: The COVID-19 spread continues, passing the recorded number of 330,000 contaminations worldwide, and about 15,000 deaths. We are twice the SARS outbreak of 2003, and just hitting the level of the 1976 Ebola outbreak. If the most hit countries suffering just below 1 to 1,000 in the case of Italy (0.9 per 1,000), Switzerland (0.8 per 1,000) and the Hubei region (0.8 per 1,000), the current figures are still in their phase of explosion. Traditional flu Asian countries, which  have a longer experience of pandemics may teach Europe a few proven management lessons in order to curb the outbreak.
+author:
+  - J. Bughin
 ---
 
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
@@ -23,8 +21,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 -------------------------------------
 
 The COVID-19 spread continues, passing the recorded number of 330,000 contaminations worldwide, and about 15,000 deaths. We are twice the SARS outbreak of 2003, and just hitting the level of the 1976 Ebola outbreak. If the most hit countries suffering just below 1 to 1,000 in the case of Italy (0.9 per 1,000), Switzerland (0.8 per 1,000) and the Hubei region (0.8 per 1,000), the current figures are still in their phase of explosion. Traditional flu Asian countries, which  have a longer experience of pandemics may teach Europe a few proven management lessons in order to curb the outbreak.
-
-<!--more-->
 
 As in case in point, Asia, from where the COVID-19 originated (like 7 out of 10 pandemics since a few centuries, it seems) has close to three times more recovered cases than Europe at large. Its growth multiplier of new cases has declined largely along the way, and is close to three times lower than Europe, (with multiplier <1, in effect, a stabilisation of the pandemic, in China, South Korea and Japan; see Figure 1)
 

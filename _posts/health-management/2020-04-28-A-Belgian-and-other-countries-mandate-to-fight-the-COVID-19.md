@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'A (Belgian, and other countries’) mandate to fight the COVID-19'
-date: 2020-04-28 10:00:00 +0100
+date: 2020-04-28T10:00:00.021Z
 category: health-management
+summary: The COVID-19 is likely to pass the bar of 1.3 million recorded infected cases worldwide, and likely 70,000 deaths today, while driving a twin health and economic crisis feared to be like "no other,” as recently conceded by the Head of the IMF. In effect, while many countries are in standstill, in the hope to flatten the curve, the tension has been building between « saving life » and «saving the economy». There is however a place where the two challenges meet, that is, social spotting and distancing of the infected, and relaunch of major investment in healthcare and technology.
+author:
+  - J. Bughin
 ---
 Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institute and G20Y, former Director McKinsey Global Institute, and senior partner McKinsey & Company.
 
@@ -24,8 +27,6 @@ Dr Jacques Bughin, UN consultant, Solvay Business School ULB, Portulans Institut
 The COVID-19 is likely to pass the bar of 1.3 million recorded infected cases worldwide, and likely 70,000 deaths today, while driving a twin health and economic crisis feared to be like "no other,” as recently conceded by the Head of the IMF.
 
 In effect, while many countries are in standstill, in the hope to flatten the curve, the tension has been building between « saving life » and « saving the economy». There is however a place **where the two challenges meet, that is, social spotting and distancing of the infected, and relaunch of major investment in healthcare and technology.**
-
-<!--more-->
 
 **The reason why this must be the direction to follow** is that the chance of finding, and applying a vaccine to the whole population will be a few quarters away, it seems. In the absence of a medical protection, **we thus must have a powerful nowcasting of the infected cases and their close social ties, so as to prevent a major outbreak to restart in a second wave**. When doing so, the risk aversion of citizens may decline and allow them to go back to work and consume. Realistically, also , a “wave two” will likely emerge. **If the first wave is indeed successfully controlled, this might imply that only 5% to 10% of the population was infected, while the contagious nature of the virus may likely aim to infect up to 3-5 times the current contamination level of the population**. We thus must continue to invest and prepare the heathcare/food/utility system for those waves, and get ready on building the right stock of supply, for masks, respirators, food and necessary utilities, etc.
 
