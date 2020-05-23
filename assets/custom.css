@@ -2,7 +2,14 @@
   height: 100vh;  
   min-height: 500px;
   background-image: url('/assets/images/uploads/home-bg.jpg');
+  opacity: 0.8;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.outline {
+  color: #fff;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
 }

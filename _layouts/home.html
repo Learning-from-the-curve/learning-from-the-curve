@@ -7,19 +7,28 @@ layout: default
   <header class="masthead">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
+        <div class="col-12 align-self-end text-center">
           {%- if page.title -%}
-            <h1 class="text-white font-weight-bold">{{ page.title }}</h1>
+            <h1 class="display-3 text-white font-weight-bold outline">{{ page.title }}</h1>
           {%- endif -%}
+        </div>
+        <div id="intro" class="col-12 align-self-end text-center">
+          <a href="#intro"><i class="fas fa-chevron-down fa-3x" style="color: white;"></i></a>
         </div>
       </div>
     </div>
   </header>
 
   <section>
-    <div class="container my-4">
+    <div class="container mt-5 mb-4">
+      <div class="text-center">
+        <h2 class="font-weight-light">About Us</h2>
+      </div>
       <div class="text-center">
         {{ content }}
+      </div>
+      <div class="text-center mx-auto">
+        <a href="/about" class="btn btn-primary btn-lg" role="button" aria-pressed="true">More info</a>
       </div>
     </div>
   </section>
