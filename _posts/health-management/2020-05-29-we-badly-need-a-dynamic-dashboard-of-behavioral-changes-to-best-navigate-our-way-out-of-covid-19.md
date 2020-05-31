@@ -2,7 +2,7 @@
 layout: post
 title: We badly need a dynamic dashboard of behavioral changes to best navigate
   our way out of Covid-19
-date: 2020-06-01T14:00:00.000Z
+date: 2020-06-02T14:00:00.000Z
 summary: What if some susceptible people feel that the outbreak of Covid-19 is
   controlled, and they start now to over-compensate with more social contacts?
   What if people feel that economic risks are too high versus the cost of being
