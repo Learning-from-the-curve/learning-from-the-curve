@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The case for more digitization at Covid time
-date: 2020-06-02T09:00:00.000Z
+date: 2020-06-03T09:00:00.000Z
 summary: The Covid-19 pandemic has officially taken the life of hundred
   thousands people worldwide. It has put the economies in standstill, with about
   a 5% decline in GDP for this year, as a result of the lockdown imposed to
