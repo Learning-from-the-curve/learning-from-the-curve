@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "After the great lockdown: five uncomfortable truths to work out"
-date: 2020-06-02T14:00:00.000Z
+date: 2020-06-03T14:00:00.000Z
 summary: 'The narrative around ther Covid-19 has evolved drastically across
   time. It was first "a bug that has no evidence to spread to humans" and "it is
   like another flu", to, "the Covid-19 pandemic is real"; "social shutdown is
