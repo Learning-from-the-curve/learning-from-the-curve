@@ -2,7 +2,7 @@
 layout: post
 title: Why our social future is changing and how Covid-19 will accelerate the
   pace of change
-date: 2020-06-01T09:00:00.000Z
+date: 2020-06-02T09:00:00.000Z
 summary: "The social norms of the past which led to a long period of
   enlightenment and happiness growth, have become challenged, due to the
   combination of three forces: digitization, globalisation, and sustainability.
