@@ -12,6 +12,9 @@ main:
       - title: "Belgium"
         url: /Dashboards/Belgium-Dashboard/
         icon: "fas fa-flag"
+      - title: "Italy"
+        url: /Dashboards/Italy-Dashboard/
+        icon: "fas fa-flag"
   - title: "Blogs"
     url: /
     children:   
