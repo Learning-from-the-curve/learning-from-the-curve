@@ -9,6 +9,9 @@ main:
       - title: "World"
         url: /Dashboards/World-Dashboard/
         icon: "fas fa-globe-europe"
+      - title: "Economics"
+        url: /Dashboards/Economy-Dashboard/
+        icon: "fas fa-euro-sign"
       - title: "Belgium"
         url: /Dashboards/Belgium-Dashboard/
         icon: "fas fa-flag"
