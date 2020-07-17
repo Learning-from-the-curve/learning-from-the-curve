@@ -7,7 +7,7 @@ summary: In this contribution I analyse socio-economic and demographic
   municipalities. I am interested in the onset of the epidemic, its intensity
   early on as well as the growth of contaminations in April.
 author:
-  - G. Magerman
+  - P. Verwimp
 category: articles
 ---
 **Table of Contents**:<a name="tbc"></a>
